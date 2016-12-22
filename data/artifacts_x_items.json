@@ -1,0 +1,1594 @@
+[
+  {
+    "ItemID": "Alvarus_Leggings_Leather", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10012", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "ItemID": "Alvarus_Leggings_Studded", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10013", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "ItemID": "Alvarus_Leggings_Reinforced", 
+    "Realm": 3, 
+    "ArtifactXItem_ID": "10014", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "ItemID": "Alvarus_Leggings_Chain", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10015", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "ItemID": "Alvarus_Leggings_Scale", 
+    "Realm": 3, 
+    "ArtifactXItem_ID": "10016", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "ItemID": "Alvarus_Leggings_plate", 
+    "Realm": 1, 
+    "ArtifactXItem_ID": "10017", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "ItemID": "Arms_Of_The_Winds_Cloth", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10021", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "ItemID": "Arms_Of_The_Winds_Leather", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10022", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "ItemID": "Arms_Of_The_Winds_Studded", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10023", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "ItemID": "Arms_Of_The_Winds_Reinforced", 
+    "Realm": 3, 
+    "ArtifactXItem_ID": "10024", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "ItemID": "Arms_Of_The_Winds_Chain", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10025", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "ItemID": "Arms_Of_The_Winds_Scale", 
+    "Realm": 3, 
+    "ArtifactXItem_ID": "10026", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "ItemID": "Arms_Of_The_Winds_Plate", 
+    "Realm": 1, 
+    "ArtifactXItem_ID": "10027", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "ItemID": "Atens_Shield", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10031", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "ItemID": "Atens_Shield_Medium", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10032", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "ItemID": "Atens_Shield_Large", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10033", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "ItemID": "A_Flask", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10041", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "ItemID": "Band_Of_Stars", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10051", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1005"
+  }, 
+  {
+    "ItemID": "Battler_Alb_Crush", 
+    "Realm": 1, 
+    "ArtifactXItem_ID": "10061", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Mid_Crush", 
+    "Realm": 2, 
+    "ArtifactXItem_ID": "100610", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "8", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Mid_Crush_2h", 
+    "Realm": 2, 
+    "ArtifactXItem_ID": "100611", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "9", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Mid_Slash", 
+    "Realm": 2, 
+    "ArtifactXItem_ID": "100612", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "10", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Mid_2h", 
+    "Realm": 2, 
+    "ArtifactXItem_ID": "100613", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "11", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Alb_Crush_2h", 
+    "Realm": 1, 
+    "ArtifactXItem_ID": "10062", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Alb_Slash", 
+    "Realm": 1, 
+    "ArtifactXItem_ID": "10063", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Alb_Slash_2h", 
+    "Realm": 1, 
+    "ArtifactXItem_ID": "10064", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Hib_Blades", 
+    "Realm": 3, 
+    "ArtifactXItem_ID": "10065", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Hib_Blade_2h", 
+    "Realm": 3, 
+    "ArtifactXItem_ID": "10067", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Hib_Blunt", 
+    "Realm": 3, 
+    "ArtifactXItem_ID": "10068", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Battler_Hib_Blunt_2h", 
+    "Realm": 3, 
+    "ArtifactXItem_ID": "10069", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "7", 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "ItemID": "Belt_Of_The_Moon", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10071", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1007"
+  }, 
+  {
+    "ItemID": "Belt_Of_The_Sun", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10081", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1008"
+  }, 
+  {
+    "ItemID": "Bracer_Of_Zoarkat", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10091", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1009"
+  }, 
+  {
+    "ItemID": "Braggarts_Bow_Alb", 
+    "Realm": 1, 
+    "ArtifactXItem_ID": "10101", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "ItemID": "Braggarts_Bow_Mid", 
+    "Realm": 2, 
+    "ArtifactXItem_ID": "10102", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "ItemID": "Braggarts_Bow_Hib", 
+    "Realm": 3, 
+    "ArtifactXItem_ID": "10103", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "ItemID": "Bruiser_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10111", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "ItemID": "Bruiser_Blunt", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10112", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "ItemID": "Bruiser_Crush", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10113", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "ItemID": "Bruiser_Crush_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10114", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "ItemID": "Bruiser_Crush_Pole", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10115", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "ItemID": "Bruiser_Hammer", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10116", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "ItemID": "Bruiser_Lw", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10117", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "ItemID": "Ceremonial_Bracers_Acuity", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10121", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "ItemID": "Ceremonial_Bracers_Con", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10122", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "ItemID": "Ceremonial_Bracers_Dex", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10123", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "ItemID": "Ceremonial_Bracers_Qui", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10124", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "ItemID": "Ceremonial_Bracers_Str", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10125", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "ItemID": "Cloudsong", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10131", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1013"
+  }, 
+  {
+    "ItemID": "Crocodile_Tear_Ring", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10141", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1014"
+  }, 
+  {
+    "ItemID": "CrocToothDagger_Crush_Alb", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10151", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "ItemID": "CrocToothDagger_Crush_Mid", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10152", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "ItemID": "CrocToothDagger_Hib_Blade", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10153", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "ItemID": "CrocToothDagger_Hib_Blunt", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10154", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "ItemID": "CrocToothDagger_Hib_Trust", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10155", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "ItemID": "CrocToothDagger_Leftaxe_Mid", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10156", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "ItemID": "CrocToothDagger_Slash_Alb", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10157", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "ItemID": "CrocToothDagger_Slash_Mid", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10158", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "7", 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "ItemID": "CrocToothDagger_Thrust_Alb", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10159", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "8", 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "ItemID": "Crown_Of_Zahur_Chain", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10161", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "ItemID": "Crown_Of_Zahur_Cloth", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10162", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "ItemID": "Crown_Of_Zahur_Leather", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10163", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "ItemID": "Crown_Of_Zahur_Plate", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10164", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "ItemID": "Crown_of_Zahur_Reinforced", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10165", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "ItemID": "Crown_Of_Zahur_Scale", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10168", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "ItemID": "Crown_Of_Zahur_Studded", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10169", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "ItemID": "Cyclops_Eye_Shield_Large", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10171", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "ItemID": "Cyclops_Eye_Shield_Medium", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10172", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "ItemID": "Cyclops_Eye_Shield_Small", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10173", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "ItemID": "Dream_Sphere", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10181", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1018"
+  }, 
+  {
+    "ItemID": "Eerie_Darkness_Stone", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10191", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "ItemID": "Egg_Of_Youth", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10201", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1020"
+  }, 
+  {
+    "ItemID": "Eirenes_Hauberk_Chain", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10211", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "ItemID": "Eirenes_Hauberk_Plate", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10212", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "ItemID": "Eirenes_Hauberk_Scale", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10213", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "ItemID": "Enyalios_Boots_Chain", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10221", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "ItemID": "Enyalios_Boots_Plate", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10222", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "ItemID": "Enyalios_Boots_Reinforced", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10223", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "ItemID": "Enyalios_Boots_Scale", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10224", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "ItemID": "Enyalios_Boots_Studded", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10225", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "ItemID": "Erinys_Charm", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10231", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1023"
+  }, 
+  {
+    "ItemID": "Eternal_Plant", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10241", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1024"
+  }, 
+  {
+    "ItemID": "Fools_Bow_Alb", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10251", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "ItemID": "Fools_Bow_Hib", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10252", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "ItemID": "Fools_Bow_Mid", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10253", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "ItemID": "Foppish_Sleeves_Chain", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10261", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "ItemID": "Foppish_Sleeves_Cloth", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10262", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "ItemID": "Foppish_Sleeves_Leather", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10263", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "ItemID": "Foppish_Sleeves_Plate", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10264", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "ItemID": "Foppish_Sleeves_Reinforced", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10265", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "ItemID": "Foppish_Sleeves_Scale", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10266", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "ItemID": "Foppish_Sleeves_Studded", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10267", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "ItemID": "Goddess_Necklace", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10271", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1027"
+  }, 
+  {
+    "ItemID": "GoldenSpear_alb", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10281", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "ItemID": "GoldenSpear_Hib", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10282", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "ItemID": "GoldenSpear_Hib_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10283", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "ItemID": "GoldenSpear_Mid", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10284", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "ItemID": "GoldenSpear_Mid_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10285", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "ItemID": "GOV_Chain", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10291", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "ItemID": "GOV_Cloth", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10292", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "ItemID": "GOV_Cloth_Int", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10293", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "ItemID": "GOV_Leather", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10294", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "ItemID": "GOV_Plate", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10295", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "ItemID": "GOV_Reinforced", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10296", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "ItemID": "GOV_Scale", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10297", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "ItemID": "GOV_Studded", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10298", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "7", 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "ItemID": "GSV_Leather", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10301", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "ItemID": "GSV_Reinforced_Archery", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10302", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "ItemID": "GSV_Reinforced_Bard", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10303", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "ItemID": "GSV_Reinforced_Melee", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10304", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "ItemID": "GSV_Studded_Archer", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10305", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "ItemID": "GSV_Studded_Melee", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10306", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "ItemID": "Harpy_Feather_Cloak", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10311", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1031"
+  }, 
+  {
+    "ItemID": "Healers_Embrace", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10321", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1032"
+  }, 
+  {
+    "ItemID": "Jacinas_Sash", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10331", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1033"
+  }, 
+  {
+    "ItemID": "Kalares_Necklace", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10341", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1034"
+  }, 
+  {
+    "ItemID": "Gem_of_Lost_Memories_Archer", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10351", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "ItemID": "Gem_of_Lost_Memories_Caster", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10352", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "ItemID": "Gem_of_Lost_Memories_Melee", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10353", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "ItemID": "Maddening_Scalars_Chain", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10361", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "ItemID": "Maddening_Scalars_Cloth", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10362", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "ItemID": "Maddening_Scalars_Leather", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10363", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "ItemID": "Maddening_Scalars_Plate", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10364", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "ItemID": "Maddening_Scalars_Reinforced", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10365", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "ItemID": "Maddening_Scalars_Scale", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10366", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "ItemID": "Maddening_Scalars_Studded", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10367", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "ItemID": "MaliceAxe_Axe_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10371", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "MaliceAxe_slash_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "103710", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "9", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "Malice_Axe_Axe", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "103711", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "10", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "Malice_Axe_Slash", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "103712", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "11", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "MaliceAxe_Blade", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10372", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "MaliceAxe_Blunt", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10373", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "MaliceAxe_crush", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10374", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "MaliceAxe_crush_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10375", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "MaliceAxe_Hammer", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10376", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "MaliceAxe_Hammer_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10377", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "MaliceAxe_Lw_Blunt", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10378", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "7", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "MaliceAxe_Lw_Slash", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10379", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "8", 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "ItemID": "Nailahs_Robe_Cloth", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10381", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1038"
+  }, 
+  {
+    "ItemID": "Nailah_Robe_Leather", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10382", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1038"
+  }, 
+  {
+    "ItemID": "Nights_Shroud_Bracelet", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10391", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1039"
+  }, 
+  {
+    "ItemID": "Oglidarshs_Belt", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10401", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1040"
+  }, 
+  {
+    "ItemID": "Orions_Belt_Archer", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10411", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "ItemID": "Orions_Belt_Caster", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10412", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "ItemID": "Orions_Belt_Frair", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10413", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "ItemID": "Orions_Belt_Melee", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10414", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "ItemID": "Phoebus_Harp", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10421", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1042"
+  }, 
+  {
+    "ItemID": "Ring_Of_Fire", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10431", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1043"
+  }, 
+  {
+    "ItemID": "Ring_of_Unyielding_Will", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10441", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1044"
+  }, 
+  {
+    "ItemID": "Scepter_Blunt", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10451", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "ItemID": "Scepter_Crush", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10452", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "ItemID": "Scepter_Hammer", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10453", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "ItemID": "Scorpions_Tail_Ring", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10461", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1046"
+  }, 
+  {
+    "ItemID": "Shades_of_Mist", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "1047", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1047"
+  }, 
+  {
+    "ItemID": "Sharkskin_Gloves_Reinforced", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10481", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "ItemID": "Sharkskin_Gloves_Studded", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10482", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "ItemID": "Shield_Of_Khaos", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10491", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "ItemID": "Snakecharmers_Flex_Crush", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10501", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "ItemID": "Snakecharmers_Flex_Slash", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10502", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "ItemID": "Snakecharmers_Scythe", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10503", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "ItemID": "Snakecharmers_wrap", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10504", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "ItemID": "Snatcher", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10511", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1051"
+  }, 
+  {
+    "ItemID": "SOFG_Melee", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10521", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "ItemID": "SOTG_Caster", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10522", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "ItemID": "SOK_Sword", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10530", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "9", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Alb_Thrust_1h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10531", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SoK_Slash_Pole", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "105310", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "10", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Slash_Spear", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "105311", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "11", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Sword_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "105312", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "12", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Thrust_Celtspear", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "105313", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "13", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SoK_Thrust_Pole", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "105314", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "14", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Thrust_Spear", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "105315", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "15", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Alb_Thrust_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10532", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Blade", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10533", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Hib_Thrust", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10534", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Hib_Thrust_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10535", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SoK_Slash", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10536", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "5", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SoK_Slash_2h", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10537", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "6", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Slash_Celtspear", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10538", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "7", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "SOK_Slash_Lw", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10539", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "8", 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "ItemID": "Tartaros_Gift_Caster", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10551", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1055"
+  }, 
+  {
+    "ItemID": "Tartaros_Gift_Melee", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10552", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1055"
+  }, 
+  {
+    "ItemID": "TraitorsDagger_Axe", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10561", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "ItemID": "TraitorsDagger_Hib_Blade", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10562", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "ItemID": "TraitorsDagger_Hib_Thrust", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10563", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "ItemID": "TraitorsDagger_Leftaxe", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10564", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "ItemID": "TraitorsDagger_Thrust_Alb", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10565", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "ItemID": "Traldors_Oracle_Caster", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10571", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "ItemID": "Winged_Helm_Chain", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10581", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "ItemID": "Winged_Helm_Plate", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10582", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "ItemID": "Winged_Helm_Reinforced", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10583", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "ItemID": "Winged_Helm_Scale", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10584", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "ItemID": "Winged_Helm_Studded", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10585", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "ItemID": "Wings_Dive_Chain", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10591", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "0", 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "ItemID": "Wings_Dive_Plate", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10592", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "ItemID": "Wings_Dive_Reinforced", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10593", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "2", 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "ItemID": "Wings_Dive_Scale", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10594", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "3", 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "ItemID": "Wings_Dive_Studded", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10595", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "4", 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "ItemID": "Traldors_Oracle_Melee", 
+    "Realm": null, 
+    "ArtifactXItem_ID": "10752", 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "Version": "1", 
+    "ArtifactID": "1057"
+  }
+]

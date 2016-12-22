@@ -1,0 +1,2032 @@
+[
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "044786ed-4db8-4abd-a08b-1bc31a88ca7e", 
+    "Radius": 750, 
+    "Y": 479508, 
+    "X": 531481, 
+    "Region": 1, 
+    "Z": 2280, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "06028c39-a4b4-4942-9c75-11a09f7dfd9b", 
+    "Radius": 750, 
+    "Y": 726487, 
+    "X": 803816, 
+    "Region": 100, 
+    "Z": 4776, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "07c0e593-fdbd-48e9-bbf9-ade4ba52fb29", 
+    "Radius": 750, 
+    "Y": 95915, 
+    "X": 121526, 
+    "Region": 27, 
+    "Z": 5541, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "07f3a801-acc3-4664-bd0a-1eda6bd85761", 
+    "Radius": 750, 
+    "Y": 496922, 
+    "X": 577030, 
+    "Region": 1, 
+    "Z": 8043, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "082a76de-03c4-4e57-ba4a-6bc389011705", 
+    "Radius": 750, 
+    "Y": 633210, 
+    "X": 463032, 
+    "Region": 1, 
+    "Z": 1771, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "088db7c2-3dcf-4d01-8d67-65f5e7ada80e", 
+    "Radius": 750, 
+    "Y": 539826, 
+    "X": 556791, 
+    "Region": 151, 
+    "Z": 3200, 
+    "Realm": 2
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "08b5be2b-a92d-4234-a82e-723f609f13e3", 
+    "Radius": 750, 
+    "Y": 528071, 
+    "X": 344788, 
+    "Region": 200, 
+    "Z": 5448, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "0a7055f7-9839-4c03-8f5d-24961ea5d597", 
+    "Radius": 750, 
+    "Y": 815669, 
+    "X": 749233, 
+    "Region": 10017, 
+    "Z": 4408, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "0d3b9a4c-9221-451f-b982-b33c591a2ecf", 
+    "Radius": 750, 
+    "Y": 490671, 
+    "X": 347745, 
+    "Region": 200, 
+    "Z": 5248, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "0dd41aaf-8298-48ce-947e-3bc5146cab87", 
+    "Radius": 750, 
+    "Y": 433316, 
+    "X": 302842, 
+    "Region": 151, 
+    "Z": 3200, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "0e28481d-5344-4df9-a03e-c58020493f39", 
+    "Radius": 750, 
+    "Y": 544626, 
+    "X": 585823, 
+    "Region": 163, 
+    "Z": 9856, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "0f682dd8-88c9-4b12-a011-f4f353a95c23", 
+    "Radius": 750, 
+    "Y": 32740, 
+    "X": 31811, 
+    "Region": 10004, 
+    "Z": 16175, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "130atlantis1", 
+    "Radius": 3000, 
+    "Y": 539909, 
+    "X": 274687, 
+    "Region": 130, 
+    "Z": 8372, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "130atlantis2", 
+    "Radius": 3000, 
+    "Y": 650484, 
+    "X": 384887, 
+    "Region": 130, 
+    "Z": 8132, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "130atlantis3", 
+    "Radius": 3000, 
+    "Y": 551418, 
+    "X": 448256, 
+    "Region": 130, 
+    "Z": 8596, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "130atlantis4", 
+    "Radius": 3000, 
+    "Y": 451328, 
+    "X": 331253, 
+    "Region": 130, 
+    "Z": 8140, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "144844a9-7566-45cb-a061-6e9339a1e193", 
+    "Radius": 750, 
+    "Y": 531582, 
+    "X": 585283, 
+    "Region": 1, 
+    "Z": 2072, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "14a04fdc-1612-4967-bfb5-e9f3b0eaec27", 
+    "Radius": 750, 
+    "Y": 548786, 
+    "X": 534978, 
+    "Region": 51, 
+    "Z": 4800, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "15ab6486-c95a-4ed3-881d-64524ac5c069", 
+    "Radius": 10000, 
+    "Y": 30416, 
+    "X": 36257, 
+    "Region": 10014, 
+    "Z": 7989, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "17cccc0f-5e77-4cd0-8cf0-708a8c5daed2", 
+    "Radius": 750, 
+    "Y": 485983, 
+    "X": 595352, 
+    "Region": 200, 
+    "Z": 5184, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "18fe3b77-5652-4062-a5c1-2ef41e9047f1", 
+    "Radius": 750, 
+    "Y": 408020, 
+    "X": 523140, 
+    "Region": 1, 
+    "Z": 4184, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "19518b65-7138-4a08-9bdf-32645425e1b7", 
+    "Radius": 3000, 
+    "Y": 512350, 
+    "X": 561078, 
+    "Region": 10012, 
+    "Z": 2393, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "1a947ddd-877d-4b9e-aeba-9a4c0aed287a", 
+    "Radius": 750, 
+    "Y": 760302, 
+    "X": 725145, 
+    "Region": 10017, 
+    "Z": 4528, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "1aa87fc3-e03b-4a54-809b-9104a8c9d5e2", 
+    "Radius": 750, 
+    "Y": 404186, 
+    "X": 425894, 
+    "Region": 181, 
+    "Z": 4474, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "1aae439e-fde5-41d1-ad67-2dfd241f66d0", 
+    "Radius": 750, 
+    "Y": 508471, 
+    "X": 600102, 
+    "Region": 181, 
+    "Z": 3593, 
+    "Realm": 3
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "1bd51060-d8bb-47ee-8027-98741d7e5880", 
+    "Radius": 750, 
+    "Y": 479449, 
+    "X": 531542, 
+    "Region": 1, 
+    "Z": 2200, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "1da4ba2c-2316-49f2-aa5f-fa0a523c31c8", 
+    "Radius": 750, 
+    "Y": 506272, 
+    "X": 553084, 
+    "Region": 100, 
+    "Z": 4653, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "1e108f2b-e709-46a7-ad2a-6c0689ccb18e", 
+    "Radius": 750, 
+    "Y": 358075, 
+    "X": 383654, 
+    "Region": 27, 
+    "Z": 5560, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "1f9cc91b-91ec-4b68-a3db-3788706a28eb", 
+    "Radius": 750, 
+    "Y": 30445, 
+    "X": 36337, 
+    "Region": 10, 
+    "Z": 7991, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "207db983-7db8-4856-976c-4ee751b9268c", 
+    "Radius": 750, 
+    "Y": 651032, 
+    "X": 369758, 
+    "Region": 200, 
+    "Z": 3696, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "20894c1e-de45-40d6-ab1e-d01795cfa4d1", 
+    "Radius": 750, 
+    "Y": 416383, 
+    "X": 426604, 
+    "Region": 51, 
+    "Z": 5712, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "23a51f00-391f-40cf-9793-4e8d5dff6afc", 
+    "Radius": 750, 
+    "Y": 352811, 
+    "X": 313383, 
+    "Region": 181, 
+    "Z": 3593, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "2412e4d4-1ca1-41d2-94ab-25415fa9dedd", 
+    "Radius": 750, 
+    "Y": 522583, 
+    "X": 588670, 
+    "Region": 1, 
+    "Z": 4234, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "245f5eb9-1906-4168-b140-725bf1f49f28", 
+    "Radius": 3000, 
+    "Y": 616616, 
+    "X": 521462, 
+    "Region": 10012, 
+    "Z": 1789, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "24de7c37-232a-4c72-a192-2af9f061eda8", 
+    "Radius": 750, 
+    "Y": 226958, 
+    "X": 252618, 
+    "Region": 27, 
+    "Z": 5516, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "261b4543-05e3-4cfd-bd7c-a70ac2f4a4dc", 
+    "Radius": 750, 
+    "Y": 527645, 
+    "X": 409821, 
+    "Region": 10018, 
+    "Z": 2112, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "267c4605-7f97-4842-aed6-adb31fa672d8", 
+    "Radius": 2000, 
+    "Y": 451255, 
+    "X": 331228, 
+    "Region": 10022, 
+    "Z": 8140, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "277396bc-f74d-4316-ba23-81b6eb58a32e", 
+    "Radius": 750, 
+    "Y": 642313, 
+    "X": 296003, 
+    "Region": 200, 
+    "Z": 4855, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "29c92c61-2096-4785-9529-0c717e2bbc5b", 
+    "Radius": 750, 
+    "Y": 30445, 
+    "X": 36337, 
+    "Region": 10, 
+    "Z": 7991, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "29e9105b-8b60-4c57-92f1-5c04e4be6485", 
+    "Radius": 750, 
+    "Y": 572958, 
+    "X": 373689, 
+    "Region": 163, 
+    "Z": 8040, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "2a905d4d-6178-4de1-8e13-0da961da31ef", 
+    "Radius": 750, 
+    "Y": 783980, 
+    "X": 712390, 
+    "Region": 10017, 
+    "Z": 4672, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "2b80f579-07b3-406b-a2cb-58d73382e6c7", 
+    "Radius": 750, 
+    "Y": 548794, 
+    "X": 535083, 
+    "Region": 51, 
+    "Z": 4800, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "2cb79fd1-98e5-4f24-acb2-da8379ecaa38", 
+    "Radius": 750, 
+    "Y": 301685, 
+    "X": 290117, 
+    "Region": 151, 
+    "Z": 4160, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "2f334890-a548-4f8e-8e40-941e0eff4d2f", 
+    "Radius": 750, 
+    "Y": 924178, 
+    "X": 712111, 
+    "Region": 100, 
+    "Z": 5058, 
+    "Realm": 2
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "2fa8231c-fdff-47e5-8434-505307cb582b", 
+    "Radius": 750, 
+    "Y": 755362, 
+    "X": 774592, 
+    "Region": 100, 
+    "Z": 4600, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "303c9c45-6b39-4eb1-970e-d7b9708e8362", 
+    "Radius": 750, 
+    "Y": 301650, 
+    "X": 290094, 
+    "Region": 151, 
+    "Z": 4160, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "30atlantis1", 
+    "Radius": 3000, 
+    "Y": 539909, 
+    "X": 274687, 
+    "Region": 30, 
+    "Z": 8372, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "30atlantis2", 
+    "Radius": 3000, 
+    "Y": 650484, 
+    "X": 384887, 
+    "Region": 30, 
+    "Z": 8132, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "30atlantis3", 
+    "Radius": 3000, 
+    "Y": 551418, 
+    "X": 448256, 
+    "Region": 30, 
+    "Z": 8596, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "30atlantis4", 
+    "Radius": 3000, 
+    "Y": 451328, 
+    "X": 331253, 
+    "Region": 30, 
+    "Z": 8140, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "30e5da1a-dd16-4999-83e6-3d4cf6daf991", 
+    "Radius": 750, 
+    "Y": 342916, 
+    "X": 335298, 
+    "Region": 27, 
+    "Z": 5328, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "3158bd24-70c8-4582-9ee5-dde836c6daa6", 
+    "Radius": 3000, 
+    "Y": 408021, 
+    "X": 523114, 
+    "Region": 10013, 
+    "Z": 4184, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "34668a36-8b2f-4ad0-8e9c-1a0e4f0f9b57", 
+    "Radius": 750, 
+    "Y": 479443, 
+    "X": 531603, 
+    "Region": 1, 
+    "Z": 2248, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "35425c00-c4d4-4cd9-aa9a-25d239679389", 
+    "Radius": 750, 
+    "Y": 522849, 
+    "X": 598597, 
+    "Region": 51, 
+    "Z": 5761, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "35b01d75-8be3-4cf1-823b-ae58d440102e", 
+    "Radius": 750, 
+    "Y": 651311, 
+    "X": 436399, 
+    "Region": 1, 
+    "Z": 2468, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "37a7dc30-f459-4a7a-a686-038e52e71b8a", 
+    "Radius": 750, 
+    "Y": 541634, 
+    "X": 556036, 
+    "Region": 163, 
+    "Z": 9752, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "3f09cf19-a29c-4a5d-99d2-3b1217c5f577", 
+    "Radius": 750, 
+    "Y": 534137, 
+    "X": 557160, 
+    "Region": 51, 
+    "Z": 3088, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "45f9dcde-801d-4c55-9e87-58035fa1dd90", 
+    "Radius": 750, 
+    "Y": 755517, 
+    "X": 774606, 
+    "Region": 10017, 
+    "Z": 4600, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "46863eef-300a-4047-b8cb-82a1d59afb01", 
+    "Radius": 750, 
+    "Y": 35801, 
+    "X": 27984, 
+    "Region": 65, 
+    "Z": 16447, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "46948786-4f73-48c8-9a62-54bd8c10c906", 
+    "Radius": 750, 
+    "Y": 678676, 
+    "X": 616976, 
+    "Region": 163, 
+    "Z": 9610, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "479dcd4f-c0ed-48d4-ac43-a1e7dc2a60b2", 
+    "Radius": 3000, 
+    "Y": 541956, 
+    "X": 525841, 
+    "Region": 10057, 
+    "Z": 3168, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "4a52e9e3-4533-40d0-9ec5-d404591f3791", 
+    "Radius": 750, 
+    "Y": 783994, 
+    "X": 712480, 
+    "Region": 100, 
+    "Z": 4797, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "4c9a7680-b1e7-4a3c-ac38-9a897d4c6691", 
+    "Radius": 750, 
+    "Y": 591429, 
+    "X": 343396, 
+    "Region": 200, 
+    "Z": 5456, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "4d196093-16b7-459b-be03-006fa2b5e5f2", 
+    "Radius": 750, 
+    "Y": 533986, 
+    "X": 533770, 
+    "Region": 239, 
+    "Z": 6768, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "4f6ff62e-fc98-46fe-9993-61821f330908", 
+    "Radius": 750, 
+    "Y": 324752, 
+    "X": 277610, 
+    "Region": 151, 
+    "Z": 5136, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "4fd11d04-f9d6-4005-85be-571e466bc76a", 
+    "Radius": 2000, 
+    "Y": 585328, 
+    "X": 583618, 
+    "Region": 10052, 
+    "Z": 4896, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "4fe9c05b-68de-493d-9425-0535675b42f3", 
+    "Radius": 750, 
+    "Y": 494296, 
+    "X": 515587, 
+    "Region": 1, 
+    "Z": 3402, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "50dab62b-39da-40a7-a968-a523a14d09e4", 
+    "Radius": 3000, 
+    "Y": 616609, 
+    "X": 521457, 
+    "Region": 10013, 
+    "Z": 1789, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "55ac7bd6-8ab5-4b16-b3e4-9f013af59b5f", 
+    "Radius": 3000, 
+    "Y": 652093, 
+    "X": 408304, 
+    "Region": 10012, 
+    "Z": 4944, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "560054d2-f76e-4c4c-96e5-b06d378d1629", 
+    "Radius": 750, 
+    "Y": 493130, 
+    "X": 434303, 
+    "Region": 51, 
+    "Z": 3088, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "56f3850a-c10d-4bb8-a0ba-2af6a2d6d587", 
+    "Radius": 750, 
+    "Y": 510980, 
+    "X": 568718, 
+    "Region": 65, 
+    "Z": 16399, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "57234e28-75de-4289-827d-87707e16039c", 
+    "Radius": 750, 
+    "Y": 815824, 
+    "X": 749240, 
+    "Region": 100, 
+    "Z": 4408, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "57cdfb91-4212-4f01-ad30-b821f341a0bb", 
+    "Radius": 10000, 
+    "Y": 39718, 
+    "X": 36924, 
+    "Region": 10041, 
+    "Z": 4256, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "59e453ab-bcbd-4ed0-9cc9-5070e760a99d", 
+    "Radius": 750, 
+    "Y": 490568, 
+    "X": 347670, 
+    "Region": 10018, 
+    "Z": 5236, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "5b08daf1-de12-45d8-a289-4d893d25d1f2", 
+    "Radius": 3000, 
+    "Y": 511739, 
+    "X": 560704, 
+    "Region": 10013, 
+    "Z": 2368, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "5ba8b0a5-787b-485f-b110-4f280f40cc46", 
+    "Radius": 750, 
+    "Y": 528120, 
+    "X": 344872, 
+    "Region": 200, 
+    "Z": 5448, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "5d5126b4-be30-42dd-86d0-5e3288e7582d", 
+    "Radius": 750, 
+    "Y": 469162, 
+    "X": 313218, 
+    "Region": 200, 
+    "Z": 5200, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "5fa871f8-38a9-408d-8827-b9643fc4aac1", 
+    "Radius": 750, 
+    "Y": 783917, 
+    "X": 712394, 
+    "Region": 100, 
+    "Z": 4672, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "6210c274-3508-4ab7-86a5-6c7041726e17", 
+    "Radius": 750, 
+    "Y": 511708, 
+    "X": 560491, 
+    "Region": 1, 
+    "Z": 2280, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "62ab234e-00a6-4638-b0ea-330b8ae54059", 
+    "Radius": 750, 
+    "Y": 760134, 
+    "X": 725125, 
+    "Region": 100, 
+    "Z": 4528, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "62b1c234-e5b0-4085-8e77-8c4ca15789d5", 
+    "Radius": 750, 
+    "Y": 356306, 
+    "X": 293690, 
+    "Region": 151, 
+    "Z": 3488, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2015-02-08 06:16:27", 
+    "BindPoint_ID": "637ca7f8-9c27-425f-a6a2-4bcfd28b663c", 
+    "Radius": 750, 
+    "Y": 565775, 
+    "X": 569512, 
+    "Region": 2, 
+    "Z": 3520, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "63860e60-3476-453c-b659-f916c0f2449c", 
+    "Radius": 750, 
+    "Y": 15113, 
+    "X": 67053, 
+    "Region": 245, 
+    "Z": 30376, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "65b094fe-073b-403d-9ec1-76462b880ded", 
+    "Radius": 750, 
+    "Y": 444567, 
+    "X": 338784, 
+    "Region": 200, 
+    "Z": 5075, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "67b86109-9ad0-41fc-80ef-3cca3bbaa034", 
+    "Radius": 3000, 
+    "Y": 630406, 
+    "X": 470446, 
+    "Region": 10013, 
+    "Z": 1712, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "68f6f29a-26a4-4c14-a811-c563e31453a0", 
+    "Radius": 750, 
+    "Y": 514881, 
+    "X": 528297, 
+    "Region": 51, 
+    "Z": 3648, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "69a6b904-884b-47b1-9331-cbf5889ac4f3", 
+    "Radius": 3000, 
+    "Y": 670367, 
+    "X": 343915, 
+    "Region": 10012, 
+    "Z": 3138, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "69a812eb-2478-4b54-9162-a685dfe6cf42", 
+    "Radius": 750, 
+    "Y": 312597, 
+    "X": 651702, 
+    "Region": 163, 
+    "Z": 9432, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "6b32c9aa-2ab2-40c3-9ac5-69813d205c8f", 
+    "Radius": 1000, 
+    "Y": 56152, 
+    "X": 42791, 
+    "Region": 10041, 
+    "Z": 4524, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2015-02-06 05:13:37", 
+    "BindPoint_ID": "6cd7f530-ed87-4fbb-8ddc-86587076e816", 
+    "Radius": 750, 
+    "Y": 566853, 
+    "X": 569476, 
+    "Region": 2, 
+    "Z": 24903, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "7008635c-3fd9-4a2d-855c-eba16d51987f", 
+    "Radius": 750, 
+    "Y": 518353, 
+    "X": 586952, 
+    "Region": 1, 
+    "Z": 1841, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "7039871a-04d4-4ca5-9847-5b23e45fabe6", 
+    "Radius": 3000, 
+    "Y": 652132, 
+    "X": 408406, 
+    "Region": 10013, 
+    "Z": 4944, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "73atlantis1", 
+    "Radius": 3000, 
+    "Y": 539909, 
+    "X": 274687, 
+    "Region": 73, 
+    "Z": 8372, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "73atlantis2", 
+    "Radius": 3000, 
+    "Y": 650484, 
+    "X": 384887, 
+    "Region": 73, 
+    "Z": 8132, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "73atlantis3", 
+    "Radius": 3000, 
+    "Y": 551418, 
+    "X": 448256, 
+    "Region": 73, 
+    "Z": 8596, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "73atlantis4", 
+    "Radius": 3000, 
+    "Y": 451328, 
+    "X": 331253, 
+    "Region": 73, 
+    "Z": 8140, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "78679f33-d6bb-421b-8ffb-19f7e20dcd58", 
+    "Radius": 3000, 
+    "Y": 479402, 
+    "X": 531577, 
+    "Region": 10013, 
+    "Z": 2200, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "79f64b74-66b6-4e0a-95ec-a519a882055b", 
+    "Radius": 3000, 
+    "Y": 630396, 
+    "X": 470395, 
+    "Region": 10012, 
+    "Z": 1712, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "7a149272-802c-4468-8016-63365e08eabb", 
+    "Radius": 750, 
+    "Y": 404266, 
+    "X": 425906, 
+    "Region": 181, 
+    "Z": 4474, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "7a17c99e-d590-409b-837c-88a1d7cfa05d", 
+    "Radius": 750, 
+    "Y": 320824, 
+    "X": 428390, 
+    "Region": 181, 
+    "Z": 3408, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "7aa5070a-63cb-4809-961e-aae5169f4b7b", 
+    "Radius": 750, 
+    "Y": 491838, 
+    "X": 565893, 
+    "Region": 1, 
+    "Z": 1873, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "7cbe6d09-26ea-4ef2-ae70-0e995de00c24", 
+    "Radius": 750, 
+    "Y": 616607, 
+    "X": 521403, 
+    "Region": 1, 
+    "Z": 1788, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "7ea88cb8-7c87-4df0-b318-e623a5bb02f6", 
+    "Radius": 750, 
+    "Y": 680913, 
+    "X": 433222, 
+    "Region": 163, 
+    "Z": 9752, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "7eb12509-d02c-48d5-ac6f-1edc7c1208fd", 
+    "Radius": 3000, 
+    "Y": 511741, 
+    "X": 560666, 
+    "Region": 10012, 
+    "Z": 2368, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "7f37afd2-17f8-4b62-bf7b-88d55a934bdc", 
+    "Radius": 750, 
+    "Y": 511374, 
+    "X": 591895, 
+    "Region": 51, 
+    "Z": 4680, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "800e57fa-ad9a-4cdd-b22b-f850eb81f886", 
+    "Radius": 750, 
+    "Y": 502667, 
+    "X": 571307, 
+    "Region": 101, 
+    "Z": 8719, 
+    "Realm": 2
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "80df6963-ebee-4b1d-ac81-763bf05cdcdd", 
+    "Radius": 750, 
+    "Y": 617287, 
+    "X": 654655, 
+    "Region": 163, 
+    "Z": 9604, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "81248d4f-be4f-405f-849d-99d6714deb65", 
+    "Radius": 750, 
+    "Y": 652124, 
+    "X": 408392, 
+    "Region": 1, 
+    "Z": 4944, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "81ff505a-202a-4e18-bc53-7906cd59937d", 
+    "Radius": 750, 
+    "Y": 507467, 
+    "X": 600110, 
+    "Region": 181, 
+    "Z": 3416, 
+    "Realm": 3
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "820edab1-1178-4d83-b7e8-851d44607ca4", 
+    "Radius": 750, 
+    "Y": 538486, 
+    "X": 581679, 
+    "Region": 239, 
+    "Z": 6776, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "831d76c5-0950-4806-9abc-bb8d10fef715", 
+    "Radius": 2000, 
+    "Y": 538047, 
+    "X": 575298, 
+    "Region": 10052, 
+    "Z": 4832, 
+    "Realm": 2
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "84b52bca-d5b7-45b8-a13f-84621f57a110", 
+    "Radius": 750, 
+    "Y": 554505, 
+    "X": 351832, 
+    "Region": 10018, 
+    "Z": 5109, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "8bca0eab-e046-4cb2-80bd-87d7373fc2b8", 
+    "Radius": 3000, 
+    "Y": 679779, 
+    "X": 370420, 
+    "Region": 10012, 
+    "Z": 5552, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "8c5c073f-db87-45f7-826e-b880b541f3a6", 
+    "Radius": 750, 
+    "Y": 364227, 
+    "X": 714610, 
+    "Region": 163, 
+    "Z": 9432, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "8eafdbdb-241e-46e9-ba83-a6215675cbaf", 
+    "Radius": 750, 
+    "Y": 496264, 
+    "X": 577217, 
+    "Region": 100, 
+    "Z": 4530, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "8f94b127-9229-4c86-a86a-ccf54b20e070", 
+    "Radius": 750, 
+    "Y": 372299, 
+    "X": 516576, 
+    "Region": 1, 
+    "Z": 8208, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "9106c310-e958-4b47-a656-42ccb94d8c1a", 
+    "Radius": 750, 
+    "Y": 554515, 
+    "X": 351830, 
+    "Region": 200, 
+    "Z": 5109, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "926eb5a4-8d0c-4984-80c7-d4f249bdb1f3", 
+    "Radius": 750, 
+    "Y": 28327, 
+    "X": 27782, 
+    "Region": 93, 
+    "Z": 17591, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "92f21876-9ce0-49be-ba1b-ece2a42537dc", 
+    "Radius": 750, 
+    "Y": 477173, 
+    "X": 508537, 
+    "Region": 1, 
+    "Z": 2321, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "94006f10-74ec-4817-82e8-00feed051130", 
+    "Radius": 750, 
+    "Y": 91558, 
+    "X": 94906, 
+    "Region": 27, 
+    "Z": 5268, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "943c7e98-7f6a-4c7f-9cc2-283473531ae1", 
+    "Radius": 750, 
+    "Y": 539275, 
+    "X": 560424, 
+    "Region": 151, 
+    "Z": 4160, 
+    "Realm": 3
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "96566977-e557-46cb-8559-844c0d856054", 
+    "Radius": 750, 
+    "Y": 43408, 
+    "X": 63903, 
+    "Region": 245, 
+    "Z": 30372, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "9752e2ed-aad5-4c47-9bd7-92ff5f5c95fb", 
+    "Radius": 750, 
+    "Y": 543580, 
+    "X": 581090, 
+    "Region": 1, 
+    "Z": 3352, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "97b72d7c-304a-4a7f-87b9-b31421690000", 
+    "Radius": 750, 
+    "Y": 490735, 
+    "X": 345752, 
+    "Region": 200, 
+    "Z": 5200, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "98d6b530-09e4-4eca-803f-2409cbb1da71", 
+    "Radius": 750, 
+    "Y": 642291, 
+    "X": 295989, 
+    "Region": 10018, 
+    "Z": 4848, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "99254713-fb1a-476e-9f0f-3b4f7463e90f", 
+    "Radius": 750, 
+    "Y": 488959, 
+    "X": 581283, 
+    "Region": 200, 
+    "Z": 5106, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "992a0cf3-3de9-480a-b2f8-fc81e11f836a", 
+    "Radius": 750, 
+    "Y": 505418, 
+    "X": 402398, 
+    "Region": 51, 
+    "Z": 4593, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "9a220fd4-dd20-4c28-94ce-3da5de5c00a7", 
+    "Radius": 750, 
+    "Y": 726568, 
+    "X": 803804, 
+    "Region": 10017, 
+    "Z": 4776, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "9b56b001-bc04-442d-8bb0-480e1810132b", 
+    "Radius": 750, 
+    "Y": 211579, 
+    "X": 204209, 
+    "Region": 27, 
+    "Z": 5316, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "9d50c63e-5f20-4877-b109-4912afd8d121", 
+    "Radius": 2000, 
+    "Y": 755376, 
+    "X": 774668, 
+    "Region": 10042, 
+    "Z": 4600, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "9da4c2d7-f0d2-4faa-92b7-f096f9b3c59a", 
+    "Radius": 750, 
+    "Y": 43408, 
+    "X": 63903, 
+    "Region": 245, 
+    "Z": 30372, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "a15e84b4-d4a1-429e-9192-62126fd13d4a", 
+    "Radius": 3000, 
+    "Y": 531602, 
+    "X": 585228, 
+    "Region": 10012, 
+    "Z": 2072, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "a26c4067-03b3-4bfb-b67c-e42ca000127a", 
+    "Radius": 750, 
+    "Y": 701766, 
+    "X": 804487, 
+    "Region": 100, 
+    "Z": 4956, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "a27286d9-d5d6-48e6-89a3-283588c64de7", 
+    "Radius": 750, 
+    "Y": 531525, 
+    "X": 578945, 
+    "Region": 181, 
+    "Z": 5952, 
+    "Realm": 3
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "a32bff03-2e57-4666-9db9-2391ace43773", 
+    "Radius": 750, 
+    "Y": 540721, 
+    "X": 567826, 
+    "Region": 151, 
+    "Z": 7853, 
+    "Realm": 3
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "a46c4bb1-d602-45b4-9404-315f92cd7f50", 
+    "Radius": 750, 
+    "Y": 672416, 
+    "X": 764082, 
+    "Region": 100, 
+    "Z": 5852, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "a5617ccd-ed7d-40f3-b79f-d90b53efdcde", 
+    "Radius": 750, 
+    "Y": 719972, 
+    "X": 334599, 
+    "Region": 10018, 
+    "Z": 4296, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "a61b5a86-dfd6-4052-adb0-1a38b0608a42", 
+    "Radius": 750, 
+    "Y": 527815, 
+    "X": 344642, 
+    "Region": 10018, 
+    "Z": 5448, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "a6779ba7-8f5d-40f8-acef-4966b51c86de", 
+    "Radius": 750, 
+    "Y": 534719, 
+    "X": 575345, 
+    "Region": 200, 
+    "Z": 5200, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "a8355577-171a-4bd4-83e7-c980383ce8fd", 
+    "Radius": 750, 
+    "Y": 527647, 
+    "X": 409854, 
+    "Region": 200, 
+    "Z": 2112, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "aaf0dbcd-70bb-4d0a-9f37-9ddcee770526", 
+    "Radius": 750, 
+    "Y": 527594, 
+    "X": 573643, 
+    "Region": 200, 
+    "Z": 2112, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "ab39fbff-8032-4e27-a3b5-141ce050a5e5", 
+    "Radius": 750, 
+    "Y": 80757, 
+    "X": 73164, 
+    "Region": 27, 
+    "Z": 5341, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "abb8acdd-0bb9-482f-abdd-6164ac37cc53", 
+    "Radius": 750, 
+    "Y": 530042, 
+    "X": 605990, 
+    "Region": 100, 
+    "Z": 4797, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "ac711894-8b9e-4269-be0b-c6f903810e76", 
+    "Radius": 750, 
+    "Y": 301650, 
+    "X": 290094, 
+    "Region": 151, 
+    "Z": 4160, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "af628a4a-2201-4d00-8c61-82e84e63edbb", 
+    "Radius": 750, 
+    "Y": 636638, 
+    "X": 353256, 
+    "Region": 73, 
+    "Z": 8135, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "b2e26d96-e0dd-4537-97ed-0a618473babb", 
+    "Radius": 750, 
+    "Y": 668315, 
+    "X": 765147, 
+    "Region": 100, 
+    "Z": 5736, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "b340e300-2c8b-47ce-a692-1439e3d2c5e0", 
+    "Radius": 750, 
+    "Y": 501075, 
+    "X": 610741, 
+    "Region": 163, 
+    "Z": 9432, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "b36440b1-47e5-4beb-8633-9e517a5b5ca0", 
+    "Radius": 750, 
+    "Y": 539245, 
+    "X": 560430, 
+    "Region": 151, 
+    "Z": 4160, 
+    "Realm": 3
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "b76fcbee-e35d-4083-88ec-9de067400496", 
+    "Radius": 750, 
+    "Y": 514848, 
+    "X": 528238, 
+    "Region": 51, 
+    "Z": 3696, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "b7c9fa0f-8148-4caf-89d8-c7c2cb7b340e", 
+    "Radius": 750, 
+    "Y": 484060, 
+    "X": 559322, 
+    "Region": 100, 
+    "Z": 5736, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "b8cd143a-4315-4533-a63e-ea15e0ec8ff8", 
+    "Radius": 750, 
+    "Y": 19241, 
+    "X": 31477, 
+    "Region": 245, 
+    "Z": 30383, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "bd1b7456-45fa-4fad-9392-a677b08c258b", 
+    "Radius": 750, 
+    "Y": 720018, 
+    "X": 334583, 
+    "Region": 200, 
+    "Z": 4296, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "bfbca876-b041-4a23-b626-3b4bc84a4d7c", 
+    "Radius": 750, 
+    "Y": 539385, 
+    "X": 608741, 
+    "Region": 163, 
+    "Z": 9560, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "c0033ef3-c620-4909-a4c8-ca72c06d9eac", 
+    "Radius": 750, 
+    "Y": 893602, 
+    "X": 799015, 
+    "Region": 10017, 
+    "Z": 4744, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "c0dece60-841a-4110-81db-e1c54ba67d87", 
+    "Radius": 750, 
+    "Y": 477295, 
+    "X": 508469, 
+    "Region": 1, 
+    "Z": 2284, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "c510be5a-b9df-4f76-9a2a-fee6d2c7de6f", 
+    "Radius": 750, 
+    "Y": 420510, 
+    "X": 333220, 
+    "Region": 200, 
+    "Z": 5184, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "c51558d1-b2f2-430f-b7a2-4ebe3cc46d91", 
+    "Radius": 750, 
+    "Y": 523347, 
+    "X": 596726, 
+    "Region": 200, 
+    "Z": 4296, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "c65bb09d-db89-476f-8143-8e55210186e7", 
+    "Radius": 4000, 
+    "Y": 12896, 
+    "X": 33839, 
+    "Region": 10033, 
+    "Z": 13830, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "c95dc0af-53dd-4268-8428-9ba17f7ea5fb", 
+    "Radius": 750, 
+    "Y": 542845, 
+    "X": 527058, 
+    "Region": 51, 
+    "Z": 3168, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "ca2205a8-553e-451e-b30d-461c93092aa8", 
+    "Radius": 750, 
+    "Y": 382240, 
+    "X": 511480, 
+    "Region": 1, 
+    "Z": 8042, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "ca85ec39-32fb-4515-8d04-57ba26f63c70", 
+    "Radius": 750, 
+    "Y": 651032, 
+    "X": 369726, 
+    "Region": 200, 
+    "Z": 3696, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "caee3ba6-8a5e-4341-adbe-dbbf6d0d02cd", 
+    "Radius": 750, 
+    "Y": 590106, 
+    "X": 500321, 
+    "Region": 1, 
+    "Z": 1828, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "cc69f787-e8d0-452d-b20c-a973249a4557", 
+    "Radius": 750, 
+    "Y": 618333, 
+    "X": 397534, 
+    "Region": 163, 
+    "Z": 9856, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d05ba3d7-52d0-455f-ae5d-29b256e04d3e", 
+    "Radius": 3000, 
+    "Y": 670509, 
+    "X": 343943, 
+    "Region": 10013, 
+    "Z": 3163, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d101f8a5-28b5-4097-aec3-8703c58bf398", 
+    "Radius": 750, 
+    "Y": 924209, 
+    "X": 712085, 
+    "Region": 10017, 
+    "Z": 5059, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d19aeebd-dec2-46ad-9cae-6dc712f95083", 
+    "Radius": 2000, 
+    "Y": 650496, 
+    "X": 384816, 
+    "Region": 10022, 
+    "Z": 8132, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d236b7c7-52d4-4740-aa84-aac80a49e213", 
+    "Radius": 750, 
+    "Y": 493225, 
+    "X": 434386, 
+    "Region": 51, 
+    "Z": 3088, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d2d617bd-02f1-494a-9d84-a1d68b96ae84", 
+    "Radius": 750, 
+    "Y": 529991, 
+    "X": 573785, 
+    "Region": 1, 
+    "Z": 2896, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d416f59e-8300-488d-9156-da07e5ca400f", 
+    "Radius": 750, 
+    "Y": 486230, 
+    "X": 584770, 
+    "Region": 1, 
+    "Z": 2184, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d4e053ae-322b-4068-a318-2772d206f037", 
+    "Radius": 750, 
+    "Y": 584743, 
+    "X": 554354, 
+    "Region": 239, 
+    "Z": 6952, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d50233b5-b3de-447d-9776-920cb1565dbe", 
+    "Radius": 750, 
+    "Y": 384963, 
+    "X": 379389, 
+    "Region": 151, 
+    "Z": 7752, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d5d13607-be9e-4f6d-892b-0f934a0fe455", 
+    "Radius": 750, 
+    "Y": 525917, 
+    "X": 572706, 
+    "Region": 200, 
+    "Z": 5456, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d61e54f9-e7b2-43aa-a1b6-a859270a4011", 
+    "Radius": 3000, 
+    "Y": 477293, 
+    "X": 508430, 
+    "Region": 10013, 
+    "Z": 2284, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d683481d-3b2e-4fab-a430-3914829bdb4c", 
+    "Radius": 750, 
+    "Y": 705213, 
+    "X": 369896, 
+    "Region": 1, 
+    "Z": 232, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "d8267320-bb1f-4c0b-9f71-8d8d2eec0155", 
+    "Radius": 750, 
+    "Y": 499284, 
+    "X": 601492, 
+    "Region": 1, 
+    "Z": 1760, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "da20436a-7753-43cf-8d90-b82ee526a57c", 
+    "Radius": 750, 
+    "Y": 506327, 
+    "X": 572739, 
+    "Region": 100, 
+    "Z": 5184, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "da2bce2e-c117-49e8-ab9c-3b9afccc1fd3", 
+    "Radius": 750, 
+    "Y": 591408, 
+    "X": 343403, 
+    "Region": 10018, 
+    "Z": 5456, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "da91de83-3e35-43ab-8a8b-840693582625", 
+    "Radius": 750, 
+    "Y": 543667, 
+    "X": 600150, 
+    "Region": 181, 
+    "Z": 5528, 
+    "Realm": 3
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "ddc8348f-e2ce-49c6-9ac9-ef6c0faeaa29", 
+    "Radius": 750, 
+    "Y": 486320, 
+    "X": 584638, 
+    "Region": 1, 
+    "Z": 2184, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "dec412ec-a0ec-46d5-a306-24817065ea33", 
+    "Radius": 750, 
+    "Y": 420851, 
+    "X": 378920, 
+    "Region": 181, 
+    "Z": 5528, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "e140a116-c415-4a8f-9211-38c6a78be1fb", 
+    "Radius": 2000, 
+    "Y": 42378, 
+    "X": 36286, 
+    "Region": 10045, 
+    "Z": 5208, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "e2579c12-e6e1-4b35-bc31-a294257e1165", 
+    "Radius": 3000, 
+    "Y": 444374, 
+    "X": 423151, 
+    "Region": 10027, 
+    "Z": 6020, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "e38c784d-3497-416d-a209-75db7dda63a9", 
+    "Radius": 750, 
+    "Y": 630397, 
+    "X": 470393, 
+    "Region": 1, 
+    "Z": 1712, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "e5cf3d5a-df6e-462a-8367-34019cefc10c", 
+    "Radius": 750, 
+    "Y": 314762, 
+    "X": 651153, 
+    "Region": 163, 
+    "Z": 9397, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "e5fcb9bb-fd09-412f-a501-8472996f7b0b", 
+    "Radius": 750, 
+    "Y": 893628, 
+    "X": 799017, 
+    "Region": 100, 
+    "Z": 4744, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "ea2a724a-c2b2-4428-acf1-30043ddf1bac", 
+    "Radius": 750, 
+    "Y": 222590, 
+    "X": 225981, 
+    "Region": 27, 
+    "Z": 5300, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "eb05ce26-190b-49c3-a82c-b6c2fed7fdc1", 
+    "Radius": 750, 
+    "Y": 642344, 
+    "X": 295943, 
+    "Region": 200, 
+    "Z": 4848, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "eb8d462c-bda6-40f3-8712-f873ae91f4ee", 
+    "Radius": 750, 
+    "Y": 476614, 
+    "X": 585891, 
+    "Region": 1, 
+    "Z": 2600, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "ed55b955-bbbd-488e-b334-fb4e10ecdca1", 
+    "Radius": 750, 
+    "Y": 503488, 
+    "X": 568451, 
+    "Region": 93, 
+    "Z": 17592, 
+    "Realm": 2
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "efb2dacf-629d-4dda-80ac-913d07b43c61", 
+    "Radius": 750, 
+    "Y": 508609, 
+    "X": 594120, 
+    "Region": 100, 
+    "Z": 4869, 
+    "Realm": 1
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "f14d285c-2a43-45fd-92ef-2b2fc46d68bb", 
+    "Radius": 750, 
+    "Y": 533512, 
+    "X": 582764, 
+    "Region": 72, 
+    "Z": 6096, 
+    "Realm": 3
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "f1fb6cb8-2c00-4243-ac03-73c639934dd5", 
+    "Radius": 750, 
+    "Y": 651311, 
+    "X": 436399, 
+    "Region": 1, 
+    "Z": 2468, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "f5a8ba36-6442-4407-b5a7-d4cdc8792abc", 
+    "Radius": 750, 
+    "Y": 352855, 
+    "X": 313302, 
+    "Region": 181, 
+    "Z": 3681, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "f64aebc0-d0c5-47b4-9079-9b1dae129c46", 
+    "Radius": 750, 
+    "Y": 783917, 
+    "X": 712394, 
+    "Region": 100, 
+    "Z": 4672, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "f6a56297-f28f-4c3e-babf-a959d4a9f952", 
+    "Radius": 2500, 
+    "Y": 444385, 
+    "X": 422890, 
+    "Region": 181, 
+    "Z": 5952, 
+    "Realm": 3
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "f7349195-3584-4ef5-b1d2-91cee2491831", 
+    "Radius": 2000, 
+    "Y": 585571, 
+    "X": 536233, 
+    "Region": 10052, 
+    "Z": 5800, 
+    "Realm": 3
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "f7a8291a-fead-4129-b3d3-d77d90763279", 
+    "Radius": 750, 
+    "Y": 467021, 
+    "X": 339702, 
+    "Region": 200, 
+    "Z": 5200, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "f8c45b1e-5040-4335-b7e6-2bc5c4aa1b76", 
+    "Radius": 750, 
+    "Y": 467146, 
+    "X": 339685, 
+    "Region": 200, 
+    "Z": 5211, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "f9ddfc2b-b685-4fc6-a55e-79af45bdde5a", 
+    "Radius": 750, 
+    "Y": 503063, 
+    "X": 403590, 
+    "Region": 51, 
+    "Z": 4680, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "fa0b6ce7-2d35-4fd8-9287-633ffe15909a", 
+    "Radius": 750, 
+    "Y": 978554, 
+    "X": 742850, 
+    "Region": 100, 
+    "Z": 3920, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "fa1d08fe-22fe-4871-8e1e-105191f59fb3", 
+    "Radius": 2000, 
+    "Y": 542817, 
+    "X": 527083, 
+    "Region": 10057, 
+    "Z": 3168, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "ffbc476d-1f75-4a30-8636-62c178cb44d2", 
+    "Radius": 750, 
+    "Y": 353261, 
+    "X": 357001, 
+    "Region": 27, 
+    "Z": 5298, 
+    "Realm": null
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BindPoint_ID": "missingbind01", 
+    "Radius": 1031, 
+    "Y": 924121, 
+    "X": 712118, 
+    "Region": 100, 
+    "Z": 5057, 
+    "Realm": 2
+  }
+]

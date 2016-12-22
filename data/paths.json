@@ -1,0 +1,2270 @@
+[
+  {
+    "Path_ID": "01ada662-51f1-41cf-a52f-cf2e6851ae78", 
+    "PathID": "hs_gothwaite_caerdiogel", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "03709a5f-90ad-421b-8bab-545d349ae272", 
+    "PathID": "bt_theisle_fintain", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "064d3884-0ded-41e3-b6ca-54d818cb187c", 
+    "PathID": "hs_galplen_gnafaste", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 08:36:34"
+  }, 
+  {
+    "Path_ID": "0a759622-047e-41dc-b6b6-16582d983889", 
+    "PathID": "hs_huginfell_audliten", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 07:11:10"
+  }, 
+  {
+    "Path_ID": "0ab0f4e5-d849-43e4-9873-84e31637a7ce", 
+    "PathID": "wp_ludlow_packhorseguardsman", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-03-03 00:55:46"
+  }, 
+  {
+    "Path_ID": "0c374080-39c4-40ce-906c-a4ec717af302", 
+    "PathID": "DFMutilatorAxalnamPatrol1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "0c413f28-92a3-4320-90bc-fa28208454fb", 
+    "PathID": "hs_huginfell_dvalin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 07:17:02"
+  }, 
+  {
+    "Path_ID": "0e58859c-c37a-4080-b14a-cce8fc014de0", 
+    "PathID": "hs_riley_fintain", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "0f52a743-60aa-4175-972c-4e95c9053c2d", 
+    "PathID": "DFMalochianTempter1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "121b98e0-c4bf-44b5-a30a-40758acb94ed", 
+    "PathID": "hs_audliten_vindsaulfaste", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-05 19:05:27"
+  }, 
+  {
+    "Path_ID": "13be3fbc-933c-4038-85b9-1f003df292bf", 
+    "PathID": "Cursed Forest", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "143d04f9-3b68-41ed-8536-551b10d5b289", 
+    "PathID": "DFRocotPatrol2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "198829ab-a1b9-4043-a666-66b66bdef34c", 
+    "PathID": "hs_wearyall_caerdiogel", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-03-03 06:20:34"
+  }, 
+  {
+    "Path_ID": "1a2d0514-7810-4dcb-a89a-8b9adbb3425c", 
+    "PathID": "DFKnightUkobatPatrol1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "1a3b202f-7928-493f-9320-450d9672d28a", 
+    "PathID": "DFRocotPatrol1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "1a631c65-68c9-4371-b9fe-6d452e929a4d", 
+    "PathID": "hs_vasudheim_audliten", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-05 18:15:30"
+  }, 
+  {
+    "Path_ID": "20340162-d829-4b88-9b39-80ef14c97e5f", 
+    "PathID": "BT_Uppland_AlbionCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "20437534-8c9f-4219-b184-a78783014692", 
+    "PathID": "tickettognafaste", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "20ad6553-112c-4ff7-831a-c151d5cebe78", 
+    "PathID": "bt_FortAtla_Vasudhiem", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "24fedbad-8399-4649-b014-df0831f8a7a8", 
+    "PathID": "BT_MountCollory_MidgardCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "2987b8f4-37d2-450b-a836-cdc2d1625de4", 
+    "PathID": "hs_huginfell_raumarik", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 07:45:47"
+  }, 
+  {
+    "Path_ID": "2a0df302-5cf2-4b7d-8ffc-a1ee882c9c82", 
+    "PathID": "hs_src_castlesauvage", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "2bf9db7c-84b8-4f64-93fb-19f8bba3a978", 
+    "PathID": "hs_gnafaste_nalliten", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-07 19:15:55"
+  }, 
+  {
+    "Path_ID": "2c53541b-c77a-4c1f-9360-c64fe62a380b", 
+    "PathID": "hs_westdowns_gronyrsfarm", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-19 18:15:29"
+  }, 
+  {
+    "Path_ID": "3060fef2-b43d-4120-a0ae-aa37edc0c2c9", 
+    "PathID": "hs_nobsstable_camelotnorth", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-03-02 03:39:40"
+  }, 
+  {
+    "Path_ID": "30ef7a92-f4cb-4fef-9ff2-c4d16d14c045", 
+    "PathID": "bt_ticket_to_hafheim", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "310e4c2f-cbb6-4c02-b5b9-c25a44aa2a32", 
+    "PathID": "hs_galplen_westskona", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 08:56:08"
+  }, 
+  {
+    "Path_ID": "3116710c-f3e4-4710-b78c-640cb2975a66", 
+    "PathID": "DFInquisitorEciraum", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "3134950e-e06c-4165-a9cf-9026fb9c0e12", 
+    "PathID": "path_hs_holtham_newavalon", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "31bbe5b5-8528-472c-b827-dab160183e52", 
+    "PathID": "hs_fintain_riley", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "31fa83e7-ba2d-4d2e-903e-d6ec94b1b7bc", 
+    "PathID": "hs_haggerfel_mularn", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-03 09:04:40"
+  }, 
+  {
+    "Path_ID": "36202f7f-b11b-43a0-9a9e-22ca01700d5d", 
+    "PathID": "hs_enter_caerwent", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 07:20:10"
+  }, 
+  {
+    "Path_ID": "37a42c50-60db-4a84-b6e1-a4825cdd8bd2", 
+    "PathID": "hs_caerulfwych_adribardsretreat", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-19 18:45:52"
+  }, 
+  {
+    "Path_ID": "3971c69e-c6b5-45ae-9699-d22966ac6a60", 
+    "PathID": "hs_westskona_gnafaste", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 09:07:51"
+  }, 
+  {
+    "Path_ID": "3a01991f-c8a2-42c9-8a8e-dbd6360f9e2d", 
+    "PathID": "BT_EmainMacha_MidgardCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "3c52ca70-c77d-468f-af5e-d583f84fccfc", 
+    "PathID": "BT_Uppland_HibernianCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "3c8f75b7-8a13-4f94-ab70-96aad2e30e7c", 
+    "PathID": "DFMalochianTempter2", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "3d2e956b-1c14-477e-b2e7-8d58f00e7731", 
+    "PathID": "hs_audliten_vasudheim", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-05 18:09:16"
+  }, 
+  {
+    "Path_ID": "3f9ef376-6430-4285-b0c6-c6620bf159f9", 
+    "PathID": "hs_enter_dalton", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 07:29:22"
+  }, 
+  {
+    "Path_ID": "3ff9e85c-67e6-4eee-bba5-6fbc814ef3d0", 
+    "PathID": "bt_fortatla_dvalin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-23 07:02:57"
+  }, 
+  {
+    "Path_ID": "407472ac-1a92-4aa7-9fe9-c5ba9ac3bb9b", 
+    "PathID": "hs_gnafaste_westskona", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 09:18:29"
+  }, 
+  {
+    "Path_ID": "4282c028-425b-4c92-9c36-a54d31c688e1", 
+    "PathID": "bt_fortatla_nalliten", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-23 06:38:41"
+  }, 
+  {
+    "Path_ID": "43324d2b-f133-45a1-8c66-b7c6600b24d6", 
+    "PathID": "wp_cursedtomb_madrat2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-10 03:22:03"
+  }, 
+  {
+    "Path_ID": "43cdb0b8-5dde-4d4e-8620-bcda4e424d68", 
+    "PathID": "DFLilithPatrol", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "45afc738-744f-4164-a9cc-64b5cf1de519", 
+    "PathID": "bt_audliten_vasudheim", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-18 22:23:49"
+  }, 
+  {
+    "Path_ID": "4609ca5b-52de-421c-9af5-0d3e01ace388", 
+    "PathID": "hs_vindsaulfaste_audliten", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-05 20:34:36"
+  }, 
+  {
+    "Path_ID": "46b632da-d2e6-4541-8b9a-21e11bde849b", 
+    "PathID": "path_hs_finnen_newavalon", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "4b29bd9f-579f-4adb-8a63-c26f9284e7c3", 
+    "PathID": "wp_varulvhamn_thelod", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-09 08:44:15"
+  }, 
+  {
+    "Path_ID": "4d9ab78c-cf95-4ef5-8c9f-fde3e77eaf9c", 
+    "PathID": "path_island_hafheim", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "4e038686-1176-43d8-a149-98c66ec1528f", 
+    "PathID": "BT_Snowdonia_HibernianCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "4ea1e326-7bb0-4430-8dfb-5675ad09ff92", 
+    "PathID": "BT_PennineMountains_HibernianCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "51c584df-18f5-45fb-8f27-49dd5507e045", 
+    "PathID": "hs_vindsaulfaste_raumarik", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-05 20:19:14"
+  }, 
+  {
+    "Path_ID": "51ebec39-f357-4675-abc8-dbf4b4df937f", 
+    "PathID": "bt_fortatla_audliten", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-23 06:51:45"
+  }, 
+  {
+    "Path_ID": "522f2201-ca3f-44ec-b2a2-0f26247babae", 
+    "PathID": "bt_dvalin_fortatla", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-23 07:42:58"
+  }, 
+  {
+    "Path_ID": "537e68c9-0de3-4ac2-82b6-2952f4899059", 
+    "PathID": "hs_hafheim_halgost", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "55d81990-8919-44b3-bb29-d936fb260595", 
+    "PathID": "hs_westskona_galplen", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 09:29:50"
+  }, 
+  {
+    "Path_ID": "58304fe9-16ed-41e2-9823-8653fba7b951", 
+    "PathID": "hs_audliten_dvalin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-05 18:34:42"
+  }, 
+  {
+    "Path_ID": "59e75fe1-9d2e-4cfd-9966-9c5c9544c1e2", 
+    "PathID": "DFMalochianTempter4", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "5a600491-d1d9-4ef5-9e80-9b3a59065d11", 
+    "PathID": "hs_audliten_huginfell", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-05 19:14:16"
+  }, 
+  {
+    "Path_ID": "5c2ca04a-aeb0-418e-bb68-e1f1e2fd97b3", 
+    "PathID": "path_hs_ulvastad_hafheim", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "5fc15617-2698-4bb8-a85f-e83ee4c8979c", 
+    "PathID": "BT_EmainMacha_AlbionCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "62fafd67-3bdf-457e-8cff-8164e1fd7855", 
+    "PathID": "BT_ForestSauvage_HibernianCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "660ec1fc-1c35-4467-9d9e-fafe59f4ccba", 
+    "PathID": "BT_JamtlandMountains_AlbionCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "67e9fe60-4ffa-41cd-9422-e1d58c4e87c8", 
+    "PathID": "wp_cursedtomb_cursedspirit1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-09 05:25:54"
+  }, 
+  {
+    "Path_ID": "68dca54b-5a33-4134-8bcd-ed6ba933bbe2", 
+    "PathID": "hs_mularn_haggerfel", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-03 08:58:12"
+  }, 
+  {
+    "Path_ID": "6a3c42c4-e4e3-4dd3-a649-2983dc520be6", 
+    "PathID": "hs_hafheim_ulvastad", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "6d57eac7-e255-48da-adba-727c60c33539", 
+    "PathID": "hs_gothwaite_fortgwyntell", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "6df2fcb6-74e6-41d7-a285-dfb08d5a9114", 
+    "PathID": "BT_YggdraForest_AlbionCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "7153eda2-4be8-4e0f-86ef-ee0856d9cd9c", 
+    "PathID": "hs_finnen_holtham", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "7598fb06-bcbc-48b7-a579-f015ec0a6ccf", 
+    "PathID": "DFDirectorKobil", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "7695f7cf-cf19-4feb-b55e-b5edce87a67b", 
+    "PathID": "hs_holtham_finnen", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "785fc67b-def2-4452-87d3-d4ee5ae0166c", 
+    "PathID": "bt_fintain_theisle", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "79c5fd46-e05d-4b34-8b73-518ef1cc434b", 
+    "PathID": "path_riley_altacoill", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "7b5f3e86-8143-4200-9d09-374d1ccd39f5", 
+    "PathID": "path_fintain_theisle", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "7d916dea-99f0-4bd0-b077-20cde2714322", 
+    "PathID": "path_halgost_ulvastad", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "7f3c3681-cadb-4500-81b5-85362c8b5ceb", 
+    "PathID": "hs_altacoill_fintain", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "7f5da959-78eb-4eb4-a943-52744cf33d38", 
+    "PathID": "hs_vasudheim_mularn", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-03 17:31:13"
+  }, 
+  {
+    "Path_ID": "7febc888-1e80-4e73-b2ad-b523cc6bdffd", 
+    "PathID": "BT_Snowdonia_MidgardCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "80cf0369-a5ff-48ae-a336-77cae7480b8a", 
+    "PathID": "Raumarik_Scenic_LoopLarsson", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "825656ce-6b34-43d8-a606-a53485b37f2e", 
+    "PathID": "bt_prydwen_cotswold", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2016-07-01 15:41:37"
+  }, 
+  {
+    "Path_ID": "82dcb7a2-03eb-4e54-9f1c-1cf59ddd9a40", 
+    "PathID": "hs_caerulfwych_campacorentinstation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-19 18:39:12"
+  }, 
+  {
+    "Path_ID": "83ed7dc9-6776-475c-9c00-16fce8e02a3c", 
+    "PathID": "bt_Vasudhiem_FortAtla", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "8829809b-3136-48fe-8022-6b8c0ab5ef39", 
+    "PathID": "hs_mularn_svasudfaste", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-18 21:41:51"
+  }, 
+  {
+    "Path_ID": "8ab0c8a6-9cd7-4d0d-9e60-2d311aec1a54", 
+    "PathID": "path_bt_holtham_isle", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "8b3063de-7ca2-4e64-9e74-9ef1e48c6b77", 
+    "PathID": "path_hafheim_ulvastad", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "8d06fbec-80ba-4cbc-990e-845f9fb9a973", 
+    "PathID": "path_riley_fintain", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "8d90933f-3700-49be-9150-bc127bc72881", 
+    "PathID": "path_hs_holtham_finnen", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "92196502-4007-4e16-8f06-81d108c4e2f6", 
+    "PathID": "hs_cailelle_gothwaite", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-03-03 05:49:39"
+  }, 
+  {
+    "Path_ID": "95288833-c101-4d4d-a971-7489d4def3d2", 
+    "PathID": "path_theisle_fintain", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "9bdbf008-e4fa-4778-a0c9-9e9abf452305", 
+    "PathID": "wp_mularn_theenoga", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-12-18 21:26:54"
+  }, 
+  {
+    "Path_ID": "9d46135c-37ea-4912-a300-2b871ad0a67b", 
+    "PathID": "path_hafheim_halgost", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "a1f56f3d-fdcf-4396-aeaa-91c1419913a8", 
+    "PathID": "hs_halgost_Ulvastad", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "a3b3b8b3-abc4-44f8-bcea-97ee13a8cb76", 
+    "PathID": "bt_prydwenkeep_cotswold", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "a49fedba-ea0d-409a-bab0-d98de80eb382", 
+    "PathID": "path_bt_isle_holtham", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "a88bb0c8-93fa-442a-898b-527a5ef291e0", 
+    "PathID": "Cursed_Forest_Scenic_LoopMelina", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "a93ff66d-dc3f-4c7a-a0ad-878b7a060670", 
+    "PathID": "dfworm", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "a9dd8702-4d41-4838-89b7-e8f41d550bd7", 
+    "PathID": "bt_nalliten_vasudheim", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-23 07:31:28"
+  }, 
+  {
+    "Path_ID": "aa6b4e19-3d4c-43d0-afbe-943302a791f4", 
+    "PathID": "path_fintain_altacoill", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "aadc9413-a659-4465-b039-be9da9945979", 
+    "PathID": "DFDeamhanessPatrol1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "ab4806a4-8b6f-4136-ae43-a390d4ba48cf", 
+    "PathID": "hs_holtham_newavalon", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "ab7ade37-72a4-4c34-a503-69f8e60929bd", 
+    "PathID": "path_altacoill_fintain", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "ae49f5f9-02c6-4894-8349-9979cf79c6ff", 
+    "PathID": "tepok_goblin1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-02-18 07:31:57"
+  }, 
+  {
+    "Path_ID": "afc606cf-b89f-4cd0-9f49-b8eb474bcb9d", 
+    "PathID": "DFMalochianTempter3", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb5", 
+    "PathID": "HS_GronysFarm_CampacorentinStation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_bt_cotswold_prydwenbridge", 
+    "PathID": "bt_cotswold_prydwenbridge", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_housing", 
+    "PathID": "hs_gyrom_alis", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 07:06:38"
+  }, 
+  {
+    "Path_ID": "alb_housing2", 
+    "PathID": "hs_gyrom_cora", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 07:38:35"
+  }, 
+  {
+    "Path_ID": "alb_housing3", 
+    "PathID": "hs_gyrom_itis", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 07:44:01"
+  }, 
+  {
+    "Path_ID": "alb_hs_adribardsretreat_caerulfwych", 
+    "PathID": "hs_adribardsretreat_caerulfwych", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 09:02:08"
+  }, 
+  {
+    "Path_ID": "alb_hs_adribardsretreat_caerwitrin", 
+    "PathID": "hs_adribardsretreat_caerwitrin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 09:17:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_adribardsretreat_campacorentin", 
+    "PathID": "hs_adribardsretreat_campacorentin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 09:12:20"
+  }, 
+  {
+    "Path_ID": "alb_hs_adribardsretreat_campacorentinstation", 
+    "PathID": "hs_adribardsretreat_campacorentinstation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_adribardsretreat_castlesauvage", 
+    "PathID": "hs_adribardsretreat_castlesauvage", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_adribardsretreat_westdowns", 
+    "PathID": "hs_adribardsretreat_westdowns", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_adribardsretreat_yarleysfarm", 
+    "PathID": "hs_adribardsretreat_yarleysfarm", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 09:24:06"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerulfwych_caerwitrin", 
+    "PathID": "hs_caerulfwych_caerwitrin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerulfwych_cornwallstation", 
+    "PathID": "hs_caerulfwych_cornwallstation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerulfwych_cotswold", 
+    "PathID": "hs_caerulfwych_cotswold", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-19 19:02:17"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerulfwych_snowdoniafortress", 
+    "PathID": "hs_caerulfwych_snowdoniafortress", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerulfwych_snowdoniastation", 
+    "PathID": "hs_caerulfwych_snowdoniastation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerulfwych_westdowns", 
+    "PathID": "hs_caerulfwych_westdowns", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-19 19:10:24"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerwitrin_adribardsretreat", 
+    "PathID": "hs_caerwitrin_adribardsretreat", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 09:43:14"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerwitrin_caerulfwych", 
+    "PathID": "hs_caerwitrin_caerulfwych", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerwitrin_castlesauvage", 
+    "PathID": "hs_caerwitrin_castlesauvage", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 10:10:39"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerwitrin_cornwallstation", 
+    "PathID": "hs_caerwitrin_cornwallstation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 09:52:19"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerwitrin_snowdoniafortress", 
+    "PathID": "hs_caerwitrin_snowdoniafortress", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerwitrin_snowdoniastation", 
+    "PathID": "hs_caerwitrin_snowdoniastation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_caerwitrin_yarleysfarm", 
+    "PathID": "hs_caerwitrin_yarleysfarm", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_campacorentinstation_adribardsretreat", 
+    "PathID": "hs_campacorentinstation_adribardsretreat", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_campacorentinstation_gronysfarm", 
+    "PathID": "hs_campacorentinstation_gronysfarm", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_campacorentin_adribardsretreat", 
+    "PathID": "hs_campacorentin_adribardsretreat", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 08:36:12"
+  }, 
+  {
+    "Path_ID": "alb_hs_campacorentin_caerulfwych", 
+    "PathID": "hs_campacorentin_caerulfwych", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 08:27:52"
+  }, 
+  {
+    "Path_ID": "alb_hs_castleSauvage_adribardsretreat", 
+    "PathID": "hs_castleSauvage_adribardsretreat", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_castlesauvage_caerwitrin", 
+    "PathID": "hs_castlesauvage_caerwitrin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-23 02:31:13"
+  }, 
+  {
+    "Path_ID": "alb_hs_castlesauvage_cotswold", 
+    "PathID": "hs_castlesauvage_cotswold", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-23 02:09:10"
+  }, 
+  {
+    "Path_ID": "alb_hs_castlesauvage_ludlow", 
+    "PathID": "hs_castlesauvage_ludlow", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-23 01:12:48"
+  }, 
+  {
+    "Path_ID": "alb_hs_castlesauvage_snowdoniafortress", 
+    "PathID": "hs_castlesauvage_snowdoniafortress", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-23 02:00:08"
+  }, 
+  {
+    "Path_ID": "alb_hs_castlesauvage_westdowns", 
+    "PathID": "hs_castlesauvage_westdowns", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-23 01:23:09"
+  }, 
+  {
+    "Path_ID": "alb_hs_castlesauvage_yarleysfarm", 
+    "PathID": "hs_castlesauvage_yarleysfarm", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_cornwallstation_caerulfwych", 
+    "PathID": "hs_cornwallstation_caerulfwych", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_cornwallstation_caerwitrin", 
+    "PathID": "hs_cornwallstation_caerwitrin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 10:22:11"
+  }, 
+  {
+    "Path_ID": "alb_hs_cornwallstation_yarleysfarm", 
+    "PathID": "hs_cornwallstation_yarleysfarm", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 10:18:16"
+  }, 
+  {
+    "Path_ID": "alb_hs_cotswold_caerulfwych", 
+    "PathID": "hs_cotswold_caerulfwych", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_cotswold_caerwitrin", 
+    "PathID": "hs_cotswold_caerwitrin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-11 06:10:05"
+  }, 
+  {
+    "Path_ID": "alb_hs_cotswold_campacorentinstation", 
+    "PathID": "hs_cotswold_campacorentinstation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_cotswold_castlesauvage", 
+    "PathID": "hs_cotswold_castlesauvage", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-06 21:24:45"
+  }, 
+  {
+    "Path_ID": "alb_hs_cotswold_cornwallstation", 
+    "PathID": "hs_cotswold_cornwallstation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-11 06:57:57"
+  }, 
+  {
+    "Path_ID": "alb_hs_cotswold_nobsstable", 
+    "PathID": "hs_cotswold_nobsstable", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_cotswold_northcamelotgate", 
+    "PathID": "hs_cotswold_northcamelotgate", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-11 06:28:19"
+  }, 
+  {
+    "Path_ID": "alb_hs_cotswold_snowdoniafortress", 
+    "PathID": "hs_cotswold_snowdoniafortress", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-16 01:14:25"
+  }, 
+  {
+    "Path_ID": "alb_hs_cotswold_snowdoniastation", 
+    "PathID": "hs_cotswold_snowdoniastation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_cotswold_westdowns", 
+    "PathID": "hs_cotswold_westdowns", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_gronyrsfarm_cotswold", 
+    "PathID": "hs_gronyrsfarm_cotswold", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-01 07:08:12"
+  }, 
+  {
+    "Path_ID": "alb_hs_gronyrsfarm_nobsstable", 
+    "PathID": "hs_gronyrsfarm_nobsstable", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-01 07:05:24"
+  }, 
+  {
+    "Path_ID": "alb_hs_gronyrsfarm_westdowns", 
+    "PathID": "hs_gronyrsfarm_westdowns", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-01 07:18:18"
+  }, 
+  {
+    "Path_ID": "alb_hs_humberton_camelotnorth", 
+    "PathID": "hs_humberton_camelotnorth", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 20:17:52"
+  }, 
+  {
+    "Path_ID": "alb_hs_humberton_ludlow", 
+    "PathID": "hs_humberton_ludlow", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 20:23:08"
+  }, 
+  {
+    "Path_ID": "alb_hs_humberton_snowdoniafortress", 
+    "PathID": "hs_humberton_snowdoniafortress", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 20:18:48"
+  }, 
+  {
+    "Path_ID": "alb_hs_humberton_snowdoniastation", 
+    "PathID": "hs_humberton_snowdoniastation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 20:18:48"
+  }, 
+  {
+    "Path_ID": "alb_hs_llynbarfog_snowdoniafortress", 
+    "PathID": "hs_llynbarfog_snowdoniafortress", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_llynbarfog_snowdoniastation", 
+    "PathID": "hs_llynbarfog_snowdoniastation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_ludlow_adribardsretreat", 
+    "PathID": "hs_ludlow_adribardsretreat", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 22:26:08"
+  }, 
+  {
+    "Path_ID": "alb_hs_ludlow_camelotnorth", 
+    "PathID": "hs_ludlow_camelotnorth", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 21:10:19"
+  }, 
+  {
+    "Path_ID": "alb_hs_ludlow_castlesauvage", 
+    "PathID": "hs_ludlow_castlesauvage", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 21:10:55"
+  }, 
+  {
+    "Path_ID": "alb_hs_ludlow_cotswold", 
+    "PathID": "hs_ludlow_cotswold", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 21:12:29"
+  }, 
+  {
+    "Path_ID": "alb_hs_ludlow_humberton", 
+    "PathID": "hs_ludlow_humberton", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 21:11:45"
+  }, 
+  {
+    "Path_ID": "alb_hs_ludlow_nobsfarm", 
+    "PathID": "hs_ludlow_nobsfarm", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 21:35:51"
+  }, 
+  {
+    "Path_ID": "alb_hs_ludlow_snowdoniastation", 
+    "PathID": "hs_ludlow_snowdoniastation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 21:42:51"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniafortress_caerulfwych", 
+    "PathID": "hs_snowdoniafortress_caerulfwych", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniafortress_caerwitrin", 
+    "PathID": "hs_snowdoniafortress_caerwitrin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniafortress_camelotnorth", 
+    "PathID": "hs_snowdoniafortress_camelotnorth", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniafortress_castlesauvage", 
+    "PathID": "hs_snowdoniafortress_castlesauvage", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-23 21:40:01"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniafortress_humberton", 
+    "PathID": "hs_snowdoniafortress_humberton", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniafortress_llynbarfog", 
+    "PathID": "hs_snowdoniafortress_llynbarfog", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-13 00:57:48"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniafortress_snowdoniastation", 
+    "PathID": "hs_snowdoniafortress_snowdoniastation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-13 00:25:41"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniastation_caerwitrin", 
+    "PathID": "hs_snowdoniastation_caerwitrin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniastation_humberton", 
+    "PathID": "hs_snowdoniastation_humberton", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 23:54:36"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniastation_llynbarfog", 
+    "PathID": "hs_snowdoniastation_llynbarfog", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-12 23:47:52"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniastation_ludlow", 
+    "PathID": "hs_snowdoniastation_ludlow", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-13 00:00:26"
+  }, 
+  {
+    "Path_ID": "alb_hs_snowdoniastation_snowdoniafortress", 
+    "PathID": "hs_snowdoniastation_snowdoniafortress", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-13 00:01:57"
+  }, 
+  {
+    "Path_ID": "alb_hs_westdowns_adribardsretreat", 
+    "PathID": "hs_westdowns_adribardsretreat", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_westdowns_cotswold", 
+    "PathID": "hs_westdowns_cotswold", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_yarleysfarm_adribardsretreat", 
+    "PathID": "hs_yarleysfarm_adribardsretreat", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_yarleysfarm_avalonmarsh", 
+    "PathID": "hs_yarleysfarm_avalonmarsh", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-02-23 02:53:49"
+  }, 
+  {
+    "Path_ID": "alb_hs_yarleysfarm_caerwitrin", 
+    "PathID": "hs_yarleysfarm_caerwitrin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_yarleysfarm_cameloteast", 
+    "PathID": "hs_yarleysfarm_cameloteast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_yarleysfarm_castlesauvage", 
+    "PathID": "hs_yarleysfarm_castlesauvage", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_hs_yarleysfarm_cornwallstation", 
+    "PathID": "hs_yarleysfarm_cornwallstation", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-29 10:29:51"
+  }, 
+  {
+    "Path_ID": "alb_wp_avalonmarsh_packhorseguardsman", 
+    "PathID": "wp_avalonmarsh_packhorseguardsman", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-10-24 06:47:15"
+  }, 
+  {
+    "Path_ID": "alb_wp_camelotnorth_veteranguardsman", 
+    "PathID": "wp_camelotnorth_veteranguardsman", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-18 03:31:02"
+  }, 
+  {
+    "Path_ID": "alb_wp_camelot_albionrunner", 
+    "PathID": "wp_camelot_albionrunner", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-05 18:54:36"
+  }, 
+  {
+    "Path_ID": "alb_wp_camelot_bob", 
+    "PathID": "wp_camelot_bob", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-09 23:15:26"
+  }, 
+  {
+    "Path_ID": "alb_wp_camelot_gene", 
+    "PathID": "wp_camelot_gene", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-09 23:06:08"
+  }, 
+  {
+    "Path_ID": "alb_wp_camelot_packguardhorse", 
+    "PathID": "wp_camelot_packguardhorse", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 18:15:17"
+  }, 
+  {
+    "Path_ID": "alb_wp_camelot_sirbeckham", 
+    "PathID": "wp_camelot_sirbeckham", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 18:24:01"
+  }, 
+  {
+    "Path_ID": "alb_wp_campacorentinforest_huntsman", 
+    "PathID": "wp_campacorentinforest_huntsman", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 18:32:25"
+  }, 
+  {
+    "Path_ID": "alb_wp_campacorentinforest_huntsman2", 
+    "PathID": "wp_campacorentinforest_huntsman2", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 18:16:33"
+  }, 
+  {
+    "Path_ID": "alb_wp_campacorentinforest_sirfundin", 
+    "PathID": "wp_campacorentinforest_sirfundin", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 17:59:43"
+  }, 
+  {
+    "Path_ID": "alb_wp_cotswold_charles", 
+    "PathID": "wp_cotswold_charles", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-06 19:23:18"
+  }, 
+  {
+    "Path_ID": "alb_wp_decayingtombraider1", 
+    "PathID": "wp_decayingtombraider1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 00:59:53"
+  }, 
+  {
+    "Path_ID": "alb_wp_filidhmona", 
+    "PathID": "wp_filidhmona", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_wp_keltoi_gremlin1", 
+    "PathID": "wp_keltoi_gremlin1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 09:51:35"
+  }, 
+  {
+    "Path_ID": "alb_wp_keltoi_keltoinovitiate1", 
+    "PathID": "wp_keltoi_keltoinovitiate1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 10:17:29"
+  }, 
+  {
+    "Path_ID": "alb_wp_keltoi_keltoispiritualist1", 
+    "PathID": "wp_keltoi_keltoispiritualist1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 10:01:54"
+  }, 
+  {
+    "Path_ID": "alb_wp_keltoi_keltoivisionary1", 
+    "PathID": "wp_keltoi_keltoivisionary1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 10:08:44"
+  }, 
+  {
+    "Path_ID": "alb_wp_keltoi_keltoivisionary2", 
+    "PathID": "wp_keltoi_keltoivisionary2", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 10:12:22"
+  }, 
+  {
+    "Path_ID": "alb_wp_llynbarfog_duncan", 
+    "PathID": "wp_llynbarfog_duncan", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-18 06:35:11"
+  }, 
+  {
+    "Path_ID": "alb_wp_llynbarfog_olvryn", 
+    "PathID": "wp_llynbarfog_olvryn", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-18 06:29:42"
+  }, 
+  {
+    "Path_ID": "alb_wp_llynbarfog_tewdwr", 
+    "PathID": "wp_llynbarfog_tewdwr", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-18 06:26:41"
+  }, 
+  {
+    "Path_ID": "alb_wp_ludlow_graham", 
+    "PathID": "wp_ludlow_graham", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-03-03 00:47:51"
+  }, 
+  {
+    "Path_ID": "alb_wp_ludlow_packhorse", 
+    "PathID": "wp_ludlow_packhorse", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-03-03 01:01:44"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_agedbleeder", 
+    "PathID": "wp_mithra_agedbleeder", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 07:48:30"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_botchedsacrifice1", 
+    "PathID": "wp_mithra_botchedsacrifice1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 07:15:43"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_cadaver1", 
+    "PathID": "wp_mithra_cadaver1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 07:04:54"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_decayingcadaver3", 
+    "PathID": "wp_mithra_decayingcadaver3", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 07:45:29"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_decayingcadaver4", 
+    "PathID": "wp_mithra_decayingcadaver4", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 07:51:39"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_decayingspirit", 
+    "PathID": "wp_mithra_decayingspirit", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 07:24:32"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_dreadfulcadaver2", 
+    "PathID": "wp_mithra_dreadfulcadaver2", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 07:37:47"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_fallencleric1", 
+    "PathID": "wp_mithra_fallencleric1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 19:53:55"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_fallencleric2", 
+    "PathID": "wp_mithra_fallencleric2", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 19:59:38"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_favonius", 
+    "PathID": "wp_mithra_favonius", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 07:20:13"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_mindlessminion1", 
+    "PathID": "wp_mithra_mindlessminion1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 19:40:55"
+  }, 
+  {
+    "Path_ID": "alb_wp_mithra_undeadfilidh1", 
+    "PathID": "wp_mithra_undeadfilidh1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-03 07:33:25"
+  }, 
+  {
+    "Path_ID": "alb_wp_salisburyplains_cynewulf", 
+    "PathID": "wp_salisburyplains_cynewulf", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 02:14:59"
+  }, 
+  {
+    "Path_ID": "alb_wp_sirbarcroft", 
+    "PathID": "wp_sirbarcroft", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "alb_wp_stonehenge_gravegoblinwhelp1", 
+    "PathID": "wp_stonehenge_gravegoblinwhelp1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 01:03:56"
+  }, 
+  {
+    "Path_ID": "alb_wp_stonehenge_saxonboneskeleton", 
+    "PathID": "wp_stonehenge_saxonboneskeleton", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 01:08:50"
+  }, 
+  {
+    "Path_ID": "alb_wp_stonehenge_soulharvester1", 
+    "PathID": "wp_stonehenge_soulharvester1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 00:46:41"
+  }, 
+  {
+    "Path_ID": "alb_wp_stonehenge_soulharvester2", 
+    "PathID": "wp_stonehenge_soulharvester2", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 00:50:14"
+  }, 
+  {
+    "Path_ID": "alb_wp_stonehenge_templaravenger", 
+    "PathID": "wp_stonehenge_templaravenger", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 01:21:49"
+  }, 
+  {
+    "Path_ID": "alb_wp_stonehenge_undeadretainer", 
+    "PathID": "wp_stonehenge_undeadretainer", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 01:02:53"
+  }, 
+  {
+    "Path_ID": "alb_wp_stonehenge_wizardlichas", 
+    "PathID": "wp_stonehenge_wizardlichas", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-12 01:45:07"
+  }, 
+  {
+    "Path_ID": "alb_wp_tepok_goblin2", 
+    "PathID": "wp_tepok_goblin2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-02-18 07:30:10"
+  }, 
+  {
+    "Path_ID": "alb_wp_tepok_goblincrawler1", 
+    "PathID": "wp_tepok_goblincrawler1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-02-18 07:20:53"
+  }, 
+  {
+    "Path_ID": "alb_wp_tepok_goblincrawler2", 
+    "PathID": "wp_tepok_goblincrawler2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-02-18 07:05:40"
+  }, 
+  {
+    "Path_ID": "alb_wp_tepok_goblincrawler3", 
+    "PathID": "wp_tepok_goblincrawler3", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-02-18 07:16:45"
+  }, 
+  {
+    "Path_ID": "alb_wp_tepok_goblincrawler4", 
+    "PathID": "wp_tepok_goblincrawler4", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-02-18 07:22:23"
+  }, 
+  {
+    "Path_ID": "alb_wp_tepok_goblinwatcher1", 
+    "PathID": "wp_tepok_goblinwatcher1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-02-18 06:52:25"
+  }, 
+  {
+    "Path_ID": "b006c64f-49c4-4a67-a265-1b85dadd7525", 
+    "PathID": "bs_magmell_tirnambeo", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "b2a4267e-1564-453a-b65f-d4c7515db576", 
+    "PathID": "BT_JamtlandMountains_HibernianCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "b2ead430-9a47-43f7-b58f-f0e65b7872d2", 
+    "PathID": "hs_ulvastad_halgost", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "b403e062-ba7c-4a2c-8ae2-dffb6bd4560a", 
+    "PathID": "BT_Prydwenkeep_Cotswoldvillage", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2016-07-01 15:21:20"
+  }, 
+  {
+    "Path_ID": "b59ae223-fd15-4e9f-ae81-4c61371e58b3", 
+    "PathID": "bt_Domnann_ToA", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "bb0d9d7e-97e0-4847-b759-0ded2cb96d18", 
+    "PathID": "AlbMainGuardPatrol", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "bd72fa37-c613-42ee-be7b-26962a2dba3b", 
+    "PathID": "path_fintain_riley", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "BT_HadriansWall_MidgardCoast", 
+    "PathID": "BT_HadriansWall_MidgardCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "bt_hesperos_anatole", 
+    "PathID": "bt_hesperos_anatole", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-02-02 18:41:42"
+  }, 
+  {
+    "Path_ID": "bt_hesperos_boreal", 
+    "PathID": "bt_hesperos_boreal", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "bt_hesperos_notos", 
+    "PathID": "bt_hesperos_notos", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "bt_holtham_isle", 
+    "PathID": "bt_holtham_isle", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "bt_isle_holtham", 
+    "PathID": "bt_isle_holtham", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "c1b136ca-1515-47d6-8db5-bb368a279bdc", 
+    "PathID": "hs_svasudfaste_mularn", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-18 21:54:38"
+  }, 
+  {
+    "Path_ID": "c3226cfa-7722-4248-9846-fecad9de36e0", 
+    "PathID": "BT_ForestSauvage_MidgardCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "c45455f7-df56-44ef-a8d8-6f471be21409", 
+    "PathID": "hs_raumarik_huginfell", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-05 20:47:52"
+  }, 
+  {
+    "Path_ID": "c786d763-efa3-4dfc-9e08-cbc8a220cad2", 
+    "PathID": "hs_westdowns_castlesauvage", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-19 18:08:08"
+  }, 
+  {
+    "Path_ID": "c8419287-e263-4b01-b054-8f9c5e865b8b", 
+    "PathID": "path_hs_finnen_holtham", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "c94edfb1-3110-44bb-8c35-feb3cfa07d27", 
+    "PathID": "BT_HadriansWall_HibernianCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "c9db0785-1b68-46b2-92e5-22a8a32f48b5", 
+    "PathID": "hs_halgost_hafheim", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "cab0791d-1600-4580-9b3b-8523d4b0df00", 
+    "PathID": "bt_audliten_fortatla", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-23 06:27:49"
+  }, 
+  {
+    "Path_ID": "caf83fdf-d241-4bb7-9b88-e697048b9c70", 
+    "PathID": "hs_huginfell_ftatla", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 07:33:01"
+  }, 
+  {
+    "Path_ID": "cb404e41-3ab1-4baf-81a3-2eedfd31146f", 
+    "PathID": "hs_gnafaste_galplen", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 08:43:44"
+  }, 
+  {
+    "Path_ID": "d22845e5-7a76-4c33-8bf9-ba4e626df2ec", 
+    "PathID": "BT_OdinsGate_AlbionCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "d362090d-0ca6-4f67-a4e6-3574f0bf3c18", 
+    "PathID": "hs_mularn_vasudheim", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-03 17:14:20"
+  }, 
+  {
+    "Path_ID": "d443d1ad-93e5-4156-910a-502e00643df3", 
+    "PathID": "bt_prydwenbridge_cotswold", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2016-07-01 15:29:11"
+  }, 
+  {
+    "Path_ID": "d8c74217-2359-49c6-b0ae-d814cbeae91b", 
+    "PathID": "hs_nalliten_ftatla", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-07 19:26:29"
+  }, 
+  {
+    "Path_ID": "dbf341e9-692e-4346-b62c-2f6d2167682a", 
+    "PathID": "wp_varulvhamn_wolfaurquixot2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-09 08:50:57"
+  }, 
+  {
+    "Path_ID": "dcc88d91-3141-4317-b9f8-bc56a6c711b9", 
+    "PathID": "bt_ticket_to_the_isle", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "dd2bd937-e4a5-479b-a71b-bfec9372dacd", 
+    "PathID": "hs_altacoill_riley", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "dfd3f0e0-e080-42d9-9983-b32f8e2adbb5", 
+    "PathID": "hs_riley_altacoill", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "df_wp_demons", 
+    "PathID": "wp_df_demons", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "e254f95f-2f31-43d7-98b4-ce0a23a762e0", 
+    "PathID": "hs_mularn_fortveldon", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-03 16:58:01"
+  }, 
+  {
+    "Path_ID": "e4c2ef66-bea8-42e9-92ca-ce9c20048bef", 
+    "PathID": "DFInquisitorMedebo", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "ec194d78-0db2-4db8-a008-2a3f9c4db3db", 
+    "PathID": "path_hs_ulvastad_halgost", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "ec829496-fa49-4639-9e06-e3943e408859", 
+    "PathID": "hs_ulvastad_hafheim", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "ee6b4810-4b72-4b81-805a-e48a5d6e5d82", 
+    "PathID": "DFAvernalQuasit1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "f27d25c8-94f4-4ebc-ac98-b3b548a445f7", 
+    "PathID": "BT_PennineMountains_MidgardCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "f281b938-c1ed-4e75-9c68-0d221a19e220", 
+    "PathID": "hs_wearyall_gothwaite", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-03-03 06:13:22"
+  }, 
+  {
+    "Path_ID": "f30d1c28-96e4-426b-afc2-adab61e10971", 
+    "PathID": "hs_finnen_newavalon", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "f41b947e-9ace-4180-8f7b-e051cb585d87", 
+    "PathID": "BT_YggdraForest_HibernianCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "f452e8ac-f0e7-41b6-aa6b-e64c3de57e58", 
+    "PathID": "hs_haggerfel_fortveldon", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-03 08:43:41"
+  }, 
+  {
+    "Path_ID": "f481b32d-58ec-4f41-885a-64a09132ecaf", 
+    "PathID": "hs_nalliten_gnafaste", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-07 19:35:17"
+  }, 
+  {
+    "Path_ID": "f4ee4031-1e36-410c-96b3-1b2948bce665", 
+    "PathID": "hs_raumarik_vindsaulfaste", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-05 20:27:06"
+  }, 
+  {
+    "Path_ID": "f789dfc0-39e1-427b-988f-018984a957e4", 
+    "PathID": "hs_westdowns_caerulfwych", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-11-19 18:24:55"
+  }, 
+  {
+    "Path_ID": "fc155b36-0846-49a5-b8f9-5841e8350ae2", 
+    "PathID": "BT_MountCollory_AlbionCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "fc48f1b8-b884-46ad-a342-a0bce84699f5", 
+    "PathID": "hs_gothwaite_wearyall", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "fe87e30d-3e3d-4f06-a309-f893b17d3894", 
+    "PathID": "BT_OdinsGate_HibernianCoast", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "hs_newavalon_finnen", 
+    "PathID": "hs_newavalon_finnen", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "hs_newavalon_holtham", 
+    "PathID": "hs_newavalon_holtham", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2000-01-01 00:00:00"
+  }, 
+  {
+    "Path_ID": "mid_hs_dvalin_audliten", 
+    "PathID": "hs_dvalin_audliten", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-05 18:44:46"
+  }, 
+  {
+    "Path_ID": "mid_hs_dvalin_ftatla", 
+    "PathID": "hs_dvalin_ftatla", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 08:11:54"
+  }, 
+  {
+    "Path_ID": "mid_hs_dvalin_huginfell", 
+    "PathID": "hs_dvalin_huginfell", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 07:22:15"
+  }, 
+  {
+    "Path_ID": "mid_hs_fortveldon_haggerfel", 
+    "PathID": "hs_fortveldon_haggerfel", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-03 08:31:42"
+  }, 
+  {
+    "Path_ID": "mid_hs_fortveldon_mularn", 
+    "PathID": "hs_fortveldon_mularn", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-03 08:51:21"
+  }, 
+  {
+    "Path_ID": "mid_hs_ftatla_dvalin", 
+    "PathID": "hs_ftatla_dvalin", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 08:05:02"
+  }, 
+  {
+    "Path_ID": "mid_hs_ftatla_huginfell", 
+    "PathID": "hs_ftatla_huginfell", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 07:38:51"
+  }, 
+  {
+    "Path_ID": "mid_hs_ftatla_nalliten", 
+    "PathID": "hs_ftatla_nalliten", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-06 08:20:05"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_cavespider1", 
+    "PathID": "wp_cursedtomb_cavespider1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-12-09 05:15:03"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_corpsecrawler1", 
+    "PathID": "wp_cursedtomb_corpsecrawler1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 21:41:11"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_corpsecrawler2", 
+    "PathID": "wp_cursedtomb_corpsecrawler2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 21:43:33"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_draugrhound1", 
+    "PathID": "wp_cursedtomb_draugrhound1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-12-09 05:09:24"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_draugrhound2", 
+    "PathID": "wp_cursedtomb_draugrhound2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-09 05:16:36"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_draugrwarrior1", 
+    "PathID": "wp_cursedtomb_draugrwarrior1", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-12-08 21:46:05"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_haggert", 
+    "PathID": "wp_cursedtomb_haggert", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 23:32:31"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_roamingcorpse1", 
+    "PathID": "wp_cursedtomb_roamingcorpse1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 21:35:36"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_roamingcorpse2", 
+    "PathID": "wp_cursedtomb_roamingcorpse2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 21:38:00"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_roamingcorpse3", 
+    "PathID": "wp_cursedtomb_roamingcorpse3", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 21:55:13"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_roamingcorpse4", 
+    "PathID": "wp_cursedtomb_roamingcorpse4", 
+    "RegionID": null, 
+    "PathType": 3, 
+    "LastTimeRowUpdated": "2015-12-08 21:51:24"
+  }, 
+  {
+    "Path_ID": "mid_wp_cursedtomb_roamingcorpse5", 
+    "PathID": "wp_cursedtomb_roamingcorpse5", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-09 05:21:37"
+  }, 
+  {
+    "Path_ID": "mid_wp_nisseslair_lairpatrol", 
+    "PathID": "wp_nisseslair_lairpatrol", 
+    "RegionID": null, 
+    "PathType": 1, 
+    "LastTimeRowUpdated": "2015-12-07 02:40:06"
+  }, 
+  {
+    "Path_ID": "mid_wp_nisseslair_lairpatrol2", 
+    "PathID": "wp_nisseslair_lairpatrol2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-07 03:25:28"
+  }, 
+  {
+    "Path_ID": "mid_wp_nisseslair_tomterunner1", 
+    "PathID": "wp_nisseslair_tomterunner1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-07 02:30:00"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_goblinguard1", 
+    "PathID": "wp_vendocaverns_goblinguard1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 07:29:58"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_goblinguard2", 
+    "PathID": "wp_vendocaverns_goblinguard2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 07:36:23"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_spider1", 
+    "PathID": "wp_vendocaverns_spider1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 00:14:45"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_spider2", 
+    "PathID": "wp_vendocaverns_spider2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 00:17:05"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_spider3", 
+    "PathID": "wp_vendocaverns_spider3", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 00:19:20"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_spider4", 
+    "PathID": "wp_vendocaverns_spider4", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 06:46:36"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_vendoguard1", 
+    "PathID": "wp_vendocaverns_vendoguard1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-07 23:57:54"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_vendoguard2", 
+    "PathID": "wp_vendocaverns_vendoguard2", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 00:09:55"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_vendoguard3", 
+    "PathID": "wp_vendocaverns_vendoguard3", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 00:22:19"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_vendoguard4", 
+    "PathID": "wp_vendocaverns_vendoguard4", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 00:25:41"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_vendoguard5", 
+    "PathID": "wp_vendocaverns_vendoguard5", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 00:28:45"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocaverns_vendoyowler1", 
+    "PathID": "wp_vendocaverns_vendoyowler1", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 07:10:18"
+  }, 
+  {
+    "Path_ID": "mid_wp_vendocavern_spider5", 
+    "PathID": "wp_vendocavern_spider5", 
+    "RegionID": null, 
+    "PathType": 2, 
+    "LastTimeRowUpdated": "2015-12-08 07:52:21"
+  }
+]

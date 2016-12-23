@@ -59,7 +59,15 @@ def character_overview_pak(realm):
         # else
         #   pak.Fill(0x0, 24); //No known location
         ins += fill_pak(0x0, 24) # No known location
-        ins += fill_string_pak("", 24); # Class name
+        # ins += fill_string_pak("Hero", 24) # Class name TODO
+        with open("data/classes.json", "r") as f:
+          classes = json.load(f)
+        plip = ""
+        for c in classes:
+          if c.get('CharClass') == character['char_class']:
+            plip = c.get('CharClassName')
+            break
+        ins += fill_string_pak(plip, 24)
 
         #TODO
         #//pak.FillString(GamePlayer.RACENAMES[characters[j].Race], 24);

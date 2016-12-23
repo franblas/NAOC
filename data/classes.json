@@ -1,0 +1,190 @@
+[
+  {
+    "CharClass": 55,
+    "CharClassName": "Animist"
+  },
+  {
+    "CharClass": 2,
+    "CharClassName": "Armsman"
+  },
+  {
+    "CharClass": 39,
+    "CharClassName": "Bainshee"
+  },
+  {
+    "CharClass": 48,
+    "CharClassName": "Bard"
+  },
+  {
+    "CharClass": 31,
+    "CharClassName": "Berserker"
+  },
+  {
+    "CharClass": 43,
+    "CharClassName": "Blademaster"
+  },
+  {
+    "CharClass": 30,
+    "CharClassName": "Bonedancer"
+  },
+  {
+    "CharClass": 13,
+    "CharClassName": "Cabalist"
+  },
+  {
+    "CharClass": 45,
+    "CharClassName": "Champion"
+  },
+  {
+    "CharClass": 6,
+    "CharClassName": "Cleric"
+  },
+  {
+    "CharClass": 47,
+    "CharClassName": "Druid"
+  },
+  {
+    "CharClass": 40,
+    "CharClassName": "Eldritch"
+  },
+  {
+    "CharClass": 41,
+    "CharClassName": "Enchanter"
+  },
+  {
+    "CharClass": 10,
+    "CharClassName": "Friar"
+  },
+  {
+    "CharClass": 26,
+    "CharClassName": "Healer"
+  },
+  {
+    "CharClass": 33,
+    "CharClassName": "Heretic"
+  },
+  {
+    "CharClass": 44,
+    "CharClassName": "Hero"
+  },
+  {
+    "CharClass": 25,
+    "CharClassName": "Hunter"
+  },
+  {
+    "CharClass": 9,
+    "CharClassName": "Infiltrator"
+  },
+  {
+    "CharClass": 60,
+    "CharClassName": "Mauler60"
+  },
+  {
+    "CharClass": 61,
+    "CharClassName": "Mauler61"
+  },
+  {
+    "CharClass": 62,
+    "CharClassName": "Mauler62"
+  },
+  {
+    "CharClass": 42,
+    "CharClassName": "Mentalist"
+  },
+  {
+    "CharClass": 11,
+    "CharClassName": "Mercenary"
+  },
+  {
+    "CharClass": 4,
+    "CharClassName": "Minstrel"
+  },
+  {
+    "CharClass": 12,
+    "CharClassName": "Necromancer"
+  },
+  {
+    "CharClass": 49,
+    "CharClassName": "Nightshade"
+  },
+  {
+    "CharClass": 1,
+    "CharClassName": "Paladin"
+  },
+  {
+    "CharClass": 50,
+    "CharClassName": "Ranger"
+  },
+  {
+    "CharClass": 19,
+    "CharClassName": "Reaver"
+  },
+  {
+    "CharClass": 29,
+    "CharClassName": "Runemaster"
+  },
+  {
+    "CharClass": 32,
+    "CharClassName": "Savage"
+  },
+  {
+    "CharClass": 3,
+    "CharClassName": "Scout"
+  },
+  {
+    "CharClass": 23,
+    "CharClassName": "Shadowblade"
+  },
+  {
+    "CharClass": 28,
+    "CharClassName": "Shaman"
+  },
+  {
+    "CharClass": 24,
+    "CharClassName": "Skald"
+  },
+  {
+    "CharClass": 8,
+    "CharClassName": "Sorcerer"
+  },
+  {
+    "CharClass": 27,
+    "CharClassName": "Spiritmaster"
+  },
+  {
+    "CharClass": 21,
+    "CharClassName": "Thane"
+  },
+  {
+    "CharClass": 5,
+    "CharClassName": "Theurgist"
+  },
+  {
+    "CharClass": 56,
+    "CharClassName": "Valewalker"
+  },
+  {
+    "CharClass": 34,
+    "CharClassName": "Valkyrie"
+  },
+  {
+    "CharClass": 58,
+    "CharClassName": "Vampiir"
+  },
+  {
+    "CharClass": 46,
+    "CharClassName": "Warden"
+  },
+  {
+    "CharClass": 59,
+    "CharClassName": "Warlock"
+  },
+  {
+    "CharClass": 22,
+    "CharClassName": "Warrior"
+  },
+  {
+    "CharClass": 7,
+    "CharClassName": "Wizard"
+  }
+]

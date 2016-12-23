@@ -1,4 +1,3 @@
-# from packet_in import *
 from ..packets.packet_in import *
 import arrow
 import json
@@ -50,6 +49,8 @@ def create_character_data(packet, cursor):
 	#if (client.Version >= GameClient.eClientVersion.Version199 && client.Version < GameClient.eClientVersion.Version1104)
 	#	packet.Skip(4);
 	new_constitution, cursor = read_byte(packet, cursor) # 0x9F
+
+	custom_mode = 2 # if another number, does not work. I don't know why :s
 
 	d = {
 		'name': character_name.replace('\x00', ''),

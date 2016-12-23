@@ -1,6 +1,6 @@
 from ..packets.packet_in import read_string
 from character_creation import create_character_data, create_character
-from ..server.character_overview_pak import character_overview_pak
+from ..server.character_create_reply_pak import character_create_reply_pak
 
 def character_create_request_handler(packet):
   cursor = 0
@@ -21,10 +21,4 @@ def character_create_request_handler(packet):
     return
   character_data = create_character_data(packet, cursor)
   character = create_character(character_data, account_slot=0) #TODO check account slot
-  ############################
-  import time
-  print 'BEFORE SLEEP, character has been created'
-  time.sleep(2)
-  print 'AFTER SLEEP, send the character overview pak'
-  ############################
-  return character_overview_pak(current_realm)
+  return character_create_reply_pak("")

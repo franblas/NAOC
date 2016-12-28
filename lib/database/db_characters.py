@@ -117,12 +117,12 @@ def is_character_already_existing(char_name):
     conn.close()
     return already_existing
 
-def get_characters(login_name):
+def get_characters(login_name, realm):
     characters_data = list()
     login_id = get_id(login_name)
     conn = connect_db()
     cursor = conn.execute('''
-    SELECT * FROM CHARACTERS WHERE LOGIN_ID=?''', (login_id,))
+    SELECT * FROM CHARACTERS WHERE LOGIN_ID=? AND REALM=?''', (login_id,realm))
     reps = cursor.fetchall()
     data_l = [r for r in reps]
     if data_l:

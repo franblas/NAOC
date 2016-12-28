@@ -9,6 +9,7 @@ from login_request_handler import login_request_handler
 from ping_request_handler import ping_request_handler
 from region_list_request_handler import region_list_request_handler
 from game_open_request_handler import game_open_request_handler
+from client_crash_handler import client_crash_handler
 
 CODE_POSITION = 9
 

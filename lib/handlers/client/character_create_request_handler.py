@@ -1,13 +1,14 @@
 from ..packets.packet_in import read_string
+from ..packets.packet_utils import printable_string
 from character_creation import create_character_data, create_character
-# from ..server.character_create_reply_pak import character_create_reply_pak
+from ..server.character_create_reply_pak import character_create_reply_pak
 from ..server.character_overview_pak import character_overview_pak
 from ...database.db_characters import get_next_account_slot
 
 def character_create_request_handler(packet,gameclient):
   cursor = 0
   account_name_tmp, cursor = read_string(packet, 24, cursor)
-  account_name = account_name_tmp.replace('\x00', '').strip()
+  account_name = printable_string(account_name_tmp)
   # print '---> AccountName: ' + account_name
   if '-S' in account_name: # TODO: weird, should be endswith
     print 'Albion'
@@ -21,9 +22,9 @@ def character_create_request_handler(packet,gameclient):
   else:
     print 'Unknown realm' # Should throw an error to the client
     return
-  for i in range(0, 9):
+  for i in range(0, 10):
     character_data, packet, cursor = create_character_data(packet, cursor)
     account_slot = get_next_account_slot(gameclient.login_name, current_realm)
     character = create_character(character_data, account_slot, gameclient)
-  # character_create_reply_pak(character['name'])
+  # character_create_reply_pak("")
   return character_overview_pak(current_realm, gameclient)

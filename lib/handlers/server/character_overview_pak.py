@@ -5,7 +5,7 @@ from ...database.db_characters import get_characters
 def character_overview_pak(realm, gameclient):
   login_name = gameclient.login_name
   ins = fill_string_pak(login_name, 24)
-  characters = get_characters(login_name)
+  characters = get_characters(login_name, realm)
 
   if not characters:
     ins += fill_pak(0x0, 1880)
@@ -21,7 +21,6 @@ def character_overview_pak(realm, gameclient):
 
     for i in range(first_account_slot, first_account_slot + 10):
       written = False
-      # print i
       for character in characters:
         character_account_slot = character.get('account_slot', -1)
         if character_account_slot == i:

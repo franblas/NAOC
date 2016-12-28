@@ -6,7 +6,6 @@ def character_select_request_handler(packet,gameclient):
     cursor = 0
     cursor = skip(cursor, 4)
     character_name, cursor = read_string(packet, 28, cursor)
-    print character_name
     clean_character_name = printable_string(character_name)
     if clean_character_name == '*noname':
       return session_id_pak(gameclient)

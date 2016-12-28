@@ -2,7 +2,7 @@ from ..packets.packet_in import read_byte
 from ..packets.packet_utils import version_builder
 from ..server.version_and_crypt_key_pak import version_and_crypt_key_pak
 
-def crypt_key_request_handler(packet):
+def crypt_key_request_handler(packet,gameclient):
     cursor = 0
     rc4, cursor = read_byte(packet, cursor) # should bo 0 (if 1 then enrypted requests)
     client_type_tmp, cursor = read_byte(packet, cursor)

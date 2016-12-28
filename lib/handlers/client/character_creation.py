@@ -1,6 +1,6 @@
 from ..packets.packet_in import *
 import arrow
-import json
+from ...database.db_characters import insert_new_character, is_character_already_existing
 
 def create_character_data(packet, cursor):
 	#if (client.Version >= GameClient.eClientVersion.Version1104)
@@ -85,9 +85,9 @@ def create_character_data(packet, cursor):
 		'shrouded_isles_zone': shrouded_isles_zone,
 		'new_constitution': new_constitution
 	}
-	return d
+	return d, packet, cursor
 
-def create_character(character_data, account_slot):
+def create_character(character_data, account_slot, gameclient):
 	character_data['level'] = 1
 	character_data['account_slot'] = account_slot + int(character_data['realm']) * 100
 	character_data['creation_date'] = arrow.now().isoformat()
@@ -96,10 +96,7 @@ def create_character(character_data, account_slot):
 	character_data['concentration'] = 100
 	character_data['max_speed'] = 191
 
-	#TODO: insert into db
-	try:
-		with open('character_test.json', 'r') as f: yo = f
-	except Exception as e:
-		with open('character_test.json', 'w') as f:
-			json.dump(character_data, f, indent=2)
+	already_existing = is_character_already_existing(character_data['name'])
+	if not already_existing and character_data['name'] != '':
+		insert_new_character(character_data, gameclient.login_name)
 	return character_data

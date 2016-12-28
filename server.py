@@ -1,30 +1,22 @@
 import socket
-import arrow
+import threading
 
-from handlers.client.client_handler import client_handler
+from lib.game_client import GameClient
 
 TCP_IP = "127.0.0.1"
 TCP_PORT = 10300
 SOCKET_BUFFER_SIZE = 16 * 1024
+SESSION_ID = 1
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # TCP
 sock.setsockopt(socket.SOL_SOCKET, socket.SO_SNDBUF, SOCKET_BUFFER_SIZE)
 sock.bind((TCP_IP, TCP_PORT))
 sock.listen(100)
 
-REQUEST_COUNTER = 0
-connect, address = sock.accept()
 while True:
-  resp = (connect.recv(SOCKET_BUFFER_SIZE)).strip()
-  # with open('plip/plip_' + str(REQUEST_COUNTER), 'wb') as p:
-  #   p.write(resp)
-  #print "resp: ",resp
-  server_pak = client_handler(resp, REQUEST_COUNTER)
-  REQUEST_COUNTER += 1
-  if server_pak:
-    connect.send(server_pak.decode('hex'))
-  else:
-    connect.send('')
-
-  print "\ndone",address
-connect.close()
+  connect, addr = sock.accept()
+  gc = GameClient(SESSION_ID, connect, SOCKET_BUFFER_SIZE)
+  t = threading.Thread(name='client_' + str(SESSION_ID), target=gc.start)
+  t.start()
+  SESSION_ID += 1
+sock.close()

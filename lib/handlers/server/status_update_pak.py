@@ -1,48 +1,41 @@
 from ..packets.packet_out import *
 
-def status_update_pak(sittingFlag):
-  ins = write_byte(0) # HealthPercent, TODO
-  ins += write_byte(0) # ManaPercent, TODO
-  ins += write_byte(0) # sittingFlag, TODO
-  ins += write_byte(0) # EndurancePercent, TODO
-  ins += write_byte(0) # ConcentrationPercent, TODO
+def status_update_pak(sitting_flag, gameclient):
+  data = gameclient.selected_character
+  if not data: return
+
+  health = data.get('constitution') # ??? TODO
+  health_max = data.get('constitution')
+  health_percent = (health * 1.0 / health_max) * 100
+
+  mana = data.get('concentration') # ??? TODO
+  mana_max = data.get('concentration')
+  mana_percent = (mana * 1.0 / mana_max) * 100
+
+  endurance = data.get('endurance')
+  endurance_max = data.get('max_endurance')
+  endurance_percent = (endurance * 1.0 / endurance_max) * 100
+
+  concentration = data.get('concentration')
+  concentration_max = data.get('concentration')
+  concentration_percent = (concentration * 1.0 / concentration_max) * 100
+
+  ins = write_byte(health_percent) # HealthPercent, TODO
+  ins += write_byte(mana_percent) # ManaPercent, TODO
+  ins += write_byte(sitting_flag) # sittingFlag, TODO
+  ins += write_byte(endurance_percent) # EndurancePercent, TODO
+  ins += write_byte(concentration_percent) # ConcentrationPercent, TODO
   ins += write_byte(0) # unk
-  ins += write_short(0) # MaxMana, TODO
-  ins += write_short(0) # MaxEndurance, TODO
-  ins += write_short(0) # MaxConcentration, TODO
-  ins += write_short(0) # MaxHealth, TODO
-  ins += write_short(0) # Health, TODO
-  ins += write_short(0) # Endurance, TODO
-  ins += write_short(0) # Mana, TODO
-  ins += write_short(0) # Concentration, TODO
+  ins += write_short(mana_max) # MaxMana, TODO
+  ins += write_short(endurance_max) # MaxEndurance, TODO
+  ins += write_short(concentration_max) # MaxConcentration, TODO
+  ins += write_short(health_max) # MaxHealth, TODO
+  ins += write_short(health) # Health, TODO
+  ins += write_short(endurance) # Endurance, TODO
+  ins += write_short(mana) # Mana, TODO
+  ins += write_short(concentration) # Concentration, TODO
 
   pak = write_short(packet_length(ins))
   pak += write_byte(0xAD)
   pak += ins
   return pak
-
-
-# public override void SendStatusUpdate(byte sittingFlag)
-# 		{
-# 			if (m_gameClient.Player == null)
-# 				return;
-# 			using (GSTCPPacketOut pak = new GSTCPPacketOut(GetPacketCode(eServerPackets.CharacterStatusUpdate)))
-# 			{
-# 				pak.WriteByte(m_gameClient.Player.HealthPercent);
-# 				pak.WriteByte(m_gameClient.Player.ManaPercent);
-# 				pak.WriteByte(sittingFlag);
-# 				pak.WriteByte(m_gameClient.Player.EndurancePercent);
-# 				pak.WriteByte(m_gameClient.Player.ConcentrationPercent);
-# 				//			pak.WriteShort((byte) (m_gameClient.Player.IsAlive ? 0x00 : 0x0f)); // 0x0F if dead ??? where it now ?
-# 				pak.WriteByte(0);// unk
-# 				pak.WriteShort((ushort)m_gameClient.Player.MaxMana);
-# 				pak.WriteShort((ushort)m_gameClient.Player.MaxEndurance);
-# 				pak.WriteShort((ushort)m_gameClient.Player.MaxConcentration);
-# 				pak.WriteShort((ushort)m_gameClient.Player.MaxHealth);
-# 				pak.WriteShort((ushort)m_gameClient.Player.Health);
-# 				pak.WriteShort((ushort)m_gameClient.Player.Endurance);
-# 				pak.WriteShort((ushort)m_gameClient.Player.Mana);
-# 				pak.WriteShort((ushort)m_gameClient.Player.Concentration);
-# 				SendTCP(pak);
-# 			}
-# 		}

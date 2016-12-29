@@ -5,6 +5,7 @@ class GameClient(object):
 
     request_counter = 0
     login_name = ''
+    selected_character = dict()
 
     def __init__(self, session_id, clientsocket, SOCKET_BUFFER_SIZE):
         self.session_id = session_id

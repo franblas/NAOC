@@ -117,6 +117,56 @@ def is_character_already_existing(char_name):
     conn.close()
     return already_existing
 
+def get_character(login_name, char_name):
+    character_data = dict()
+    login_id = get_id(login_name)
+    conn = connect_db()
+    cursor = conn.execute('''
+    SELECT * FROM CHARACTERS WHERE LOGIN_ID=? AND NAME=?''', (login_id,char_name))
+    rep = cursor.fetchone()
+    if rep:
+        character_data = {
+            "name": rep[1],
+            "creation_date": rep[2],
+            "custom_mode": rep[3],
+            "eye_size": rep[4],
+            "lip_size": rep[5],
+            "eye_color": rep[6],
+            "hair_color": rep[7],
+            "face_type": rep[8],
+            "hair_style": rep[9],
+            "mood_type": rep[10],
+            "operation": rep[11],
+            "unk": rep[12],
+            "level": rep[13],
+            "char_class": rep[14],
+            "realm": rep[15],
+            "race": rep[16],
+            "gender": rep[17],
+            "shrouded_isles_start_location": rep[18],
+            "creation_model": rep[19],
+            "region": rep[20],
+            "strength": rep[21],
+            "dexterity": rep[22],
+            "constitution": rep[23],
+            "quickness": rep[24],
+            "intelligence": rep[25],
+            "piety": rep[26],
+            "empathy": rep[27],
+            "charisma": rep[28],
+            "active_right_slot": rep[29],
+            "active_left_slot": rep[30],
+            "shrouded_isles_zone": rep[31],
+            "new_constitution": rep[32],
+            "account_slot": rep[33],
+            "endurance": rep[34],
+            "max_endurance": rep[35],
+            "concentration": rep[36],
+            "max_speed": rep[37]
+        }
+    conn.close()
+    return character_data
+
 def get_characters(login_name, realm):
     characters_data = list()
     login_id = get_id(login_name)

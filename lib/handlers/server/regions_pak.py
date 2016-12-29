@@ -2,7 +2,7 @@ from ..packets.packet_out import *
 
 def regions_pak():
   ins = write_byte(0)
-  ins += write_byte(200) # RegionID, TODO
+  ins += write_byte(27) # RegionID, TODO (27=tutorial)
   ins += fill_pak(0, 20)
   ins += fill_string_pak("10300", 5)
   ins += fill_string_pak("10300", 5)

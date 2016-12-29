@@ -1,11 +1,12 @@
 from ..packets.packet_in import read_byte
 from ..server.game_open_pak import game_open_pak
+from ..server.status_update_pak import status_update_pak
 
 def game_open_request_handler(packet,gameclient):
     cursor = 0
     flag, cursor = read_byte(packet, cursor)
     game_open_pak()
-    # status_update_pak()
+    status_update_pak(0, gameclient)
     # update_points_pak()
     # update_disabled_skills_pak()
 

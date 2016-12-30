@@ -9,5 +9,6 @@
     "0xFF": "character_create_request_handler",
     "0x9D": "region_list_request_handler",
     "0xBF": "game_open_request_handler",
-    "0x37": "client_crash_handler"
+    "0x37": "client_crash_handler",
+    "0xD4": "world_init_request_handler"
 }

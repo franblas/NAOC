@@ -1,14 +1,16 @@
 from ..packets.packet_in import read_byte
 from ..server.game_open_pak import game_open_pak
 from ..server.status_update_pak import status_update_pak
+from ..server.update_points_pak import update_points_pak
+from ..server.update_disabled_skills_pak import update_disabled_skills_pak
 
 def game_open_request_handler(packet,gameclient):
     cursor = 0
     flag, cursor = read_byte(packet, cursor)
     game_open_pak()
     status_update_pak(0, gameclient)
-    # update_points_pak()
-    # update_disabled_skills_pak()
+    update_points_pak(gameclient)
+    # update_disabled_skills_pak(gameclient)
 
 # int flag = packet.ReadByte();
 # client.UdpPingTime = DateTime.Now.Ticks;

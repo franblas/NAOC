@@ -14,6 +14,14 @@ def write_short(code, endian='big'):
 def write_int(code):
   return struct.pack('I', code).encode('hex')
 
+def write_long(code, endian='big'):
+  if endian == 'big':
+    return struct.pack('>L', code).encode('hex')
+  elif endian == 'little':
+    return struct.pack('<L', code).encode('hex')
+  else:
+    return struct.pack('L', code).encode('hex')  
+
 def packet_length(pak):
   return len(pak.decode('hex'))
 

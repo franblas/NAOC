@@ -5,6 +5,26 @@ def update_disabled_skills_pak(gameclient):
   if not data: return
 
   #TODO
+  ins = write_byte(0x00)
+  ins += write_byte(0x00)
+  ins += write_byte(0x04)
+  ins += write_byte(0x01)
+  ins += write_byte(0x00)
+  ins += write_byte(0x00)
+  ins += write_byte(0x00)
+  ins += write_byte(0x00)
+  ins += write_byte(0x00)
+  ins += write_byte(0x01)
+  ins += write_byte(0x00)
+  ins += write_byte(0x00)
+  ins += write_byte(0x00)
+  ins += write_byte(0x02)
+  ins += write_byte(0x00)
+  ins += write_byte(0x00)
+  ins += write_byte(0x00)
+  ins += write_byte(0x03)
+  ins += write_byte(0x00)
+  ins += write_byte(0x00)
 
   pak = write_short(packet_length(ins))
   pak += write_byte(0xD6)

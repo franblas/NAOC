@@ -1,7 +1,7 @@
 from ..packets.packet_out import *
 
 def game_open_pak():
-  ins = write_byte(0x00);
+  ins = write_byte(0x00)
 
   pak = write_short(packet_length(ins))
   pak += write_byte(0x2D)

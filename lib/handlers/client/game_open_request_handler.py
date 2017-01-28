@@ -7,10 +7,10 @@ from ..server.update_disabled_skills_pak import update_disabled_skills_pak
 def game_open_request_handler(packet,gameclient):
     cursor = 0
     flag, cursor = read_byte(packet, cursor)
-    game_open_pak()
-    status_update_pak(0, gameclient)
-    update_points_pak(gameclient)
-    # update_disabled_skills_pak(gameclient)
+    gameclient.send_pak(game_open_pak())
+    gameclient.send_pak(status_update_pak(0, gameclient))
+    gameclient.send_pak(update_points_pak(gameclient))
+    # gameclient.send_pak(update_disabled_skills_pak(gameclient))
 
 # int flag = packet.ReadByte();
 # client.UdpPingTime = DateTime.Now.Ticks;

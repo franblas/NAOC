@@ -18,8 +18,12 @@ class GameClient(object):
             resp = (self.clientsocket.recv(self.SOCKET_BUFFER_SIZE)).strip()
             server_pak = client_handler(resp, self.request_counter, self)
             self.request_counter += 1
-            if server_pak:
-                self.clientsocket.send(server_pak.decode('hex'))
-            else:
-                self.clientsocket.send('')
+            self.send_pak(server_pak)
         self.clientsocket.close()
+
+    def send_pak(self, server_pak):
+        if server_pak:
+            print server_pak.decode('hex')
+            self.clientsocket.send(server_pak.decode('hex'))
+        else:
+            self.clientsocket.send('')

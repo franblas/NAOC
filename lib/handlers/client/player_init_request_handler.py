@@ -1,0 +1,157 @@
+from ..server.update_points_pak import update_points_pak
+from ..server.region_color_scheme_pak import region_color_scheme_pak
+from ..server.npc_create_pak import npc_create_pak
+from ..server.living_equipment_update_pak import living_equipment_update_pak
+from ..server.time_pak import time_pak
+from ..server.player_init_finished_pak import player_init_finished_pak
+
+def player_init_request_handler(gameclient):
+    gameclient.send_pak(update_points_pak(gameclient))
+    gameclient.send_pak(region_color_scheme_pak(0x00))
+
+    mobs = send_mobs_and_mob_equipment_to_player(gameclient)
+    gameclient.send_pak(time_pak(gameclient))
+    gameclient.send_pak(player_init_finished_pak(0x00))
+
+    return
+
+
+def send_mobs_and_mob_equipment_to_player(gameclient):
+    # int mobs = 0;
+    mobs = 0
+    # if (player.CurrentRegion != null)
+    # {
+    # 	var npcs = player.GetNPCsInRadius(WorldMgr.VISIBILITY_DISTANCE).Cast<GameNPC>().ToArray();
+    # 	foreach (GameNPC npc in npcs)
+    # 	{
+    # 		player.Out.SendNPCCreate(npc);
+    # 		mobs++;
+    # 		if (npc.Inventory != null)
+    # 			player.Out.SendLivingEquipmentUpdate(npc);
+    # 		}
+    # }
+    # return mobs;
+    npcs = [{
+        'object_id': 0x0914,
+        'heading': 0x00EE,
+        'Z': 0x12A5,
+        'X': 0x000574D7,
+        'Y': 0x00057E5B,
+        'model': 0x07B6,
+        'size': 0x32,
+        'name': 'Midgard invader',
+        'guild_name': '',
+        'iventory': {
+            'visible_items': []
+        }
+    }]
+    for npc in npcs:
+        gameclient.send_pak(npc_create_pak(npc, gameclient))
+        mobs += 1
+        if npc['inventory']:
+            gameclient.send_pak(living_equipment_update_pak(npc, gameclient))
+    return mobs
+
+# p
+# 				var player = (GamePlayer) m_actionSource;
+#
+# 				player.Out.SendUpdatePoints();
+# 				player.TargetObject = null;
+# 				// update the region color scheme which may be wrong due to ALLOW_ALL_REALMS support
+# 				player.Out.SendRegionColorScheme();
+
+# 				if (player.CurrentRegion != null)
+# 				{
+# 					player.CurrentRegion.Notify(RegionEvent.PlayerEnter, player.CurrentRegion, new RegionPlayerEventArgs(player));
+# 				}
+#
+# 				int mobs = SendMobsAndMobEquipmentToPlayer(player);
+# 				player.Out.SendTime();
+#
+# 				bool checkInstanceLogin = false;
+#
+# 				if (!player.EnteredGame)
+# 				{
+# 					player.EnteredGame = true;
+# 					player.Notify(GamePlayerEvent.GameEntered, player);
+# 					player.EffectList.RestoreAllEffects();
+# 					checkInstanceLogin = true;
+# 				}
+# 				else
+# 				{
+# 					player.Notify(GamePlayerEvent.RegionChanged, player);
+# 				}
+# 				if (player.TempProperties.getProperty(GamePlayer.RELEASING_PROPERTY, false))
+# 				{
+# 					player.TempProperties.removeProperty(GamePlayer.RELEASING_PROPERTY);
+# 					player.Notify(GamePlayerEvent.Revive, player);
+# 					player.Notify(GamePlayerEvent.Released, player);
+# 				}
+# 				if (player.Group != null)
+# 				{
+# 					player.Group.UpdateGroupWindow();
+# 					player.Group.UpdateAllToMember(player, true, false);
+# 					player.Group.UpdateMember(player, true, true);
+# 				}
+# 				player.Out.SendPlayerInitFinished(0);
+# 				player.TargetObject = null;
+# 				player.StartHealthRegeneration();
+# 				player.StartPowerRegeneration();
+# 				player.StartEnduranceRegeneration();
+# 				player.StartInvulnerabilityTimer(ServerProperties.Properties.TIMER_PLAYER_INIT * 1000, null);
+#
+# 				if (player.Guild != null)
+# 				{
+# 					SendGuildMessagesToPlayer(player);
+# 				}
+# 				SendHouseRentRemindersToPlayer(player);
+# 				if (player.Level > 1 && Properties.MOTD != "")
+# 				{
+# 					player.Out.SendMessage(Properties.MOTD, eChatType.CT_System, eChatLoc.CL_SystemWindow);
+# 				}
+# 				else if (player.Level == 1)
+# 				{
+# 					player.Out.SendStarterHelp();
+# 					if (Properties.STARTING_MSG != "")
+# 						player.Out.SendMessage(Properties.STARTING_MSG, eChatType.CT_System, eChatLoc.CL_PopupWindow);
+# 				}
+#
+# 				if (Properties.ENABLE_DEBUG)
+# 					player.Out.SendMessage("Server is running in DEBUG mode!", eChatType.CT_System, eChatLoc.CL_SystemWindow);
+#
+# 				player.Out.SendPlayerFreeLevelUpdate();
+# 				if (player.FreeLevelState == 2)
+# 				{
+# 					player.Out.SendDialogBox(eDialogCode.SimpleWarning, 0, 0, 0, 0, eDialogType.Ok, true,
+# 					                         LanguageMgr.GetTranslation(player.Client.Account.Language, "PlayerInitRequestHandler.FreeLevel"));
+# 				}
+# 				player.Out.SendMasterLevelWindow(0);
+# 				AssemblyName an = Assembly.GetExecutingAssembly().GetName();
+# 				player.Out.SendMessage("Dawn of Light " + an.Name + " Version: " + an.Version, eChatType.CT_System,
+# 				                       eChatLoc.CL_SystemWindow);
+#
+#
+# 				if (Properties.TELEPORT_LOGIN_NEAR_ENEMY_KEEP)
+# 				{
+# 					CheckIfPlayerLogsNearEnemyKeepAndMoveIfNecessary(player);
+# 				}
+#
+# 				if (Properties.TELEPORT_LOGIN_BG_LEVEL_EXCEEDED)
+# 				{
+# 					CheckBGLevelCapForPlayerAndMoveIfNecessary(player);
+# 				}
+#
+# 				if (checkInstanceLogin)
+# 				{
+# 					if (WorldMgr.Regions[player.CurrentRegionID] == null || player.CurrentRegion == null || player.CurrentRegion.IsInstance)
+# 					{
+# 						Log.WarnFormat("{0}:{1} logging into instance or CurrentRegion is null, moving to bind!", player.Name, player.Client.Account.Name);
+# 						player.MoveToBind();
+# 					}
+# 				}
+#
+# 				if (player.IsUnderwater)
+# 				{
+# 					player.IsDiving = true;
+# 				}
+# 				player.Client.ClientState = GameClient.eClientState.Playing;

@@ -1,190 +1,284 @@
 [
   {
     "CharClass": 55,
-    "CharClassName": "Animist"
+    "CharClassName": "Animist",
+    "Base": "Forester",
+    "Profession": "Path of Affinity"
   },
   {
     "CharClass": 2,
-    "CharClassName": "Armsman"
+    "CharClassName": "Armsman",
+    "Base": "Fighter",
+    "Profession": "Defenders of Albion"
   },
   {
     "CharClass": 39,
-    "CharClassName": "Bainshee"
+    "CharClassName": "Bainshee",
+    "Base": "Magician",
+    "Profession": "Path of Affinity"
   },
   {
     "CharClass": 48,
-    "CharClassName": "Bard"
+    "CharClassName": "Bard",
+    "Base": "Naturalist",
+    "Profession": "Path of Essence"
   },
   {
     "CharClass": 31,
-    "CharClassName": "Berserker"
+    "CharClassName": "Berserker",
+    "Base": "Viking",
+    "Profession": "House of Modi"
   },
   {
     "CharClass": 43,
-    "CharClassName": "Blademaster"
+    "CharClassName": "Blademaster",
+    "Base": "Guardian",
+    "Profession": "Path of Harmony"
   },
   {
     "CharClass": 30,
-    "CharClassName": "Bonedancer"
+    "CharClassName": "Bonedancer",
+    "Base": "Mystic",
+    "Profession": "House of Bodgar"
   },
   {
     "CharClass": 13,
-    "CharClassName": "Cabalist"
+    "CharClassName": "Cabalist",
+    "Base": "Mage",
+    "Profession": "Guild of Shadows"
   },
   {
     "CharClass": 45,
-    "CharClassName": "Champion"
+    "CharClassName": "Champion",
+    "Base": "Guardian",
+    "Profession": "Path of Essence"
   },
   {
     "CharClass": 6,
-    "CharClassName": "Cleric"
+    "CharClassName": "Cleric",
+    "Base": "Acolyte",
+    "Profession": "Church of Albion"
   },
   {
     "CharClass": 47,
-    "CharClassName": "Druid"
+    "CharClassName": "Druid",
+    "Base": "Naturalist",
+    "Profession": "Path of Harmony"
   },
   {
     "CharClass": 40,
-    "CharClassName": "Eldritch"
+    "CharClassName": "Eldritch",
+    "Base": "Magician",
+    "Profession": "Path of Focus"
   },
   {
     "CharClass": 41,
-    "CharClassName": "Enchanter"
+    "CharClassName": "Enchanter",
+    "Base": "Magician",
+    "Profession": "Path of Essence"
   },
   {
     "CharClass": 10,
-    "CharClassName": "Friar"
+    "CharClassName": "Friar",
+    "Base": "Acolyte",
+    "Profession": "Defenders of Albion"
   },
   {
     "CharClass": 26,
-    "CharClassName": "Healer"
+    "CharClassName": "Healer",
+    "Base": "Seer",
+    "Profession": "House of Eir"
   },
   {
     "CharClass": 33,
-    "CharClassName": "Heretic"
+    "CharClassName": "Heretic",
+    "Base": "Acolyte",
+    "Profession": "Temple of Arawn"
   },
   {
     "CharClass": 44,
-    "CharClassName": "Hero"
+    "CharClassName": "Hero",
+    "Base": "Guardian",
+    "Profession": "Path of Focus"
   },
   {
     "CharClass": 25,
-    "CharClassName": "Hunter"
+    "CharClassName": "Hunter",
+    "Base": "MidgardRogue",
+    "Profession": "House of Skadi"
   },
   {
     "CharClass": 9,
-    "CharClassName": "Infiltrator"
+    "CharClassName": "Infiltrator",
+    "Base": "Rogue",
+    "Profession": "Guild of Shadows"
   },
   {
     "CharClass": 60,
-    "CharClassName": "Mauler60"
+    "CharClassName": "Mauler60",
+    "Base": "Fighter",
+    "Profession": "Temple of Iron Fist"
   },
   {
     "CharClass": 61,
-    "CharClassName": "Mauler61"
+    "CharClassName": "Mauler61",
+    "Base": "Viking",
+    "Profession": "Temple of Iron Fist"
   },
   {
     "CharClass": 62,
-    "CharClassName": "Mauler62"
+    "CharClassName": "Mauler62",
+    "Base": "Guardian",
+    "Profession": "Temple of Iron Fist"
   },
   {
     "CharClass": 42,
-    "CharClassName": "Mentalist"
+    "CharClassName": "Mentalist",
+    "Base": "Magician",
+    "Profession": "Path of Harmony"
   },
   {
     "CharClass": 11,
-    "CharClassName": "Mercenary"
+    "CharClassName": "Mercenary",
+    "Base": "Fighter",
+    "Profession": "Guild of Shadows"
   },
   {
     "CharClass": 4,
-    "CharClassName": "Minstrel"
+    "CharClassName": "Minstrel",
+    "Base": "Rogue",
+    "Profession": "Academy"
   },
   {
     "CharClass": 12,
-    "CharClassName": "Necromancer"
+    "CharClassName": "Necromancer",
+    "Base": "Disciple",
+    "Profession": "Temple of Arawn"
   },
   {
     "CharClass": 49,
-    "CharClassName": "Nightshade"
+    "CharClassName": "Nightshade",
+    "Base": "Stalker",
+    "Profession": "Path of Essence"
   },
   {
     "CharClass": 1,
-    "CharClassName": "Paladin"
+    "CharClassName": "Paladin",
+    "Base": "Fighter",
+    "Profession": "Church of Albion"
   },
   {
     "CharClass": 50,
-    "CharClassName": "Ranger"
+    "CharClassName": "Ranger",
+    "Base": "Stalker",
+    "Profession": "Path of Focus"
   },
   {
     "CharClass": 19,
-    "CharClassName": "Reaver"
+    "CharClassName": "Reaver",
+    "Base": "Fighter",
+    "Profession": "Temple of Arawn"
   },
   {
     "CharClass": 29,
-    "CharClassName": "Runemaster"
+    "CharClassName": "Runemaster",
+    "Base": "Mystic",
+    "Profession": "House of Odin"
   },
   {
     "CharClass": 32,
-    "CharClassName": "Savage"
+    "CharClassName": "Savage",
+    "Base": "Viking",
+    "Profession": "House of Kelgor"
   },
   {
     "CharClass": 3,
-    "CharClassName": "Scout"
+    "CharClassName": "Scout",
+    "Base": "Rogue",
+    "Profession": "Defenders of Albion"
   },
   {
     "CharClass": 23,
-    "CharClassName": "Shadowblade"
+    "CharClassName": "Shadowblade",
+    "Base": "MidgardRogue",
+    "Profession": "Loki"
   },
   {
     "CharClass": 28,
-    "CharClassName": "Shaman"
+    "CharClassName": "Shaman",
+    "Base": "Seer",
+    "Profession": "House of Ymir"
   },
   {
     "CharClass": 24,
-    "CharClassName": "Skald"
+    "CharClassName": "Skald",
+    "Base": "Viking",
+    "Profession": "House of Bragi"
   },
   {
     "CharClass": 8,
-    "CharClassName": "Sorcerer"
+    "CharClassName": "Sorcerer",
+    "Base": "Mage",
+    "Profession": "Academy"
   },
   {
     "CharClass": 27,
-    "CharClassName": "Spiritmaster"
+    "CharClassName": "Spiritmaster",
+    "Base": "Mystic",
+    "Profession": "House of Hel"
   },
   {
     "CharClass": 21,
-    "CharClassName": "Thane"
+    "CharClassName": "Thane",
+    "Base": "Viking",
+    "Profession": "House of Thor"
   },
   {
     "CharClass": 5,
-    "CharClassName": "Theurgist"
+    "CharClassName": "Theurgist",
+    "Base": "Elementalist",
+    "Profession": "Defenders of Albion"
   },
   {
     "CharClass": 56,
-    "CharClassName": "Valewalker"
+    "CharClassName": "Valewalker",
+    "Base": "Forester",
+    "Profession": "Path of Affinity"
   },
   {
     "CharClass": 34,
-    "CharClassName": "Valkyrie"
+    "CharClassName": "Valkyrie",
+    "Base": "Viking",
+    "Profession": "House of Odin"
   },
   {
     "CharClass": 58,
-    "CharClassName": "Vampiir"
+    "CharClassName": "Vampiir",
+    "Base": "Stalker",
+    "Profession": "Path of Affinity"
   },
   {
     "CharClass": 46,
-    "CharClassName": "Warden"
+    "CharClassName": "Warden",
+    "Base": "Naturalist",
+    "Profession": "Path of Focus"
   },
   {
     "CharClass": 59,
-    "CharClassName": "Warlock"
+    "CharClassName": "Warlock",
+    "Base": "Mystic",
+    "Profession": "House of Hel"
   },
   {
     "CharClass": 22,
-    "CharClassName": "Warrior"
+    "CharClassName": "Warrior",
+    "Base": "Viking",
+    "Profession": "House of Tyr"
   },
   {
     "CharClass": 7,
-    "CharClassName": "Wizard"
+    "CharClassName": "Wizard",
+    "Base": "Elementalist",
+    "Profession": "Academy"
   }
 ]

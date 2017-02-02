@@ -1,19 +1,37 @@
+import threading
+
 from ..server.update_points_pak import update_points_pak
 from ..server.region_color_scheme_pak import region_color_scheme_pak
+from ..server.weather_pak import weather_pak
+from ..server.time_pak import time_pak
+from ..server.xfire_info_pak import xfire_info_pak
+from ..server.message_pak import message_pak
+from ..server.dialog_pak import dialog_pak
 from ..server.npc_create_pak import npc_create_pak
 from ..server.living_equipment_update_pak import living_equipment_update_pak
-from ..server.time_pak import time_pak
 from ..server.player_init_finished_pak import player_init_finished_pak
+from ..server.started_help_pak import started_help_pak
+from ..server.player_free_level_update_pak import player_free_level_update_pak
 
-def player_init_request_handler(gameclient):
+def player_init_request_handler(packet,gameclient):
+    t = threading.Thread(name='player_init_' + str(gameclient.session_id), target=player_init, kwargs={'packet': packet, 'gameclient': gameclient})
+    t.start()
+
+def player_init(packet,gameclient):
     gameclient.send_pak(update_points_pak(gameclient))
     gameclient.send_pak(region_color_scheme_pak(0x00))
 
-    mobs = send_mobs_and_mob_equipment_to_player(gameclient)
+    gameclient.send_pak(weather_pak())
     gameclient.send_pak(time_pak(gameclient))
-    gameclient.send_pak(player_init_finished_pak(0x00))
+    gameclient.send_pak(xfire_info_pak(0x00, gameclient))
+    gameclient.send_pak(message_pak("Welcome to the pyDOL test server!", 0x1C, None, gameclient))
+    gameclient.send_pak(dialog_pak(6, 1, 1, 0, 0, 1, True, "Do you want to be teleported to DOLTopia?", gameclient))
+    gameclient.send_pak(message_pak("If you need in-game assistance from server staff (such as stuck character) please use /appeal.", 0x00, None, gameclient))
 
-    return
+    # mobs = send_mobs_and_mob_equipment_to_player(gameclient)
+    gameclient.send_pak(player_init_finished_pak(0x00))
+    gameclient.send_pak(started_help_pak())
+    gameclient.send_pak(player_free_level_update_pak())
 
 
 def send_mobs_and_mob_equipment_to_player(gameclient):

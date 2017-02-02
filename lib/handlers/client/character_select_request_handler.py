@@ -8,6 +8,7 @@ def character_select_request_handler(packet,gameclient):
     cursor = skip(cursor, 4)
     character_name, cursor = read_string(packet, 28, cursor)
     clean_character_name = printable_string(character_name).replace('*', '')
+    if not clean_character_name: return
     if clean_character_name != 'noname':
       character_data = get_character(gameclient.login_name, clean_character_name)
       if character_data: gameclient.selected_character = character_data

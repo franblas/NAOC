@@ -1,6 +1,5 @@
 import json
 from ..packets.packet_in import read_data
-from void_handler import void_handler
 from character_create_request_handler import character_create_request_handler
 from character_overview_request_handler import character_overview_request_handler
 from character_select_request_handler import character_select_request_handler
@@ -13,6 +12,7 @@ from game_open_request_handler import game_open_request_handler
 from client_crash_handler import client_crash_handler
 from world_init_request_handler import world_init_request_handler
 from player_init_request_handler import player_init_request_handler
+from udp_init_request_handler import udp_init_request_handler
 
 CODE_POSITION = 9
 

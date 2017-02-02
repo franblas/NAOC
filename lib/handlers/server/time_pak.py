@@ -4,8 +4,8 @@ def time_pak(gameclient):
    data = gameclient.selected_character
    if not data: return
 
-   ins = write_int(77760000)
-   ins += write_int(100)
+   ins = write_int(0x02dc9708)
+   ins += write_int(0x00000018)
 
    pak = write_short(packet_length(ins))
    pak += write_byte(0x7E)

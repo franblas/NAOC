@@ -23,7 +23,9 @@ class GameClient(object):
 
     def send_pak(self, server_pak):
         if server_pak:
-            print server_pak.decode('hex')
+            print '----------------------------------'
+            print server_pak
+            print '----------------------------------'
             self.clientsocket.send(server_pak.decode('hex'))
         else:
             self.clientsocket.send('')

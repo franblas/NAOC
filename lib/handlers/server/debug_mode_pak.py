@@ -10,7 +10,7 @@ def debug_mode_pak():
   #     pak.WriteByte((byte) (on ? 0x01 : 0x00));
   # }
   ins = write_byte(0x00)
-
+  # pak.WriteByte(0x00);
   ins += write_byte(0x00)
 
   pak = write_short(packet_length(ins))

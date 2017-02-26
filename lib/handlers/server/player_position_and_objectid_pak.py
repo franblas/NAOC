@@ -4,39 +4,29 @@ def player_position_and_objectid_pak(gameclient):
   data = gameclient.selected_character
   if not data: return
 
-  data = {
-    'object_id': 0x0007,
-    'Z': 0x14DC,
-    'X': 0x0005759C,
-    'Y': 0x00058BC1,
-    'heading': 0x0400,
-    'current_zone': '',
-    'current_region': {
-      'skin': 0x001B
-    }
-  }
+  player = gameclient.player
 
   # pak.WriteShort((ushort)m_gameClient.Player.ObjectID); //This is the player's objectid not Sessionid!!!
-  ins = write_short(data['object_id'])
+  ins = write_short(player.object_id)
 
   # pak.WriteShort((ushort)m_gameClient.Player.Z);
-  ins += write_short(data['Z'])
+  ins += write_short(player.current_position.get('Z'))
 
   # pak.WriteInt((uint)m_gameClient.Player.X);
-  ins += write_int(data['X'])
+  ins += write_int(player.current_position.get('X'))
 
   # pak.WriteInt((uint)m_gameClient.Player.Y);
-  ins += write_int(data['Y'])
+  ins += write_int(player.current_position.get('Y'))
 
   # pak.WriteShort(m_gameClient.Player.Heading);
-  ins += write_short(data['heading'])
+  ins += write_short(player.current_position.get('heading'))
 
   # int flags = 0;
   flags = 0
 
   # Zone zone = m_gameClient.Player.CurrentZone;
   # if (zone == null) return;
-  zone = data['current_zone']
+  zone = '' # data['current_zone']
   # if not zone: return
 
   # if (m_gameClient.Player.CurrentZone.IsDivingEnabled)
@@ -63,7 +53,7 @@ def player_position_and_objectid_pak(gameclient):
 
   # //Dinberg - Changing to allow instances...
   # pak.WriteShort(m_gameClient.Player.CurrentRegion.Skin);
-  ins += write_short(data['current_region']['skin'])
+  ins += write_short(player.current_region_id)
 
   # pak.WritePascalString(GameServer.Instance.Configuration.ServerNameShort); // new in 1.74, same as in SendLoginGranted
   ins += write_pascal_string('pyDOL')

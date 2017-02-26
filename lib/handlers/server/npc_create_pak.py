@@ -19,7 +19,7 @@ def npc_create_pak(npc, gameclient):
    # pak.WriteInt((uint)npc.X);
    ins += write_int(npc['X'])
    # pak.WriteInt((uint)npc.Y);
-   ins += write_int['Y']
+   ins += write_int(npc['Y'])
    # pak.WriteShort(speedZ);
    ins += write_short(speed_z)
    # pak.WriteShort(npc.Model);

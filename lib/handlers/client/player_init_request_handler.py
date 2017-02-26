@@ -28,8 +28,8 @@ def player_init(packet,gameclient):
     gameclient.send_pak(dialog_pak(6, 1, 1, 0, 0, 1, True, "Do you want to be teleported to DOLTopia?", gameclient))
     gameclient.send_pak(message_pak("If you need in-game assistance from server staff (such as stuck character) please use /appeal.", 0x00, None, gameclient))
 
-    # mobs = send_mobs_and_mob_equipment_to_player(gameclient)
-    gameclient.send_pak(player_init_finished_pak(0x00))
+    mobs = send_mobs_and_mob_equipment_to_player(gameclient)
+    gameclient.send_pak(player_init_finished_pak(mobs))
     gameclient.send_pak(started_help_pak())
     gameclient.send_pak(player_free_level_update_pak())
 
@@ -59,7 +59,7 @@ def send_mobs_and_mob_equipment_to_player(gameclient):
         'size': 0x32,
         'name': 'Midgard invader',
         'guild_name': '',
-        'iventory': {
+        'inventory': {
             'visible_items': []
         }
     }]

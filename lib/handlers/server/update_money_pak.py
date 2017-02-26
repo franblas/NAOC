@@ -11,13 +11,13 @@ def update_money_pak(gameclient):
   ins += write_byte(0x00)
 
   # pak.WriteShort((ushort) m_gameClient.Player.Gold);
-  ins += write_byte(0x00)
+  ins += write_short(0x00)
 
   # pak.WriteShort((ushort) m_gameClient.Player.Mithril);
-  ins += write_byte(0x00)
+  ins += write_short(0x00)
 
   # pak.WriteShort((ushort) m_gameClient.Player.Platinum);
-  ins += write_byte(0x00)
+  ins += write_short(0x00)
 
   pak = write_short(packet_length(ins))
   pak += write_byte(0xFA)

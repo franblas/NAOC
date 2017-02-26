@@ -12,5 +12,8 @@
     "0x37": "client_crash_handler",
     "0xD4": "world_init_request_handler",
     "0xE8": "player_init_request_handler",
-    "0x20": "udp_init_request_handler"
+    "0x20": "udp_init_request_handler",
+    "0x99": "door_request_handler",
+    "0xAF": "player_command_handler",
+    "0xA9": "player_position_update_handler"
 }

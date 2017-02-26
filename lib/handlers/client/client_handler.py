@@ -13,6 +13,9 @@ from client_crash_handler import client_crash_handler
 from world_init_request_handler import world_init_request_handler
 from player_init_request_handler import player_init_request_handler
 from udp_init_request_handler import udp_init_request_handler
+from door_request_handler import door_request_handler
+from player_command_handler import player_command_handler
+from player_position_update_handler import player_position_update_handler
 
 CODE_POSITION = 9
 

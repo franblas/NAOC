@@ -1,11 +1,13 @@
 
 from handlers.client.client_handler import client_handler
+# from gameobjects.gameplayer import GamePlayer
 
 class GameClient(object):
 
     request_counter = 0
     login_name = ''
     selected_character = dict()
+    player = None #GamePlayer()
 
     def __init__(self, session_id, clientsocket, SOCKET_BUFFER_SIZE):
         self.session_id = session_id

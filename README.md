@@ -1,5 +1,5 @@
-# pyDOL
-Dawn of Light (DOL) - Dark Age of Camelot (DAOC) Server Emulator in python
+# NAOC
+New Age of Camelot (NAOC) is a Dark Age of Camelot server emulator written in python.
 
 ## Run the server
 ```

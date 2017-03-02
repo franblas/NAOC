@@ -1,6 +1,7 @@
 from ..packets.packet_out import *
-import json
 from ...database.db_characters import get_characters
+from ...database.db_classes import get_class
+from ...database.db_races import get_race
 
 def character_overview_pak(realm, gameclient):
   login_name = gameclient.login_name
@@ -55,28 +56,14 @@ def character_overview_pak(realm, gameclient):
           # else
           #   pak.Fill(0x0, 24); //No known location
           ins += fill_pak(0x0, 24) # No known location
-          # ins += fill_string_pak("Hero", 24) # Class name TODO
-          with open("data/classes.json", "r") as f:
-            classes = json.load(f)
-          plip = ""
-          for c in classes:
-            if c.get('CharClass') == character['char_class']:
-              plip = c.get('CharClassName')
-              break
-          ins += fill_string_pak(plip, 24)
 
-          #TODO
+          char_class = get_class(character['char_class'])
+          ins += fill_string_pak(char_class['char_class_name'], 24)
+
           #//pak.FillString(GamePlayer.RACENAMES[characters[j].Race], 24);
           #pak.FillString(m_gameClient.RaceToTranslatedName(characters[j].Race, characters[j].Gender), 24);
-          # ins += fill_string_pak('Elf', 24) # Race name
-          with open("data/races.json", "r") as f:
-            data = json.load(f)
-          plop = ""
-          for d in data:
-            if d.get('ID') == character['race']:
-              plop = d.get('Race_ID')
-              break
-          ins += fill_string_pak(plop, 24) # Race name
+          char_race = get_race(character['race'])
+          ins += fill_string_pak(char_race['race_id'], 24) # Race name
 
           ins += write_byte(character['level'])
           ins += write_byte(character['char_class'])

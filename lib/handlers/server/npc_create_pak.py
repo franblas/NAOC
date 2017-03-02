@@ -28,7 +28,7 @@ def npc_create_pak(npc, gameclient):
    ins += write_byte(npc['size'])
 
    # byte level = npc.GetDisplayLevel(m_gameClient.Player);
-   level = 0x00 # ???
+   level = 0x01 # ???
 
    # 	if((npc.Flags&GameNPC.eFlags.STATUE)!=0)
    # 	{

@@ -1,8 +1,10 @@
 from ..packets.packet_out import *
 
 def char_stats_update_pak(gameclient):
-  data = gameclient.selected_character
-  if not data: return
+  loaded_character = gameclient.selected_character
+  if not loaded_character: return
+
+  data = gameclient.player.db_character
 
   update_stats = [
     data['strength'], # eStat.STR,

@@ -1,4 +1,5 @@
-import json
+from ..database.db_regions import get_region
+from ..database.db_startup_locations import get_startup_location
 
 class GamePlayer(object):
 
@@ -18,10 +19,8 @@ class GamePlayer(object):
     encumberance = -1
     object_id = 1
     current_position = dict()
-    current_zone = -1
-    current_zone_id = 29
-    current_region = -1
-    current_region_id = 27
+    current_zone = dict()
+    current_region = dict()
     is_underwater = False
     guild = dict()
     has_horse, active_horse = False, dict()
@@ -29,7 +28,7 @@ class GamePlayer(object):
     is_turning_disabled = False
     max_speed = -1
     current_speed = -1
-    copper, silver, gold, mithril, platinum = -1, -1, -1, -1, -1 # money = dict()
+    money = dict()
     is_mezzed = False
     is_stunned = False
     is_strafing = False
@@ -43,27 +42,38 @@ class GamePlayer(object):
     def __init__(self, db_character):
         self.db_character = db_character
         self.help_flag = self.db_character.get('no_help', True)
+        self.init_current_region()
         self.init_current_position()
+        self.init_money()
 
+    def init_current_region(self):
+        db_region = self.db_character['region']
+        self.current_region = get_region(db_region)
+        print self.current_region
 
     def init_current_position(self):
         self.current_position = {
-            'X': self.db_character.get('x_pos'),
-            'Y': self.db_character.get('y_pos'),
-            'Z': self.db_character.get('z_pos'),
+            'X': self.db_character['x_pos'],
+            'Y': self.db_character['y_pos'],
+            'Z': self.db_character['z_pos'],
             'heading': 0
         }
 
-        if self.current_position.get('X') == 0 and self.current_position.get('Y') == 0 and self.current_position.get('Z') == 0:
-            startup_location = dict()
-            with open("data/startup_locations.json", "r") as f:
-                startup_locations = json.load(f).get('startup_locations')
-            for loc in startup_locations:
-                if int(loc.get('Region')) == self.current_region_id and int(loc.get('RealmID')) == self.db_character.get('realm'):
-                    startup_location = loc
+        if self.current_position['X'] == 0 and self.current_position['Y'] == 0 and self.current_position['Z'] == 0:
+            startup_location = get_startup_location(self.current_region['region_id'], self.db_character['realm'])
             if startup_location:
-                self.current_position['X'] = int(startup_location.get('XPos'))
-                self.current_position['Y'] = int(startup_location.get('YPos'))
-                self.current_position['Z'] = int(startup_location.get('ZPos'))
-                self.current_position['heading'] = int(startup_location.get('Heading'))
+                self.current_position['X'] = startup_location['x_pos']
+                self.current_position['Y'] = startup_location['y_pos']
+                self.current_position['Z'] = startup_location['z_pos']
+                self.current_position['heading'] = startup_location['heading']
         print self.current_position
+
+    def init_money(self):
+        self.money = {
+            'copper': self.db_character['copper'],
+            'silver': self.db_character['silver'],
+            'gold': self.db_character['gold'],
+            'mithril': self.db_character['mithril'],
+            'platinium': self.db_character['platinium']
+        }
+        print self.money

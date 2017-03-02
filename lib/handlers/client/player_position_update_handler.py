@@ -1,4 +1,5 @@
 from ..packets.packet_in import *
+from ...database.db_zones import get_zone
 
 def player_position_update_handler(packet,gameclient):
     player = gameclient.player #TODO check player state
@@ -58,68 +59,8 @@ def player_position_update_handler(packet,gameclient):
     current_zone_id, cursor = read_short(packet, cursor)
 
 	# Zone newZone = WorldMgr.GetZone(currentZoneID);
-	# TODO
-    # into data/zones.json
-    available_zones = [{
-      "Coin": "0",
-      "IsLava": "false",
-      "Name": "Constantine's Sound",
-      "Realmpoints": "0",
-      "RegionID": "27",
-      "OffsetX": "8",
-      "OffsetY": "8",
-      "Experience": "0",
-      "DivingFlag": "0",
-      "LastTimeRowUpdated": "2014-12-09T17:40:23.9775794Z",
-      "Width": "8",
-      "Height": "8",
-      "WaterLevel": "0",
-      "Bountypoints": "0",
-      "Realm": "0",
-      "ZoneID": "27"
-    },
-    {
-      "Coin": "0",
-      "IsLava": "false",
-      "Name": "Grenlock's Sound",
-      "Realmpoints": "0",
-      "RegionID": "27",
-      "OffsetX": "24",
-      "OffsetY": "24",
-      "Experience": "0",
-      "DivingFlag": "0",
-      "LastTimeRowUpdated": "2014-12-09T17:40:23.9775794Z",
-      "Width": "8",
-      "Height": "8",
-      "WaterLevel": "0",
-      "Bountypoints": "0",
-      "Realm": "0",
-      "ZoneID": "28"
-    },
-    {
-      "Coin": "0",
-      "IsLava": "false",
-      "Name": "Lamfhota's Sound",
-      "Realmpoints": "0",
-      "RegionID": "27",
-      "OffsetX": "40",
-      "OffsetY": "40",
-      "Experience": "0",
-      "DivingFlag": "0",
-      "LastTimeRowUpdated": "2014-12-09T17:40:23.9775794Z",
-      "Width": "8",
-      "Height": "8",
-      "WaterLevel": "0",
-      "Bountypoints": "0",
-      "Realm": "0",
-      "ZoneID": "29"
-    }]
-    # Hibernia tuto zone => zoneid=29
-    print "CURRENT ZONE ID: " + str(current_zone_id)
-    new_zone = dict()
-    for a in available_zones:
-        if a.get('ZoneID') == int(current_zone_id):
-            new_zone = a
+    print "CURRENT ZONE ID: " + str(current_zone_id) # Hibernia tuto zone => zoneid=29
+    new_zone = get_zone(current_zone_id)
 
     # if (newZone == null)
 	# {
@@ -136,6 +77,8 @@ def player_position_update_handler(packet,gameclient):
 	# }
     if not new_zone: return
 
+    player.current_zone = new_zone
+
 	# // move to bind if player fell through the floor
 	# if (realZ == 0)
 	# {
@@ -151,8 +94,8 @@ def player_position_update_handler(packet,gameclient):
 
 	# int realX = newZone.XOffset + xOffsetInZone;
 	# int realY = newZone.YOffset + yOffsetInZone;
-    real_X = new_zone.get('OffsetX') + x_offset_in_zone
-    real_Y = new_zone.get('OffsetY') + y_offset_in_zone
+    real_X = int(new_zone.get('OffsetX')) + x_offset_in_zone
+    real_Y = int(new_zone.get('OffsetY')) + y_offset_in_zone
 
 	# bool zoneChange = newZone != client.Player.LastPositionUpdateZone;
 	# if (zoneChange)

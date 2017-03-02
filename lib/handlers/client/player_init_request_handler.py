@@ -24,8 +24,8 @@ def player_init(packet,gameclient):
     gameclient.send_pak(weather_pak())
     gameclient.send_pak(time_pak(gameclient))
     gameclient.send_pak(xfire_info_pak(0x00, gameclient))
-    gameclient.send_pak(message_pak("Welcome to the pyDOL test server!", 0x1C, None, gameclient))
-    gameclient.send_pak(dialog_pak(6, 1, 1, 0, 0, 1, True, "Do you want to be teleported to DOLTopia?", gameclient))
+    gameclient.send_pak(message_pak("Welcome to the NAOC test server!", 0x1C, None, gameclient))
+    gameclient.send_pak(dialog_pak(6, 1, 1, 0, 0, 1, True, "Do you want to be teleported to NAOCplayground?", gameclient))
     gameclient.send_pak(message_pak("If you need in-game assistance from server staff (such as stuck character) please use /appeal.", 0x00, None, gameclient))
 
     mobs = send_mobs_and_mob_equipment_to_player(gameclient)

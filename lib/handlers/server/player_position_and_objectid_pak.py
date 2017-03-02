@@ -53,10 +53,10 @@ def player_position_and_objectid_pak(gameclient):
 
   # //Dinberg - Changing to allow instances...
   # pak.WriteShort(m_gameClient.Player.CurrentRegion.Skin);
-  ins += write_short(player.current_region_id)
+  ins += write_short(int(player.current_region['RegionID']))
 
   # pak.WritePascalString(GameServer.Instance.Configuration.ServerNameShort); // new in 1.74, same as in SendLoginGranted
-  ins += write_pascal_string('pyDOL')
+  ins += write_pascal_string('NAOC')
 
   # pak.WriteByte(0x00); //TODO: unknown, new in 1.74
   ins += write_byte(0x00)

@@ -1496,7 +1496,7 @@
       "ClassType": null, 
       "DivingEnabled": "false", 
       "Port": "10400", 
-      "Description": null
+      "Description": "None"
     }, 
     {
       "Name": "Region231", 
@@ -1720,7 +1720,7 @@
       "ClassType": null, 
       "DivingEnabled": "false", 
       "Port": "10400", 
-      "Description": null
+      "Description": "None"
     }, 
     {
       "Name": "Region249", 

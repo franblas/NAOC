@@ -1,9 +1,12 @@
 from ..packets.packet_out import *
-import json
+from ...database.db_classes import get_class
+from ...database.db_races import get_race
 
 def update_player_pak(gameclient):
-   data = gameclient.selected_character
-   if not data: return
+   loaded_character = gameclient.selected_character
+   if not loaded_character: return
+
+   data = gameclient.player.db_character
 
    ins = write_byte(0x03)
    ins += write_byte(0x0F)
@@ -19,24 +22,16 @@ def update_player_pak(gameclient):
    # 	pak.WriteByte((byte) (player.MaxHealth >> 8)); // maxhealth high byte ?
    ins += write_byte(0x00)
 
-   with open('data/classes.json', 'r') as f:
-      classes = json.load(f)
-   char_class_name, char_profession, char_base = '', '', ''
-   for c in classes:
-      if c['CharClass'] == data['char_class']:
-         char_class_name = c['CharClassName']
-         char_base = c['Base']
-         char_profession = c['Profession']
-         break
+   char_class = get_class(data['char_class'])
 
    # 	pak.WritePascalString(player.CharacterClass.Name); // class name
-   ins += write_pascal_string(char_class_name)
+   ins += write_pascal_string(char_class['char_class_name'])
 
    # 	pak.WriteByte((byte) (player.MaxHealth & 0xFF)); // maxhealth low byte ?
    ins += write_byte(0x1E)
 
    # 	pak.WritePascalString( /*"The "+*/player.CharacterClass.Profession); // Profession
-   ins += write_pascal_string(char_profession)
+   ins += write_pascal_string(char_class['profession'])
 
    # 	pak.WriteByte(0x00); //unk
    ins += write_byte(0x00)
@@ -57,7 +52,7 @@ def update_player_pak(gameclient):
    ins += write_byte(0x00)
 
    # 	pak.WritePascalString(player.CharacterClass.BaseName); // base class
-   ins += write_pascal_string(char_base)
+   ins += write_pascal_string(char_class['base'])
 
    # 	pak.WriteByte((byte)(HouseMgr.GetHouseNumberByPlayer(player) >> 8)); // personal house high byte
    ins += write_byte(0x00)
@@ -74,16 +69,10 @@ def update_player_pak(gameclient):
    # 	pak.WriteByte((byte)(player.MLLevel+1)); // ML Level (+1)
    ins += write_byte(0x01)
 
-   with open('data/races.json', 'r') as f:
-      races = json.load(f)
-   race_name = ''
-   for r in races:
-      if r.get('ID') == data['race']:
-         race_name = r.get('Race_ID')
-         break
+   char_race = get_class(data['race'])
 
    # 	pak.WritePascalString(player.RaceName); // Race name
-   ins += write_pascal_string(race_name)
+   ins += write_pascal_string(char_race['name'])
 
    # 	pak.WriteByte(0x0);
    ins += write_byte(0x00)

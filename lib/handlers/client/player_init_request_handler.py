@@ -13,6 +13,8 @@ from ..server.player_init_finished_pak import player_init_finished_pak
 from ..server.started_help_pak import started_help_pak
 from ..server.player_free_level_update_pak import player_free_level_update_pak
 
+from ...database.db_mobs import get_mobs_from_region
+
 def player_init_request_handler(packet,gameclient):
     t = threading.Thread(name='player_init_' + str(gameclient.session_id), target=player_init, kwargs={'packet': packet, 'gameclient': gameclient})
     t.start()
@@ -28,11 +30,12 @@ def player_init(packet,gameclient):
     gameclient.send_pak(dialog_pak(6, 1, 1, 0, 0, 1, True, "Do you want to be teleported to NAOCplayground?", gameclient))
     gameclient.send_pak(message_pak("If you need in-game assistance from server staff (such as stuck character) please use /appeal.", 0x00, None, gameclient))
 
-    mobs = send_mobs_and_mob_equipment_to_player(gameclient)
-    gameclient.send_pak(player_init_finished_pak(mobs))
+    t = threading.Thread(name='send_mobs_and_mob_equipment_to_player_' + str(gameclient.session_id), target=send_mobs_and_mob_equipment_to_player, kwargs={'gameclient': gameclient})
+    t.start()
+    # mobs = send_mobs_and_mob_equipment_to_player(gameclient)
+    gameclient.send_pak(player_init_finished_pak(0))
     gameclient.send_pak(started_help_pak())
     gameclient.send_pak(player_free_level_update_pak())
-
 
 def send_mobs_and_mob_equipment_to_player(gameclient):
     # int mobs = 0;
@@ -49,25 +52,18 @@ def send_mobs_and_mob_equipment_to_player(gameclient):
     # 		}
     # }
     # return mobs;
-    npcs = [{
-        'object_id': 0x0914,
-        'heading': 0x00EE,
-        'Z': 0x12A5,
-        'X': 0x000574D7,
-        'Y': 0x00057E5B,
-        'model': 0x07B6,
-        'size': 0x32,
-        'name': 'Midgard invader',
-        'guild_name': '',
-        'inventory': {
-            'visible_items': []
-        }
-    }]
+
+    npcs = get_mobs_from_region(gameclient.player.current_region['region_id'])
+
+    print 'LENGTH NPC, ' + str(len(npcs))
+
     for npc in npcs:
-        gameclient.send_pak(npc_create_pak(npc, gameclient))
-        mobs += 1
-        if npc['inventory']:
-            gameclient.send_pak(living_equipment_update_pak(npc, gameclient))
+        if gameclient.player.in_zone(npc.get('X'), npc.get('Y'), gameclient.player.current_zone):
+            gameclient.send_pak(npc_create_pak(npc, mobs, gameclient))
+            if npc.get('inventory'):
+                gameclient.send_pak(living_equipment_update_pak(npc, mobs, gameclient))
+            mobs += 1
+    print 'LENGTH MOBS, ' + str(mobs)
     return mobs
 
 # p

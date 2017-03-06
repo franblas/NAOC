@@ -1,11 +1,11 @@
 from ..packets.packet_out import *
 
-def living_equipment_update_pak(npc, gameclient):
+def living_equipment_update_pak(npc, mobs, gameclient):
    data = gameclient.selected_character
    if not data: return
 
    # pak.WriteShort((ushort)living.ObjectID);
-   ins = write_short(npc['object_id'])
+   ins = write_short(mobs)
    # pak.WriteByte((byte)living.VisibleActiveWeaponSlots);
    ins += write_byte(0x00)
    # pak.WriteByte((byte)living.CurrentSpeed); // new in 189b+, speed

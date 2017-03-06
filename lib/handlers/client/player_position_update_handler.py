@@ -94,8 +94,8 @@ def player_position_update_handler(packet,gameclient):
 
 	# int realX = newZone.XOffset + xOffsetInZone;
 	# int realY = newZone.YOffset + yOffsetInZone;
-    real_X = int(new_zone.get('OffsetX')) + x_offset_in_zone
-    real_Y = int(new_zone.get('OffsetY')) + y_offset_in_zone
+    real_X = int(new_zone.get('offset_x')) + x_offset_in_zone
+    real_Y = int(new_zone.get('offset_y')) + y_offset_in_zone
 
 	# bool zoneChange = newZone != client.Player.LastPositionUpdateZone;
 	# if (zoneChange)

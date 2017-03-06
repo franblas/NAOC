@@ -69,7 +69,7 @@ def update_player_pak(gameclient):
    # 	pak.WriteByte((byte)(player.MLLevel+1)); // ML Level (+1)
    ins += write_byte(0x01)
 
-   char_race = get_class(data['race'])
+   char_race = get_race(data['race'])
 
    # 	pak.WritePascalString(player.RaceName); // Race name
    ins += write_pascal_string(char_race['name'])

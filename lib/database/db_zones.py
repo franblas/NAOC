@@ -75,3 +75,13 @@ def get_zone(zone_id):
     if rep: res = rep
     conn.close()
     return deserialize_zone(res)
+
+def get_zones_from_region(region_id):
+    res = list()
+    conn = connect_db()
+    cursor = conn.execute('''
+        SELECT * FROM ZONES WHERE REGION_ID=?''', (region_id,))
+    rep = cursor.fetchall()
+    if rep: res = [a for a in rep]
+    conn.close()
+    return [deserialize_zone(r) for r in res]

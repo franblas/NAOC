@@ -1,17 +1,23 @@
 from ..packets.packet_out import *
 
-def npc_create_pak(npc, gameclient):
+def npc_create_pak(npc, mobs, gameclient):
    data = gameclient.selected_character
    if not data: return
 
    if not npc: return
 
-   speed = 0
+   # speed = 0
    speed_z = 0
    # pak.WriteShort((ushort)npc.ObjectID);
-   ins = write_short(npc['object_id'])
+   ins = write_short(mobs)
+
    # pak.WriteShort((ushort)(speed));
-   ins += write_short(speed)
+   speed = npc.get('speed', 0)
+   if speed:
+      ins += write_short(speed)
+   else:
+      ins += write_short(0)
+
    # pak.WriteShort(npc.Heading);
    ins += write_short(npc['heading'])
    # pak.WriteShort((ushort)npc.Z);
@@ -28,14 +34,19 @@ def npc_create_pak(npc, gameclient):
    ins += write_byte(npc['size'])
 
    # byte level = npc.GetDisplayLevel(m_gameClient.Player);
-   level = 0x01 # ???
+   # level = 0x01
 
    # 	if((npc.Flags&GameNPC.eFlags.STATUE)!=0)
    # 	{
    # 		level |= 0x80;
    # 	}
    # 	pak.WriteByte(level);
-   ins += write_byte(level)
+   # ins += write_byte(npc.get('level', level))
+   level = npc.get('level', 1)
+   if level:
+      ins += write_byte(level)
+   else:
+      ins += write_byte(1)
 
    # 	byte flags = (byte)(GameServer.ServerRules.GetLivingRealm(m_gameClient.Player, npc) << 6);
    # 	if ((npc.Flags & GameNPC.eFlags.GHOST) != 0) flags |= 0x01;
@@ -45,8 +56,20 @@ def npc_create_pak(npc, gameclient):
    # 	if((npc.Flags & GameNPC.eFlags.TORCH) != 0) flags |= 0x04;
    #
    # 	pak.WriteByte(flags);
-   flags = 0x02 # ???
-   ins += write_byte(flags)
+   realm = npc.get('realm', 0)
+   if not realm: realm = 0
+
+   flags = npc.get('flags', 0)
+   eflags = npc.get('eflags')
+   if flags:
+      new_flags = realm << 6 #flags << 6
+      if flags & eflags.get('ghost') != 0: new_flags |= 0x01
+      if flags & eflags.get('peace') != 0: new_flags |= 0x10
+      if flags & eflags.get('flying') != 0: new_flags |= 0x20
+      if flags & eflags.get('torch') != 0: new_flags |= 0x04
+      ins += write_byte(new_flags & 0xFF)
+   else:
+      ins += write_byte(0)
 
    # 	pak.WriteByte(0x20); //TODO this is the default maxstick distance
    ins += write_byte(0x20)
@@ -123,7 +146,9 @@ def npc_create_pak(npc, gameclient):
    # 	if (guildName.Length > 47)
    # 		pak.WritePascalString(guildName.Substring(0, 47));
    # 	else pak.WritePascalString(guildName);
-   guild_name = npc['guild_name']
+   guild_name = npc.get('guild', '')
+   if not guild_name: guild_name = ''
+   # guild_name = '' #npc['guild']
    if len(guild_name) > 47: guild_name = guild_name[:47]
    ins += write_pascal_string(guild_name)
 

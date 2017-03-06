@@ -1,5 +1,6 @@
 from ..database.db_regions import get_region
 from ..database.db_startup_locations import get_startup_location
+from ..database.db_zones import get_zones_from_region
 
 class GamePlayer(object):
 
@@ -44,6 +45,7 @@ class GamePlayer(object):
         self.help_flag = self.db_character.get('no_help', True)
         self.init_current_region()
         self.init_current_position()
+        self.init_current_zone()
         self.init_money()
 
     def init_current_region(self):
@@ -67,6 +69,23 @@ class GamePlayer(object):
                 self.current_position['Z'] = startup_location['z_pos']
                 self.current_position['heading'] = startup_location['heading']
         print self.current_position
+
+    def in_zone(self, x, y, zone):
+        offset_x, offset_y = zone.get('offset_x'), zone.get('offset_y')
+        width, height = zone.get('width'), zone.get('height')
+        start_x, start_y = 8192*offset_x, 8192*offset_y
+        end_x, end_y = start_x+(height*8192), start_y+(width*8192)
+        if (start_x <= x <= end_x) and (start_y <= y <= end_y):
+            return zone
+        return
+
+    def init_current_zone(self):
+        potential_zones = get_zones_from_region(self.current_region['region_id'])
+        for pzone in potential_zones:
+            if self.in_zone(self.current_position['X'], self.current_position['Y'], pzone):
+                self.current_zone = pzone
+        print self.current_zone
+
 
     def init_money(self):
         self.money = {

@@ -7,6 +7,7 @@ def connect_db():
     return conn
 
 def str_to_bool(s):
+    if not s: return s
     formated_s = s.lower()
     if formated_s == 'false': return False
     elif formated_s == 'true': return True

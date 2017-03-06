@@ -29,7 +29,7 @@ class WorldUpdate(object):
 
         for npc in npcs:
             if self.gameclient.player.in_zone(npc.get('X'), npc.get('Y'), self.gameclient.player.current_zone):
-                self.gameclient.send_pak(object_update_pak(self.gameclient, npc, mobs))
+                self.gameclient.send_pak(object_update_pak(self.gameclient, npc))
                 #if npc.get('inventory'):
                 #    gameclient.send_pak(living_equipment_update_pak(npc, mobs, gameclient))
                 mobs += 1

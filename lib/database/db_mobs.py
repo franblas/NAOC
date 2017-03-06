@@ -59,7 +59,7 @@ from db_utils import connect_db, str_to_bool, int_or_none
 def deserialize_mob(res):
     if not res: return dict()
     return {
-        'object_id': res[0],
+        'object_id': res[0] & 0xFFFF, # force cast to short value
         'name': res[1],
         'strength': res[2],
         'quickness': res[3],

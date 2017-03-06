@@ -1,6 +1,6 @@
 from ..packets.packet_out import *
 
-def object_update_pak(gameclient, obj, obj_id):
+def object_update_pak(gameclient, obj):
     player = gameclient.player
     if not player: return
 
@@ -77,7 +77,7 @@ def object_update_pak(gameclient, obj, obj_id):
     # pak.WriteShort(zOffsetInTargetZone);
     ins += write_short(offset_z_in_target_zone)
     # pak.WriteShort((ushort) obj.ObjectID);
-    ins += write_short(obj_id)
+    ins += write_short(obj['object_id'])
     # pak.WriteShort((ushort) targetOID);
     ins += write_short(target_OID)
     # //health

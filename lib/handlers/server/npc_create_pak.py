@@ -1,6 +1,6 @@
 from ..packets.packet_out import *
 
-def npc_create_pak(npc, mobs, gameclient):
+def npc_create_pak(npc, gameclient):
    data = gameclient.selected_character
    if not data: return
 
@@ -9,7 +9,7 @@ def npc_create_pak(npc, mobs, gameclient):
    # speed = 0
    speed_z = 0
    # pak.WriteShort((ushort)npc.ObjectID);
-   ins = write_short(mobs)
+   ins = write_short(npc['object_id'])
 
    # pak.WriteShort((ushort)(speed));
    speed = npc.get('speed', 0)

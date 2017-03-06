@@ -59,7 +59,7 @@ def send_mobs_and_mob_equipment_to_player(gameclient):
 
     for npc in npcs:
         if gameclient.player.in_zone(npc.get('X'), npc.get('Y'), gameclient.player.current_zone):
-            gameclient.send_pak(npc_create_pak(npc, mobs, gameclient))
+            gameclient.send_pak(npc_create_pak(npc, gameclient))
             if npc.get('inventory'):
                 gameclient.send_pak(living_equipment_update_pak(npc, mobs, gameclient))
             mobs += 1

@@ -1,4 +1,5 @@
 import sqlite3
+import progressbar
 
 DB_NAME = 'naoc.db'
 
@@ -16,3 +17,6 @@ def str_to_bool(s):
 def int_or_none(i):
     if not i: return i
     return int(i)
+
+def progress_bar():
+    return progressbar.ProgressBar()

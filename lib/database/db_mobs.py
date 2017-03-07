@@ -1,9 +1,7 @@
 import sqlite3
 import json
 
-import progressbar
-
-from db_utils import connect_db, str_to_bool, int_or_none
+from db_utils import connect_db, str_to_bool, int_or_none, progress_bar
 
 # {
 #   # "Strength": 30,
@@ -30,7 +28,7 @@ from db_utils import connect_db, str_to_bool, int_or_none
 #   "HouseNumber": null,
 #   # "Size": 48,
 #   # "Realm": 1,
-#   "ItemsListTemplateID": "",
+#   # "ItemsListTemplateID": "",
 #   # "Charisma": 30,
 #   # "LastTimeRowUpdated": "2000-01-01 00:00:00",
 #   "OwnerID": "",
@@ -40,7 +38,7 @@ from db_utils import connect_db, str_to_bool, int_or_none
 #   # "Piety": 30,
 #   "Gender": null,
 #   # "ExamineArticle": "",
-#   "EquipmentTemplateID": "22656309-a1ad-4d59-92e3-cfb64a964250",
+#   # "EquipmentTemplateID": "22656309-a1ad-4d59-92e3-cfb64a964250",
 #   # "MeleeDamageType": 2,
 #   # "Race": null,
 #   # "Flags": null,
@@ -51,7 +49,7 @@ from db_utils import connect_db, str_to_bool, int_or_none
 #   # "RoamingRange": null,
 #   # "Intelligence": 30,
 #   "Brain": "",
-#   "PathID": "",
+#   # "PathID": "",
 #   # "IsCloakHoodUp": null,
 #   # "MaxDistance": null
 # }
@@ -96,6 +94,9 @@ def deserialize_mob(res):
         'suffix': res[34],
         'message_article': res[35],
         'examine_article': res[36],
+        'equipment_template_id': res[37],
+        'path_id': res[38],
+        'items_list_template_id': res[39],
         'inventory': { 'visible_items': [] },
         'object_type': 'npc',
         'eflags': {
@@ -151,6 +152,9 @@ def create_mobs_table():
         SUFFIX TEXT NOT NULL,
         MESSAGE_ARTICLE TEXT NOT NULL,
         EXAMINE_ARTICLE TEXT NOT NULL,
+        EQUIPMENT_TEMPLATE_ID TEXT NULL,
+        PATH_ID TEXT NULL,
+        ITEMS_LIST_TEMPLATE_ID TEXT NULL,
         UNIQUE(ID)
        );''')
     conn.close()
@@ -161,20 +165,20 @@ def insert_all_mobs():
     for path in ['data/mobs.json', 'data/mobs_2.json']:
         with open(path, 'r') as f:
             mobs += json.load(f)
-    progress = progressbar.ProgressBar()
-    for mob in progress(mobs):
+    pb = progress_bar()
+    for mob in pb(mobs):
         conn.execute('''
             INSERT INTO MOBS (NAME,STRENGTH,QUICKNESS,DEXTERITY,CHARISMA,INTELLIGENCE,EMPATHY,PIETY,CONSTITUTION, \
             SPEED,AGGRO_RANGE,AGGRO_LEVEL,GUILD,LEVEL,RESPAWN_INTERVAL,REGION, \
             X,Y,Z,HEADING,SIZE,REALM,MODEL,NPC_TEMPLATE_ID,FLAGS,FACTION_ID,BODY_TYPE, \
             MELEE_DAMAGE_TYPE,RACE,VISIBLE_WEAPON_SLOTS,MAX_DISTANCE,ROAMING_RANGE,IS_CLOAK_HOOD_UP, \
-            SUFFIX,MESSAGE_ARTICLE,EXAMINE_ARTICLE) \
-              VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)''', (mob['Name'],
+            SUFFIX,MESSAGE_ARTICLE,EXAMINE_ARTICLE,EQUIPMENT_TEMPLATE_ID,PATH_ID,ITEMS_LIST_TEMPLATE_ID) \
+              VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)''', (mob['Name'],
               int_or_none(mob['Strength']),int_or_none(mob['Quickness']),int_or_none(mob['Dexterity']),int_or_none(mob['Charisma']),int_or_none(mob['Intelligence']),int_or_none(mob['Empathy']),int_or_none(mob['Piety']),int_or_none(mob['Constitution']),
               int_or_none(mob['Speed']),int_or_none(mob['AggroRange']),int_or_none(mob['AggroLevel']),mob['Guild'],int_or_none(mob['Level']),int_or_none(mob['RespawnInterval']),int(mob['Region']),int_or_none(mob['X']),
               int_or_none(mob['Y']),int_or_none(mob['Z']),int_or_none(mob['Heading']),int_or_none(mob['Size']),int_or_none(mob['Realm']),int_or_none(mob['Model']),int_or_none(mob['NPCTemplateID']),int_or_none(mob['Flags']),
               int_or_none(mob['FactionID']),int_or_none(mob['BodyType']),int_or_none(mob['MeleeDamageType']),int_or_none(mob['Race']),int_or_none(mob['VisibleWeaponSlots']),int_or_none(mob['MaxDistance']),int_or_none(mob['RoamingRange']),int_or_none(mob['IsCloakHoodUp']),
-              mob['Suffix'],mob['MessageArticle'],mob['ExamineArticle']))
+              mob['Suffix'],mob['MessageArticle'],mob['ExamineArticle'],mob['EquipmentTemplateID'],mob['PathID'],mob['ItemsListTemplateID']))
         conn.commit()
     conn.close()
 

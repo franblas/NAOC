@@ -9,29 +9,29 @@ def npc_create_pak(npc, gameclient):
    # speed = 0
    speed_z = 0
    # pak.WriteShort((ushort)npc.ObjectID);
-   ins = write_short(npc['object_id'])
+   ins = write_short(npc.object_id)
 
    # pak.WriteShort((ushort)(speed));
-   speed = npc.get('speed', 0)
+   speed = npc.speed
    if speed:
       ins += write_short(speed)
    else:
       ins += write_short(0)
 
    # pak.WriteShort(npc.Heading);
-   ins += write_short(npc['heading'])
+   ins += write_short(npc.heading)
    # pak.WriteShort((ushort)npc.Z);
-   ins += write_short(npc['Z'])
+   ins += write_short(npc.Z)
    # pak.WriteInt((uint)npc.X);
-   ins += write_int(npc['X'])
+   ins += write_int(npc.X)
    # pak.WriteInt((uint)npc.Y);
-   ins += write_int(npc['Y'])
+   ins += write_int(npc.Y)
    # pak.WriteShort(speedZ);
    ins += write_short(speed_z)
    # pak.WriteShort(npc.Model);
-   ins += write_short(npc['model'])
+   ins += write_short(npc.model)
    # pak.WriteByte(npc.Size);
-   ins += write_byte(npc['size'])
+   ins += write_byte(npc.size)
 
    # byte level = npc.GetDisplayLevel(m_gameClient.Player);
    # level = 0x01
@@ -42,7 +42,7 @@ def npc_create_pak(npc, gameclient):
    # 	}
    # 	pak.WriteByte(level);
    # ins += write_byte(npc.get('level', level))
-   level = npc.get('level', 1)
+   level = npc.level
    if level:
       ins += write_byte(level)
    else:
@@ -56,11 +56,11 @@ def npc_create_pak(npc, gameclient):
    # 	if((npc.Flags & GameNPC.eFlags.TORCH) != 0) flags |= 0x04;
    #
    # 	pak.WriteByte(flags);
-   realm = npc.get('realm', 0)
+   realm = npc.realm
    if not realm: realm = 0
 
-   flags = npc.get('flags', 0)
-   eflags = npc.get('eflags')
+   flags = npc.flags
+   eflags = npc.eflags
    if flags:
       new_flags = realm << 6 #flags << 6
       if flags & eflags.get('ghost') != 0: new_flags |= 0x01
@@ -140,13 +140,13 @@ def npc_create_pak(npc, gameclient):
    # 		name = string.Format("[{0}]{1}", name, add);
    #
    # 	pak.WritePascalString(name);
-   name = npc['name']
+   name = npc.name
    ins += write_pascal_string(name)
 
    # 	if (guildName.Length > 47)
    # 		pak.WritePascalString(guildName.Substring(0, 47));
    # 	else pak.WritePascalString(guildName);
-   guild_name = npc.get('guild', '')
+   guild_name = npc.guild
    if not guild_name: guild_name = ''
    # guild_name = '' #npc['guild']
    if len(guild_name) > 47: guild_name = guild_name[:47]

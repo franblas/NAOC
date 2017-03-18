@@ -1,5 +1,4 @@
 from ..packets.packet_out import *
-import threading
 
 def door_state_pak(region, door, gameclient):
   zone = int(float(door['door_id']) / 1000000)
@@ -10,10 +9,6 @@ def door_state_pak(region, door, gameclient):
   # door_state = 0x01 if not bool(int(door_state)) else 0x00 # open = 0 // closed = 1
   door_state = 0x00 if not bool(int(door_state)) else 0x01 # open = 0 // closed = 1
   print 'CONDITIONAL DOOR STATE: ' + str(door_state)
-
-  # Close the door after a certain period
-  # t = threading.Timer(11.0, close_door, [region, door, gameclient])
-  # t.start()
 
   ins = write_int(door['door_id'])
   ins += write_byte(door_state)

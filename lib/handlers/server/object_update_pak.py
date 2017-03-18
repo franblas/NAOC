@@ -4,14 +4,15 @@ def object_update_pak(gameclient, obj):
     player = gameclient.player
     if not player: return
 
-    zone = obj.get('current_zone', player.current_zone)
+    # zone = obj.current_zone or player.current_zone
+    zone = player.current_zone
     if not zone: return
 
     # var xOffsetInZone = (ushort) (obj.X - z.XOffset);
-    offset_x_in_zone = (obj['X'] - zone['offset_x']) & 0xFFFF
+    offset_x_in_zone = (obj.X - zone['offset_x']) & 0xFFFF
 
     # var yOffsetInZone = (ushort) (obj.Y - z.YOffset);
-    offset_y_in_zone = (obj['Y'] - zone['offset_y']) & 0xFFFF
+    offset_y_in_zone = (obj.Y - zone['offset_y']) & 0xFFFF
 
     # ushort xOffsetInTargetZone = 0;
     offset_x_in_target_zone = 0
@@ -23,7 +24,7 @@ def object_update_pak(gameclient, obj):
     offset_z_in_target_zone = 0
 
     # int speed = 0;
-    speed = 0
+    speed = obj.speed
 
     # ushort targetZone = 0;
     target_zone = 0
@@ -35,12 +36,12 @@ def object_update_pak(gameclient, obj):
     target_OID = 0
 
     # if (obj is GameNPC)
-    if obj['object_type'] == 'npc':
-        realm = obj.get('realm', 0)
+    if obj.object_type == 'npc':
+        realm = obj.realm
         if not realm: realm = 0
 
-        tmp_flags = obj.get('flags', 0)
-        eflags = obj.get('eflags')
+        tmp_flags = obj.flags
+        eflags = obj.eflags
         if tmp_flags:
             new_flags = realm << 6 #tmp_flags << 6
             if tmp_flags & eflags.get('ghost') != 0: new_flags |= 0x01
@@ -59,10 +60,10 @@ def object_update_pak(gameclient, obj):
     # {
     # 	pak.WriteShort(obj.Heading);
     # }
-    if obj['object_type'] == 'npc':
-        ins += write_short(obj['heading'] & 0xFFF)
+    if obj.object_type == 'npc':
+        ins += write_short(obj.heading & 0xFFF)
     else:
-        ins += write_short(obj['heading'])
+        ins += write_short(obj.heading)
 
     # pak.WriteShort(xOffsetInZone);
     ins += write_short(offset_x_in_zone)
@@ -73,11 +74,11 @@ def object_update_pak(gameclient, obj):
     # pak.WriteShort(yOffsetInTargetZone);
     ins += write_short(offset_y_in_target_zone)
     # pak.WriteShort((ushort) obj.Z);
-    ins += write_short(obj['Z'])
+    ins += write_short(obj.Z)
     # pak.WriteShort(zOffsetInTargetZone);
     ins += write_short(offset_z_in_target_zone)
     # pak.WriteShort((ushort) obj.ObjectID);
-    ins += write_short(obj['object_id'])
+    ins += write_short(obj.object_id)
     # pak.WriteShort((ushort) targetOID);
     ins += write_short(target_OID)
     # //health

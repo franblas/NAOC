@@ -15,7 +15,7 @@ def living_equipment_update_pak(npc, mobs, gameclient):
    # pak.WriteByte((byte)((living.IsCloakHoodUp ? 0x01 : 0x00) | (int)living.ActiveQuiverSlot)); //bit0 is hood up bit4 to 7 is active quiver
    ins += write_byte(0x00)
 
-   items = npc['inventory']['visible_items']
+   items = npc.inventory['visible_items']
    if items:
       print 'Get items'
       #TODO

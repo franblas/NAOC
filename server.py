@@ -1,22 +1,55 @@
+from gevent import monkey
+monkey.patch_all()
+
 import socket
-import threading
+import asyncore
 
 from lib.game_client import GameClient
 
-TCP_IP = "127.0.0.1"
+from lib.world.world_manager import WorldManager
+from lib.world.world_update import WorldUpdate
+
+TCP_IP = '127.0.0.1'
 TCP_PORT = 10300
-SOCKET_BUFFER_SIZE = 16 * 1024
-SESSION_ID = 1
+MAX_CONNECTIONS = 100
 
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # TCP
-sock.setsockopt(socket.SOL_SOCKET, socket.SO_SNDBUF, SOCKET_BUFFER_SIZE)
-sock.bind((TCP_IP, TCP_PORT))
-sock.listen(100)
+class Server(asyncore.dispatcher):
+    def __init__(self, address):
+        asyncore.dispatcher.__init__(self)
+        self.create_socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.set_reuse_addr()
+        self.bind(address)
+        self.address = self.socket.getsockname()
+        self.listen(MAX_CONNECTIONS)
+        self.SESSION_IDS = [i for i in range(1, MAX_CONNECTIONS)]
 
-while True:
-  connect, addr = sock.accept()
-  gc = GameClient(SESSION_ID, connect, SOCKET_BUFFER_SIZE)
-  t = threading.Thread(name='client_' + str(SESSION_ID), target=gc.start)
-  t.start()
-  SESSION_ID += 1
-sock.close()
+    def handle_accept(self):
+        client_info = self.accept()
+        if client_info:
+            wm = WorldManager.get_world_manager()
+            gcs = wm.gameclients
+            session_id = self.new_session_id(gcs)
+            print 'session_id ' + str(session_id)
+            gc = GameClient(session_id, client_info[0])
+            gcs[str(session_id)] = gc
+
+    def new_session_id(self, gcs):
+        gcs_session_ids = [int(s) for s in gcs.keys()]
+        available_session_ids = [x for x in self.SESSION_IDS if x not in gcs_session_ids]
+        return available_session_ids[0]
+
+
+def main():
+    # World init and update loop
+    wm, wup = WorldManager(), WorldUpdate()
+    wup.update_NPCs()
+
+    # Start server
+    s = Server((TCP_IP, TCP_PORT))
+    asyncore.loop()
+
+    # Server down, stop all threads
+    # wup.stop_world_updates()
+
+if __name__ == '__main__':
+    main()

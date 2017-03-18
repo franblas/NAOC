@@ -1,5 +1,3 @@
-import threading
-
 from ..packets.packet_in import read_byte
 from ..server.player_position_and_objectid_pak import player_position_and_objectid_pak
 from ..server.encumberance_pak import encumberance_pak
@@ -23,10 +21,6 @@ from ..server.debug_mode_pak import debug_mode_pak
 from ..server.set_controlled_horse_pak import set_controlled_horse_pak
 
 def world_init_request_handler(packet,gameclient):
-    t = threading.Thread(name='world_init_' + str(gameclient.session_id), target=world_init, kwargs={'packet': packet, 'gameclient': gameclient})
-    t.start()
-
-def world_init(packet,gameclient):
     cursor = 0
     # addfriend
     gameclient.send_pak(add_friend_pak())

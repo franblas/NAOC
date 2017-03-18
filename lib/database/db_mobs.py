@@ -77,7 +77,7 @@ def deserialize_mob(res):
         'X': res[17],
         'Y': res[18],
         'Z': res[19],
-        'heading': res[20],
+        'heading': res[20] & 0xFFFF,
         'size': res[21],
         'realm': res[22],
         'model': res[23],
@@ -96,20 +96,7 @@ def deserialize_mob(res):
         'examine_article': res[36],
         'equipment_template_id': res[37],
         'path_id': res[38],
-        'items_list_template_id': res[39],
-        'inventory': { 'visible_items': [] },
-        'object_type': 'npc',
-        'eflags': {
-            'ghost': 0x01,
-            'stealth': 0x02,
-            'dont_show_name': 0x04,
-            'cant_target': 0x08,
-            'peace': 0x10,
-            'flying': 0x20,
-            'torch': 0x40,
-            'statue': 0x80,
-            'swimming': 0x100
-        }
+        'items_list_template_id': res[39]
     }
 
 def create_mobs_table():
@@ -191,6 +178,16 @@ def get_mobs_from_region(region_id):
     conn = connect_db()
     cursor = conn.execute('''
         SELECT * FROM MOBS WHERE X IS NOT NULL AND Y IS NOT NULL AND Z IS NOT NULL AND HEADING IS NOT NULL AND MODEL IS NOT NULL AND SIZE IS NOT NULL AND REGION=?''', (region_id,))
+    rep = cursor.fetchall()
+    if rep: res = [a for a in rep]
+    conn.close()
+    return [deserialize_mob(r) for r in res]
+
+def get_all_mobs():
+    res = list()
+    conn = connect_db()
+    cursor = conn.execute('''
+        SELECT * FROM MOBS WHERE X IS NOT NULL AND Y IS NOT NULL AND Z IS NOT NULL AND HEADING IS NOT NULL AND MODEL IS NOT NULL AND SIZE IS NOT NULL''')
     rep = cursor.fetchall()
     if rep: res = [a for a in rep]
     conn.close()

@@ -27,7 +27,7 @@ def call_handler(handler, packet, gameclient):
 
 def client_handler(raw_data, request_counter, gameclient):
     packet = read_data(raw_data)
-    print '--------> 0x%02X' % int(packet[CODE_POSITION])
+    # print '--------> 0x%02X' % int(packet[CODE_POSITION])
     map_val = '0x%02X' % int(packet[CODE_POSITION])
     handler = client_handler_mapping.get(map_val)
     if not handler: return

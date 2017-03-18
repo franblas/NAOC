@@ -1,5 +1,3 @@
-import threading
-
 from ..server.update_points_pak import update_points_pak
 from ..server.region_color_scheme_pak import region_color_scheme_pak
 from ..server.weather_pak import weather_pak
@@ -15,11 +13,9 @@ from ..server.player_free_level_update_pak import player_free_level_update_pak
 
 from ...database.db_mobs import get_mobs_from_region
 
-def player_init_request_handler(packet,gameclient):
-    t = threading.Thread(name='player_init_' + str(gameclient.session_id), target=player_init, kwargs={'packet': packet, 'gameclient': gameclient})
-    t.start()
+from ...world.world_manager import WorldManager
 
-def player_init(packet,gameclient):
+def player_init_request_handler(packet,gameclient):
     gameclient.send_pak(update_points_pak(gameclient))
     gameclient.send_pak(region_color_scheme_pak(0x00))
 
@@ -30,8 +26,8 @@ def player_init(packet,gameclient):
     gameclient.send_pak(dialog_pak(6, 1, 1, 0, 0, 1, True, "Do you want to be teleported to NAOCplayground?", gameclient))
     gameclient.send_pak(message_pak("If you need in-game assistance from server staff (such as stuck character) please use /appeal.", 0x00, None, gameclient))
 
-    t = threading.Thread(name='send_mobs_and_mob_equipment_to_player_' + str(gameclient.session_id), target=send_mobs_and_mob_equipment_to_player, kwargs={'gameclient': gameclient})
-    t.start()
+    send_mobs_and_mob_equipment_to_player(gameclient)
+
     # mobs = send_mobs_and_mob_equipment_to_player(gameclient)
     gameclient.send_pak(player_init_finished_pak(0))
     gameclient.send_pak(started_help_pak())
@@ -53,14 +49,22 @@ def send_mobs_and_mob_equipment_to_player(gameclient):
     # }
     # return mobs;
 
-    npcs = get_mobs_from_region(gameclient.player.current_region['region_id'])
+    # npcs = get_mobs_from_region(gameclient.player.current_region['region_id'])
+    def get_npcs_from_region(region_id):
+        wm = WorldManager.get_world_manager()
+        if not wm: return
+
+        npcs = wm.npcs
+        return [npc for npc in npcs if npc.region == region_id]
+
+    npcs = get_npcs_from_region(gameclient.player.current_region['region_id'])
 
     print 'LENGTH NPC, ' + str(len(npcs))
 
     for npc in npcs:
-        if gameclient.player.in_zone(npc.get('X'), npc.get('Y'), gameclient.player.current_zone):
+        if gameclient.player.in_zone(npc.X, npc.Y, gameclient.player.current_zone):
             gameclient.send_pak(npc_create_pak(npc, gameclient))
-            if npc.get('inventory'):
+            if npc.inventory:
                 gameclient.send_pak(living_equipment_update_pak(npc, mobs, gameclient))
             mobs += 1
     print 'LENGTH MOBS, ' + str(mobs)

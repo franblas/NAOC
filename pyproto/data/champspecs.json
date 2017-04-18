@@ -1,0 +1,2058 @@
+[
+  {
+    "Index": 2, 
+    "IdLine": 4, 
+    "SpellID": 33023, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "acolyte_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 4, 
+    "SpellID": 33024, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "acolyte_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 4, 
+    "SpellID": 33025, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "acolyte_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 4, 
+    "SpellID": 33026, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "acolyte_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 4, 
+    "SpellID": 33027, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "acolyte_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 4, 
+    "SpellID": 33028, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "acolyte_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 4, 
+    "SpellID": 33029, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "acolyte_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 4, 
+    "SpellID": 33030, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "acolyte_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 4, 
+    "SpellID": 33031, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "acolyte_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 4, 
+    "SpellID": 33034, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "acolyte_column3-4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 4, 
+    "SpellID": 33035, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "acolyte_column3-4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 4, 
+    "SpellID": 33036, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "acolyte_column3-4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 4, 
+    "SpellID": 33032, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "acolyte_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 4, 
+    "SpellID": 33033, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "acolyte_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 4, 
+    "SpellID": 33037, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "acolyte_column4_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 4, 
+    "SpellID": 33038, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "acolyte_column4_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 4, 
+    "SpellID": 33034, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "acolyte_column4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 4, 
+    "SpellID": 33035, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "acolyte_column4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 4, 
+    "SpellID": 33036, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "acolyte_column4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 4, 
+    "SpellID": 33037, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "acolyte_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 4, 
+    "SpellID": 33038, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "acolyte_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 7, 
+    "SpellID": 33116, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "disciple_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 7, 
+    "SpellID": 33117, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "disciple_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 7, 
+    "SpellID": 33118, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "disciple_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 7, 
+    "SpellID": 33119, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "disciple_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 7, 
+    "SpellID": 33120, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "disciple_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 7, 
+    "SpellID": 33121, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "disciple_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 7, 
+    "SpellID": 33122, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "disciple_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 7, 
+    "SpellID": 33123, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "disciple_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 7, 
+    "SpellID": 33124, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "disciple_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 7, 
+    "SpellID": 33125, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "disciple_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 7, 
+    "SpellID": 33129, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "disciple_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 7, 
+    "SpellID": 33130, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "disciple_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 7, 
+    "SpellID": 33126, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "disciple_column4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 7, 
+    "SpellID": 33127, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "disciple_column4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 7, 
+    "SpellID": 33128, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "disciple_column4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 7, 
+    "SpellID": 33131, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "disciple_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 7, 
+    "SpellID": 33132, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "disciple_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 5, 
+    "SpellID": 33099, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "elementalist_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 5, 
+    "SpellID": 33100, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "elementalist_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 5, 
+    "SpellID": 33101, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "elementalist_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 5, 
+    "SpellID": 33102, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "elementalist_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 5, 
+    "SpellID": 33103, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "elementalist_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 5, 
+    "SpellID": 33104, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "elementalist_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 5, 
+    "SpellID": 33105, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "elementalist_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 5, 
+    "SpellID": 33106, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "elementalist_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 5, 
+    "SpellID": 33107, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "elementalist_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 5, 
+    "SpellID": 33108, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "elementalist_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 5, 
+    "SpellID": 33111, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "elementalist_column3-4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 5, 
+    "SpellID": 33112, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "elementalist_column3-4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 5, 
+    "SpellID": 33113, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "elementalist_column3-4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 5, 
+    "SpellID": 33109, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "elementalist_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 5, 
+    "SpellID": 33110, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "elementalist_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 5, 
+    "SpellID": 33114, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "elementalist_column4_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 5, 
+    "SpellID": 33115, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "elementalist_column4_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 5, 
+    "SpellID": 33111, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "elementalist_column4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 5, 
+    "SpellID": 33112, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "elementalist_column4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 5, 
+    "SpellID": 33113, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "elementalist_column4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 5, 
+    "SpellID": 33114, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "elementalist_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 5, 
+    "SpellID": 33115, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "elementalist_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 1, 
+    "SpellID": 1900, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "fighter_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 1, 
+    "SpellID": 1902, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "fighter_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 1, 
+    "SpellID": 1903, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "fighter_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 1, 
+    "SpellID": 45002, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "fighter_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 1, 
+    "SpellID": 45003, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "fighter_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 1, 
+    "SpellID": 1901, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "fighter_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 1, 
+    "SpellID": 45004, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "fighter_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 1, 
+    "SpellID": 45005, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "fighter_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 1, 
+    "SpellID": 45006, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "fighter_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 1, 
+    "SpellID": 45007, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "fighter_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 1, 
+    "SpellID": 1906, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "fighter_column3-4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 1, 
+    "SpellID": 45008, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "fighter_column3-4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 1, 
+    "SpellID": 45009, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "fighter_column3-4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 1, 
+    "SpellID": 1904, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "fighter_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 1, 
+    "SpellID": 1905, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "fighter_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 1, 
+    "SpellID": 1907, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "fighter_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 1, 
+    "SpellID": 1908, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "fighter_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 12, 
+    "SpellID": 33133, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "grove_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 12, 
+    "SpellID": 33134, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "grove_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 12, 
+    "SpellID": 33135, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "grove_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 12, 
+    "SpellID": 33136, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "grove_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 12, 
+    "SpellID": 33137, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "grove_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 12, 
+    "SpellID": 33138, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "grove_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 12, 
+    "SpellID": 33139, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "grove_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 12, 
+    "SpellID": 33140, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "grove_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 12, 
+    "SpellID": 33141, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "grove_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 12, 
+    "SpellID": 33142, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "grove_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 12, 
+    "SpellID": 33143, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "grove_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 12, 
+    "SpellID": 33144, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "grove_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 12, 
+    "SpellID": 33145, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "grove_column4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 12, 
+    "SpellID": 33146, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "grove_column4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 12, 
+    "SpellID": 33147, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "grove_column4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 12, 
+    "SpellID": 33148, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "grove_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 12, 
+    "SpellID": 33149, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "grove_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 6, 
+    "SpellID": 33150, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "mage_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 6, 
+    "SpellID": 33151, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "mage_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 6, 
+    "SpellID": 33152, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "mage_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 6, 
+    "SpellID": 33153, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "mage_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 6, 
+    "SpellID": 33154, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "mage_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 6, 
+    "SpellID": 33155, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "mage_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 6, 
+    "SpellID": 33156, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "mage_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 6, 
+    "SpellID": 33157, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "mage_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 6, 
+    "SpellID": 33158, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "mage_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 6, 
+    "SpellID": 33159, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "mage_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 6, 
+    "SpellID": 33160, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "mage_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 6, 
+    "SpellID": 33161, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "mage_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 6, 
+    "SpellID": 33162, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "mage_column4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 6, 
+    "SpellID": 33163, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "mage_column4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 6, 
+    "SpellID": 33164, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "mage_column4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 6, 
+    "SpellID": 33165, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "mage_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 6, 
+    "SpellID": 33166, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "mage_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 11, 
+    "SpellID": 33077, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "magician_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 11, 
+    "SpellID": 33078, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "magician_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 11, 
+    "SpellID": 33079, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "magician_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 11, 
+    "SpellID": 33080, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "magician_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 11, 
+    "SpellID": 33081, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "magician_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 11, 
+    "SpellID": 33082, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "magician_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 11, 
+    "SpellID": 33083, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "magician_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 11, 
+    "SpellID": 33084, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "magician_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 11, 
+    "SpellID": 33085, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "magician_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 11, 
+    "SpellID": 33086, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "magician_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 11, 
+    "SpellID": 33089, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "magician_column3-4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 11, 
+    "SpellID": 33090, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "magician_column3-4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 11, 
+    "SpellID": 33091, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "magician_column3-4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 11, 
+    "SpellID": 33087, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "magician_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 11, 
+    "SpellID": 33088, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "magician_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 11, 
+    "SpellID": 33092, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "magician_column4_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 11, 
+    "SpellID": 33093, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "magician_column4_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 11, 
+    "SpellID": 33089, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "magician_column4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 11, 
+    "SpellID": 33090, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "magician_column4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 11, 
+    "SpellID": 33091, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "magician_column4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 11, 
+    "SpellID": 33092, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "magician_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 11, 
+    "SpellID": 33093, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "magician_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 11, 
+    "SpellID": 33096, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "magician_column5_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 11, 
+    "SpellID": 33097, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "magician_column5_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 11, 
+    "SpellID": 33098, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "magician_column5_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 11, 
+    "SpellID": 33094, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "magician_column6_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 11, 
+    "SpellID": 33095, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "magician_column6_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 11, 
+    "SpellID": 33096, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "magician_column6_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 11, 
+    "SpellID": 33097, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "magician_column6_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 11, 
+    "SpellID": 33098, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "magician_column6_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 9, 
+    "SpellID": 33455, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "mystic_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 9, 
+    "SpellID": 33056, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "mystic_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 9, 
+    "SpellID": 33057, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "mystic_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 9, 
+    "SpellID": 33058, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "mystic_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 9, 
+    "SpellID": 33059, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "mystic_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 9, 
+    "SpellID": 33060, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "mystic_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 9, 
+    "SpellID": 33061, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "mystic_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 9, 
+    "SpellID": 33062, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "mystic_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 9, 
+    "SpellID": 33063, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "mystic_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 9, 
+    "SpellID": 33064, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "mystic_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 9, 
+    "SpellID": 33067, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "mystic_column3-4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 9, 
+    "SpellID": 33068, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "mystic_column3-4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 9, 
+    "SpellID": 33069, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "mystic_column3-4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 9, 
+    "SpellID": 33065, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "mystic_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 9, 
+    "SpellID": 33066, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "mystic_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 9, 
+    "SpellID": 33070, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "mystic_column4_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 9, 
+    "SpellID": 33071, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "mystic_column4_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 9, 
+    "SpellID": 33067, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "mystic_column4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 9, 
+    "SpellID": 33068, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "mystic_column4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 9, 
+    "SpellID": 33069, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "mystic_column4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 9, 
+    "SpellID": 33070, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "mystic_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 9, 
+    "SpellID": 33071, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "mystic_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 9, 
+    "SpellID": 33074, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "mystic_column5_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 9, 
+    "SpellID": 33075, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "mystic_column5_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 9, 
+    "SpellID": 33076, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "mystic_column5_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 9, 
+    "SpellID": 33072, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "mystic_column6_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 9, 
+    "SpellID": 33073, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "mystic_column6_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 9, 
+    "SpellID": 33074, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "mystic_column6_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 9, 
+    "SpellID": 33075, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "mystic_column6_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 9, 
+    "SpellID": 33076, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "mystic_column6_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 3, 
+    "SpellID": 1909, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "m_rogue_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 3, 
+    "SpellID": 1910, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "m_rogue_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 3, 
+    "SpellID": 1911, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "m_rogue_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 3, 
+    "SpellID": 45010, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "m_rogue_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 3, 
+    "SpellID": 45011, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "m_rogue_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 3, 
+    "SpellID": 1912, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "m_rogue_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 3, 
+    "SpellID": 45013, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "m_rogue_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 3, 
+    "SpellID": 1913, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "m_rogue_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 3, 
+    "SpellID": 1914, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "m_rogue_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 3, 
+    "SpellID": 45014, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "m_rogue_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 3, 
+    "SpellID": 45012, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "m_rogue_column3-4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 3, 
+    "SpellID": 45015, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "m_rogue_column3-4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 3, 
+    "SpellID": 45016, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "m_rogue_column3-4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 3, 
+    "SpellID": 1915, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "m_rogue_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 3, 
+    "SpellID": 1917, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "m_rogue_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 3, 
+    "SpellID": 1916, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "m_rogue_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 3, 
+    "SpellID": 1918, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "m_rogue_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 10, 
+    "SpellID": 33039, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "naturalist_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 10, 
+    "SpellID": 33040, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "naturalist_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 10, 
+    "SpellID": 33041, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "naturalist_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 10, 
+    "SpellID": 33042, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "naturalist_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 10, 
+    "SpellID": 33043, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "naturalist_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 10, 
+    "SpellID": 33044, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "naturalist_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 10, 
+    "SpellID": 33045, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "naturalist_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 10, 
+    "SpellID": 33046, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "naturalist_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 10, 
+    "SpellID": 33047, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "naturalist_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 10, 
+    "SpellID": 33048, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "naturalist_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 10, 
+    "SpellID": 33051, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "naturalist_column3-4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 10, 
+    "SpellID": 33052, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "naturalist_column3-4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 10, 
+    "SpellID": 33053, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "naturalist_column3-4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 10, 
+    "SpellID": 33049, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "naturalist_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 10, 
+    "SpellID": 33050, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "naturalist_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 10, 
+    "SpellID": 33054, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "naturalist_column4_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 10, 
+    "SpellID": 33055, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "naturalist_column4_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 10, 
+    "SpellID": 33051, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "naturalist_column4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 10, 
+    "SpellID": 33052, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "naturalist_column4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 10, 
+    "SpellID": 33053, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "naturalist_column4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 10, 
+    "SpellID": 33054, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "naturalist_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 10, 
+    "SpellID": 33055, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "naturalist_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 2, 
+    "SpellID": 1909, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "rogue_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 2, 
+    "SpellID": 1910, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "rogue_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 2, 
+    "SpellID": 1911, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "rogue_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 2, 
+    "SpellID": 45010, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "rogue_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 2, 
+    "SpellID": 45011, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "rogue_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 2, 
+    "SpellID": 1912, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "rogue_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 2, 
+    "SpellID": 45013, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "rogue_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 2, 
+    "SpellID": 1913, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "rogue_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 2, 
+    "SpellID": 1914, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "rogue_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 2, 
+    "SpellID": 45014, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "rogue_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 2, 
+    "SpellID": 45012, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "rogue_column3-4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 2, 
+    "SpellID": 45015, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "rogue_column3-4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 2, 
+    "SpellID": 45016, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "rogue_column3-4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 2, 
+    "SpellID": 1915, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "rogue_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 2, 
+    "SpellID": 1917, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "rogue_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 2, 
+    "SpellID": 1916, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "rogue_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 2, 
+    "SpellID": 1918, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "rogue_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 8, 
+    "SpellID": 33000, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "seer_column1_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 8, 
+    "SpellID": 33001, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "seer_column1_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 8, 
+    "SpellID": 33002, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "seer_column1_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 8, 
+    "SpellID": 33003, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "seer_column1_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 8, 
+    "SpellID": 33004, 
+    "SkillIndex": 1, 
+    "ChampSpecs_ID": "seer_column1_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 8, 
+    "SpellID": 33005, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "seer_column2_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 8, 
+    "SpellID": 33006, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "seer_column2_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 8, 
+    "SpellID": 33007, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "seer_column2_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 8, 
+    "SpellID": 33008, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "seer_column2_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 8, 
+    "SpellID": 33009, 
+    "SkillIndex": 2, 
+    "ChampSpecs_ID": "seer_column2_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 8, 
+    "SpellID": 33012, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "seer_column3-4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 8, 
+    "SpellID": 33013, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "seer_column3-4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 8, 
+    "SpellID": 33014, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "seer_column3-4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 8, 
+    "SpellID": 33010, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "seer_column3_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 8, 
+    "SpellID": 33011, 
+    "SkillIndex": 3, 
+    "ChampSpecs_ID": "seer_column3_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 8, 
+    "SpellID": 33015, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "seer_column4_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 8, 
+    "SpellID": 33016, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "seer_column4_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 8, 
+    "SpellID": 33012, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "seer_column4_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 8, 
+    "SpellID": 33013, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "seer_column4_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 8, 
+    "SpellID": 33014, 
+    "SkillIndex": 4, 
+    "ChampSpecs_ID": "seer_column4_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 8, 
+    "SpellID": 33015, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "seer_column5_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 8, 
+    "SpellID": 33016, 
+    "SkillIndex": 5, 
+    "ChampSpecs_ID": "seer_column5_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 8, 
+    "SpellID": 33019, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "seer_column5_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 8, 
+    "SpellID": 33020, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "seer_column5_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 8, 
+    "SpellID": 33021, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "seer_column5_row5", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 1, 
+    "IdLine": 8, 
+    "SpellID": 33017, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "seer_column6_row1", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 2, 
+    "IdLine": 8, 
+    "SpellID": 33018, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "seer_column6_row2", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 3, 
+    "IdLine": 8, 
+    "SpellID": 33019, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "seer_column6_row3", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 4, 
+    "IdLine": 8, 
+    "SpellID": 33020, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "seer_column6_row4", 
+    "Cost": 1
+  }, 
+  {
+    "Index": 5, 
+    "IdLine": 8, 
+    "SpellID": 33021, 
+    "SkillIndex": 6, 
+    "ChampSpecs_ID": "seer_column6_row5", 
+    "Cost": 1
+  }
+]

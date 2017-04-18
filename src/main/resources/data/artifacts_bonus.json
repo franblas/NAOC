@@ -1,0 +1,3607 @@
+[
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10011", 
+    "Level": null, 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10012", 
+    "Level": null, 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10013", 
+    "Level": 1, 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10014", 
+    "Level": 3, 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10015", 
+    "Level": 6, 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10016", 
+    "Level": 7, 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10017", 
+    "Level": 8, 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10018", 
+    "Level": 9, 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10019", 
+    "Level": 5, 
+    "ArtifactID": "1001"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10020", 
+    "Level": null, 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10021", 
+    "Level": null, 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10022", 
+    "Level": 1, 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10023", 
+    "Level": 2, 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10024", 
+    "Level": 4, 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10025", 
+    "Level": 6, 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10026", 
+    "Level": 8, 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 13, 
+    "ArtifactBonus_ID": "10027", 
+    "Level": 10, 
+    "ArtifactID": "1002"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10030", 
+    "Level": null, 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10031", 
+    "Level": null, 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10032", 
+    "Level": 1, 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10033", 
+    "Level": 6, 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10034", 
+    "Level": 6, 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10035", 
+    "Level": 6, 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10036", 
+    "Level": 8, 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10037", 
+    "Level": 3, 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10038", 
+    "Level": 10, 
+    "ArtifactID": "1003"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10040", 
+    "Level": 10, 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10041", 
+    "Level": null, 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10042", 
+    "Level": 2, 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10043", 
+    "Level": 4, 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10044", 
+    "Level": 6, 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10045", 
+    "Level": 6, 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10046", 
+    "Level": 8, 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10047", 
+    "Level": 10, 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10048", 
+    "Level": 10, 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10049", 
+    "Level": 5, 
+    "ArtifactID": "1004"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10051", 
+    "Level": null, 
+    "ArtifactID": "1005"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10052", 
+    "Level": null, 
+    "ArtifactID": "1005"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10053", 
+    "Level": null, 
+    "ArtifactID": "1005"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10054", 
+    "Level": 2, 
+    "ArtifactID": "1005"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10055", 
+    "Level": 4, 
+    "ArtifactID": "1005"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10056", 
+    "Level": 8, 
+    "ArtifactID": "1005"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10057", 
+    "Level": 4, 
+    "ArtifactID": "1005"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10058", 
+    "Level": 10, 
+    "ArtifactID": "1005"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10061", 
+    "Level": null, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "100610", 
+    "Level": 5, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "100611", 
+    "Level": 10, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10062", 
+    "Level": null, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10063", 
+    "Level": null, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10064", 
+    "Level": 1, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10065", 
+    "Level": 1, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10066", 
+    "Level": 3, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10067", 
+    "Level": 5, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10068", 
+    "Level": 7, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "10069", 
+    "Level": 10, 
+    "ArtifactID": "1006"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10070", 
+    "Level": 10, 
+    "ArtifactID": "1007"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10071", 
+    "Level": null, 
+    "ArtifactID": "1007"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10072", 
+    "Level": null, 
+    "ArtifactID": "1007"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10073", 
+    "Level": 1, 
+    "ArtifactID": "1007"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10074", 
+    "Level": 2, 
+    "ArtifactID": "1007"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10075", 
+    "Level": 3, 
+    "ArtifactID": "1007"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10076", 
+    "Level": 6, 
+    "ArtifactID": "1007"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10078", 
+    "Level": 8, 
+    "ArtifactID": "1007"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10079", 
+    "Level": 4, 
+    "ArtifactID": "1007"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10081", 
+    "Level": null, 
+    "ArtifactID": "1008"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10082", 
+    "Level": null, 
+    "ArtifactID": "1008"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10083", 
+    "Level": 1, 
+    "ArtifactID": "1008"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10084", 
+    "Level": 2, 
+    "ArtifactID": "1008"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10085", 
+    "Level": 3, 
+    "ArtifactID": "1008"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10086", 
+    "Level": 6, 
+    "ArtifactID": "1008"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10087", 
+    "Level": 8, 
+    "ArtifactID": "1008"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10088", 
+    "Level": 4, 
+    "ArtifactID": "1008"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10089", 
+    "Level": 10, 
+    "ArtifactID": "1008"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10091", 
+    "Level": null, 
+    "ArtifactID": "1009"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10092", 
+    "Level": 3, 
+    "ArtifactID": "1009"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10093", 
+    "Level": 3, 
+    "ArtifactID": "1009"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10094", 
+    "Level": 3, 
+    "ArtifactID": "1009"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10095", 
+    "Level": 6, 
+    "ArtifactID": "1009"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10096", 
+    "Level": 8, 
+    "ArtifactID": "1009"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10097", 
+    "Level": 5, 
+    "ArtifactID": "1009"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10098", 
+    "Level": 10, 
+    "ArtifactID": "1009"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10101", 
+    "Level": null, 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10102", 
+    "Level": null, 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10103", 
+    "Level": null, 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10104", 
+    "Level": 2, 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10105", 
+    "Level": 4, 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10106", 
+    "Level": 6, 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10107", 
+    "Level": 9, 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10108", 
+    "Level": 5, 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10109", 
+    "Level": 10, 
+    "ArtifactID": "1010"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 9, 
+    "ArtifactBonus_ID": "10110", 
+    "Level": 10, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10111", 
+    "Level": null, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "101110", 
+    "Level": 10, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10112", 
+    "Level": null, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10113", 
+    "Level": null, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10114", 
+    "Level": 2, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10115", 
+    "Level": 2, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10116", 
+    "Level": 4, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10117", 
+    "Level": 6, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10118", 
+    "Level": 8, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "10119", 
+    "Level": 10, 
+    "ArtifactID": "1011"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10121", 
+    "Level": null, 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10122", 
+    "Level": null, 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10123", 
+    "Level": 2, 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10124", 
+    "Level": 4, 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10125", 
+    "Level": 8, 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10126", 
+    "Level": 6, 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10128", 
+    "Level": 10, 
+    "ArtifactID": "1012"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10131", 
+    "Level": null, 
+    "ArtifactID": "1013"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10132", 
+    "Level": null, 
+    "ArtifactID": "1013"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10133", 
+    "Level": 1, 
+    "ArtifactID": "1013"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10134", 
+    "Level": 2, 
+    "ArtifactID": "1013"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10135", 
+    "Level": 4, 
+    "ArtifactID": "1013"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10136", 
+    "Level": 6, 
+    "ArtifactID": "1013"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10137", 
+    "Level": 8, 
+    "ArtifactID": "1013"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10138", 
+    "Level": 8, 
+    "ArtifactID": "1013"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10139", 
+    "Level": 10, 
+    "ArtifactID": "1013"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10141", 
+    "Level": null, 
+    "ArtifactID": "1014"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10142", 
+    "Level": null, 
+    "ArtifactID": "1014"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10143", 
+    "Level": 1, 
+    "ArtifactID": "1014"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10144", 
+    "Level": 2, 
+    "ArtifactID": "1014"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10145", 
+    "Level": 4, 
+    "ArtifactID": "1014"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10146", 
+    "Level": 8, 
+    "ArtifactID": "1014"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10147", 
+    "Level": 6, 
+    "ArtifactID": "1014"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10148", 
+    "Level": 10, 
+    "ArtifactID": "1014"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10151", 
+    "Level": null, 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10152", 
+    "Level": null, 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10153", 
+    "Level": 2, 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10154", 
+    "Level": 6, 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10155", 
+    "Level": 8, 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10156", 
+    "Level": 4, 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10157", 
+    "Level": 10, 
+    "ArtifactID": "1015"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10161", 
+    "Level": null, 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10162", 
+    "Level": 1, 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10163", 
+    "Level": 3, 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10164", 
+    "Level": 4, 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10165", 
+    "Level": 7, 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10166", 
+    "Level": 9, 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10167", 
+    "Level": 5, 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10168", 
+    "Level": 10, 
+    "ArtifactID": "1016"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10170", 
+    "Level": 10, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10171", 
+    "Level": null, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "101710", 
+    "Level": 5, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10172", 
+    "Level": null, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10173", 
+    "Level": 1, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10174", 
+    "Level": 2, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10175", 
+    "Level": 3, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10176", 
+    "Level": 4, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10177", 
+    "Level": 4, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10178", 
+    "Level": 6, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "10179", 
+    "Level": 8, 
+    "ArtifactID": "1017"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10181", 
+    "Level": null, 
+    "ArtifactID": "1018"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10182", 
+    "Level": null, 
+    "ArtifactID": "1018"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10183", 
+    "Level": 2, 
+    "ArtifactID": "1018"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10184", 
+    "Level": 4, 
+    "ArtifactID": "1018"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10185", 
+    "Level": 8, 
+    "ArtifactID": "1018"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10186", 
+    "Level": 8, 
+    "ArtifactID": "1018"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10187", 
+    "Level": 8, 
+    "ArtifactID": "1018"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10188", 
+    "Level": 6, 
+    "ArtifactID": "1018"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10189", 
+    "Level": 10, 
+    "ArtifactID": "1018"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10190", 
+    "Level": 4, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10191", 
+    "Level": null, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "101910", 
+    "Level": 10, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10192", 
+    "Level": 1, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10193", 
+    "Level": 2, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10194", 
+    "Level": 3, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10195", 
+    "Level": 5, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10196", 
+    "Level": 6, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10197", 
+    "Level": 7, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10198", 
+    "Level": 8, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "10199", 
+    "Level": 9, 
+    "ArtifactID": "1019"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10201", 
+    "Level": null, 
+    "ArtifactID": "1020"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10202", 
+    "Level": null, 
+    "ArtifactID": "1020"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10203", 
+    "Level": 1, 
+    "ArtifactID": "1020"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10204", 
+    "Level": 2, 
+    "ArtifactID": "1020"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10205", 
+    "Level": 3, 
+    "ArtifactID": "1020"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10206", 
+    "Level": 7, 
+    "ArtifactID": "1020"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10207", 
+    "Level": 9, 
+    "ArtifactID": "1020"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10208", 
+    "Level": 5, 
+    "ArtifactID": "1020"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10209", 
+    "Level": 10, 
+    "ArtifactID": "1020"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10211", 
+    "Level": null, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 9, 
+    "ArtifactBonus_ID": "102110", 
+    "Level": 8, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "102111", 
+    "Level": 8, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10212", 
+    "Level": 1, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10213", 
+    "Level": 2, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10214", 
+    "Level": 3, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10215", 
+    "Level": 8, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10216", 
+    "Level": 4, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10217", 
+    "Level": null, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10218", 
+    "Level": null, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "10219", 
+    "Level": null, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10221", 
+    "Level": null, 
+    "ArtifactID": "1021"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10222", 
+    "Level": null, 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10223", 
+    "Level": 1, 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10224", 
+    "Level": 2, 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10225", 
+    "Level": 4, 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10226", 
+    "Level": 6, 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10227", 
+    "Level": 8, 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10228", 
+    "Level": 5, 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10229", 
+    "Level": 10, 
+    "ArtifactID": "1022"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10231", 
+    "Level": null, 
+    "ArtifactID": "1023"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10232", 
+    "Level": null, 
+    "ArtifactID": "1023"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10233", 
+    "Level": null, 
+    "ArtifactID": "1023"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10234", 
+    "Level": 1, 
+    "ArtifactID": "1023"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10235", 
+    "Level": 3, 
+    "ArtifactID": "1023"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10236", 
+    "Level": 5, 
+    "ArtifactID": "1023"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10237", 
+    "Level": 7, 
+    "ArtifactID": "1023"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10238", 
+    "Level": 5, 
+    "ArtifactID": "1023"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10239", 
+    "Level": 10, 
+    "ArtifactID": "1023"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10241", 
+    "Level": null, 
+    "ArtifactID": "1024"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10242", 
+    "Level": null, 
+    "ArtifactID": "1024"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10243", 
+    "Level": 1, 
+    "ArtifactID": "1024"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10244", 
+    "Level": 3, 
+    "ArtifactID": "1024"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10245", 
+    "Level": 7, 
+    "ArtifactID": "1024"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10246", 
+    "Level": 9, 
+    "ArtifactID": "1024"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10247", 
+    "Level": 6, 
+    "ArtifactID": "1024"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10248", 
+    "Level": 10, 
+    "ArtifactID": "1024"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10251", 
+    "Level": null, 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10252", 
+    "Level": null, 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10253", 
+    "Level": 2, 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10254", 
+    "Level": 3, 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10255", 
+    "Level": 7, 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10256", 
+    "Level": 9, 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10257", 
+    "Level": 4, 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 13, 
+    "ArtifactBonus_ID": "10258", 
+    "Level": 10, 
+    "ArtifactID": "1025"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10261", 
+    "Level": null, 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10262", 
+    "Level": null, 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10263", 
+    "Level": 2, 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10264", 
+    "Level": 3, 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10265", 
+    "Level": 5, 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10266", 
+    "Level": 6, 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10267", 
+    "Level": 8, 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10268", 
+    "Level": 5, 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10269", 
+    "Level": 10, 
+    "ArtifactID": "1026"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10270", 
+    "Level": 10, 
+    "ArtifactID": "1027"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10271", 
+    "Level": null, 
+    "ArtifactID": "1027"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10272", 
+    "Level": null, 
+    "ArtifactID": "1027"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10273", 
+    "Level": null, 
+    "ArtifactID": "1027"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10274", 
+    "Level": 1, 
+    "ArtifactID": "1027"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10275", 
+    "Level": 3, 
+    "ArtifactID": "1027"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10276", 
+    "Level": 5, 
+    "ArtifactID": "1027"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10278", 
+    "Level": 7, 
+    "ArtifactID": "1027"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10279", 
+    "Level": 5, 
+    "ArtifactID": "1027"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10281", 
+    "Level": null, 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10282", 
+    "Level": 1, 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10283", 
+    "Level": 2, 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10284", 
+    "Level": 3, 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10285", 
+    "Level": 4, 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10286", 
+    "Level": 5, 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10287", 
+    "Level": 8, 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10288", 
+    "Level": 6, 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 13, 
+    "ArtifactBonus_ID": "10289", 
+    "Level": 10, 
+    "ArtifactID": "1028"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 9, 
+    "ArtifactBonus_ID": "10290", 
+    "Level": 8, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10291", 
+    "Level": null, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "102910", 
+    "Level": 5, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 13, 
+    "ArtifactBonus_ID": "102911", 
+    "Level": 10, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10292", 
+    "Level": null, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10293", 
+    "Level": 1, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10294", 
+    "Level": 2, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10295", 
+    "Level": 2, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10296", 
+    "Level": 4, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10297", 
+    "Level": 6, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10298", 
+    "Level": 6, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "10299", 
+    "Level": 8, 
+    "ArtifactID": "1029"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10301", 
+    "Level": null, 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10302", 
+    "Level": 1, 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10303", 
+    "Level": 2, 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10304", 
+    "Level": 3, 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10305", 
+    "Level": 7, 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10306", 
+    "Level": 9, 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10307", 
+    "Level": 4, 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10308", 
+    "Level": 10, 
+    "ArtifactID": "1030"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10311", 
+    "Level": null, 
+    "ArtifactID": "1031"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10312", 
+    "Level": null, 
+    "ArtifactID": "1031"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10313", 
+    "Level": null, 
+    "ArtifactID": "1031"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10314", 
+    "Level": 2, 
+    "ArtifactID": "1031"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10315", 
+    "Level": 7, 
+    "ArtifactID": "1031"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10316", 
+    "Level": 5, 
+    "ArtifactID": "1031"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10317", 
+    "Level": 10, 
+    "ArtifactID": "1031"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10321", 
+    "Level": null, 
+    "ArtifactID": "1032"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10322", 
+    "Level": null, 
+    "ArtifactID": "1032"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10323", 
+    "Level": 1, 
+    "ArtifactID": "1032"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10324", 
+    "Level": 3, 
+    "ArtifactID": "1032"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10325", 
+    "Level": 7, 
+    "ArtifactID": "1032"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10326", 
+    "Level": 8, 
+    "ArtifactID": "1032"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10327", 
+    "Level": 9, 
+    "ArtifactID": "1032"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10328", 
+    "Level": 5, 
+    "ArtifactID": "1032"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10329", 
+    "Level": 10, 
+    "ArtifactID": "1032"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10331", 
+    "Level": null, 
+    "ArtifactID": "1033"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10332", 
+    "Level": null, 
+    "ArtifactID": "1033"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10333", 
+    "Level": 2, 
+    "ArtifactID": "1033"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10334", 
+    "Level": 4, 
+    "ArtifactID": "1033"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10335", 
+    "Level": 6, 
+    "ArtifactID": "1033"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10336", 
+    "Level": 9, 
+    "ArtifactID": "1033"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10337", 
+    "Level": 5, 
+    "ArtifactID": "1033"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10338", 
+    "Level": 10, 
+    "ArtifactID": "1033"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10341", 
+    "Level": null, 
+    "ArtifactID": "1034"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10342", 
+    "Level": null, 
+    "ArtifactID": "1034"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10343", 
+    "Level": null, 
+    "ArtifactID": "1034"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10344", 
+    "Level": 2, 
+    "ArtifactID": "1034"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10345", 
+    "Level": 6, 
+    "ArtifactID": "1034"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10346", 
+    "Level": 8, 
+    "ArtifactID": "1034"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10347", 
+    "Level": 4, 
+    "ArtifactID": "1034"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10348", 
+    "Level": 10, 
+    "ArtifactID": "1034"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10351", 
+    "Level": null, 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10352", 
+    "Level": null, 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10353", 
+    "Level": null, 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10354", 
+    "Level": 2, 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10355", 
+    "Level": 4, 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10356", 
+    "Level": 7, 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10357", 
+    "Level": 9, 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10358", 
+    "Level": 5, 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10359", 
+    "Level": 10, 
+    "ArtifactID": "1035"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10361", 
+    "Level": null, 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10362", 
+    "Level": 2, 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10363", 
+    "Level": 4, 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10364", 
+    "Level": 6, 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10365", 
+    "Level": 7, 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10366", 
+    "Level": 8, 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10367", 
+    "Level": 9, 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10368", 
+    "Level": 5, 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10369", 
+    "Level": 10, 
+    "ArtifactID": "1036"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10370", 
+    "Level": 5, 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10371", 
+    "Level": null, 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "103710", 
+    "Level": 10, 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10372", 
+    "Level": null, 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10373", 
+    "Level": null, 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10374", 
+    "Level": 1, 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10375", 
+    "Level": 3, 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10376", 
+    "Level": 5, 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10378", 
+    "Level": 7, 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10379", 
+    "Level": 10, 
+    "ArtifactID": "1037"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10381", 
+    "Level": null, 
+    "ArtifactID": "1038"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10382", 
+    "Level": 1, 
+    "ArtifactID": "1038"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10383", 
+    "Level": 2, 
+    "ArtifactID": "1038"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10384", 
+    "Level": 3, 
+    "ArtifactID": "1038"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10385", 
+    "Level": 7, 
+    "ArtifactID": "1038"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10386", 
+    "Level": 9, 
+    "ArtifactID": "1038"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10387", 
+    "Level": 5, 
+    "ArtifactID": "1038"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10388", 
+    "Level": 10, 
+    "ArtifactID": "1038"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10391", 
+    "Level": null, 
+    "ArtifactID": "1039"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10392", 
+    "Level": 2, 
+    "ArtifactID": "1039"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10393", 
+    "Level": 4, 
+    "ArtifactID": "1039"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10394", 
+    "Level": 5, 
+    "ArtifactID": "1039"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10395", 
+    "Level": 6, 
+    "ArtifactID": "1039"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10396", 
+    "Level": 8, 
+    "ArtifactID": "1039"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10397", 
+    "Level": 10, 
+    "ArtifactID": "1039"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10401", 
+    "Level": null, 
+    "ArtifactID": "1040"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10402", 
+    "Level": 1, 
+    "ArtifactID": "1040"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10403", 
+    "Level": 2, 
+    "ArtifactID": "1040"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10404", 
+    "Level": 3, 
+    "ArtifactID": "1040"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10405", 
+    "Level": 7, 
+    "ArtifactID": "1040"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10406", 
+    "Level": 8, 
+    "ArtifactID": "1040"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10407", 
+    "Level": 9, 
+    "ArtifactID": "1040"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10408", 
+    "Level": 5, 
+    "ArtifactID": "1040"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10409", 
+    "Level": 10, 
+    "ArtifactID": "1040"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10411", 
+    "Level": null, 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10412", 
+    "Level": null, 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10413", 
+    "Level": 2, 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10414", 
+    "Level": 2, 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10415", 
+    "Level": 4, 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10416", 
+    "Level": 5, 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10417", 
+    "Level": 7, 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10418", 
+    "Level": 9, 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "10419", 
+    "Level": 10, 
+    "ArtifactID": "1041"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10421", 
+    "Level": null, 
+    "ArtifactID": "1042"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10422", 
+    "Level": null, 
+    "ArtifactID": "1042"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10423", 
+    "Level": null, 
+    "ArtifactID": "1042"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10424", 
+    "Level": 1, 
+    "ArtifactID": "1042"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10425", 
+    "Level": 5, 
+    "ArtifactID": "1042"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10426", 
+    "Level": 7, 
+    "ArtifactID": "1042"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10427", 
+    "Level": 9, 
+    "ArtifactID": "1042"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10428", 
+    "Level": 3, 
+    "ArtifactID": "1042"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10429", 
+    "Level": 10, 
+    "ArtifactID": "1042"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10431", 
+    "Level": null, 
+    "ArtifactID": "1043"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10432", 
+    "Level": null, 
+    "ArtifactID": "1043"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10433", 
+    "Level": 2, 
+    "ArtifactID": "1043"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10434", 
+    "Level": 4, 
+    "ArtifactID": "1043"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10435", 
+    "Level": 6, 
+    "ArtifactID": "1043"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10436", 
+    "Level": 5, 
+    "ArtifactID": "1043"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10437", 
+    "Level": 10, 
+    "ArtifactID": "1043"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10441", 
+    "Level": null, 
+    "ArtifactID": "1044"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10442", 
+    "Level": 1, 
+    "ArtifactID": "1044"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10443", 
+    "Level": 2, 
+    "ArtifactID": "1044"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10444", 
+    "Level": 4, 
+    "ArtifactID": "1044"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10445", 
+    "Level": 7, 
+    "ArtifactID": "1044"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10446", 
+    "Level": 9, 
+    "ArtifactID": "1044"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10447", 
+    "Level": 5, 
+    "ArtifactID": "1044"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10448", 
+    "Level": 10, 
+    "ArtifactID": "1044"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10451", 
+    "Level": null, 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10452", 
+    "Level": null, 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10453", 
+    "Level": 2, 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10454", 
+    "Level": 4, 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10455", 
+    "Level": 8, 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10456", 
+    "Level": 10, 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10457", 
+    "Level": 6, 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10458", 
+    "Level": 10, 
+    "ArtifactID": "1045"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10461", 
+    "Level": null, 
+    "ArtifactID": "1046"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10462", 
+    "Level": null, 
+    "ArtifactID": "1046"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10463", 
+    "Level": 1, 
+    "ArtifactID": "1046"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10464", 
+    "Level": 3, 
+    "ArtifactID": "1046"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10465", 
+    "Level": 7, 
+    "ArtifactID": "1046"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10466", 
+    "Level": 5, 
+    "ArtifactID": "1046"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10471", 
+    "Level": null, 
+    "ArtifactID": "1047"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10472", 
+    "Level": null, 
+    "ArtifactID": "1047"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10473", 
+    "Level": 1, 
+    "ArtifactID": "1047"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10474", 
+    "Level": 3, 
+    "ArtifactID": "1047"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10475", 
+    "Level": 6, 
+    "ArtifactID": "1047"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10476", 
+    "Level": 9, 
+    "ArtifactID": "1047"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10477", 
+    "Level": 5, 
+    "ArtifactID": "1047"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10478", 
+    "Level": 10, 
+    "ArtifactID": "1047"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10481", 
+    "Level": null, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "104810", 
+    "Level": 4, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "104811", 
+    "Level": 10, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10482", 
+    "Level": 1, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10483", 
+    "Level": 3, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10484", 
+    "Level": 3, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10485", 
+    "Level": 3, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10486", 
+    "Level": 6, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10487", 
+    "Level": 8, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10488", 
+    "Level": 8, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "10489", 
+    "Level": 9, 
+    "ArtifactID": "1048"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10490", 
+    "Level": 10, 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10491", 
+    "Level": null, 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10492", 
+    "Level": null, 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10493", 
+    "Level": null, 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10494", 
+    "Level": 1, 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10495", 
+    "Level": 1, 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10496", 
+    "Level": 3, 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10497", 
+    "Level": 5, 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10498", 
+    "Level": 7, 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10499", 
+    "Level": 5, 
+    "ArtifactID": "1049"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10500", 
+    "Level": 10, 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10501", 
+    "Level": null, 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10502", 
+    "Level": 1, 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10503", 
+    "Level": 2, 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10504", 
+    "Level": 3, 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10505", 
+    "Level": 4, 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10506", 
+    "Level": 6, 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10507", 
+    "Level": 8, 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10508", 
+    "Level": 9, 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10509", 
+    "Level": 5, 
+    "ArtifactID": "1050"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10511", 
+    "Level": null, 
+    "ArtifactID": "1051"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10512", 
+    "Level": null, 
+    "ArtifactID": "1051"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10513", 
+    "Level": null, 
+    "ArtifactID": "1051"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10514", 
+    "Level": 2, 
+    "ArtifactID": "1051"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10515", 
+    "Level": 4, 
+    "ArtifactID": "1051"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10516", 
+    "Level": 5, 
+    "ArtifactID": "1051"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10517", 
+    "Level": 6, 
+    "ArtifactID": "1051"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10518", 
+    "Level": 8, 
+    "ArtifactID": "1051"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "10519", 
+    "Level": 10, 
+    "ArtifactID": "1051"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10520", 
+    "Level": 10, 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10521", 
+    "Level": null, 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10522", 
+    "Level": 1, 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10523", 
+    "Level": 3, 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10524", 
+    "Level": 7, 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10525", 
+    "Level": 7, 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10526", 
+    "Level": 9, 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10527", 
+    "Level": 9, 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10528", 
+    "Level": 9, 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10529", 
+    "Level": 5, 
+    "ArtifactID": "1052"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10531", 
+    "Level": null, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "105312", 
+    "Level": null, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "105313", 
+    "Level": null, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "105314", 
+    "Level": 1, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "105315", 
+    "Level": 2, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "105316", 
+    "Level": 3, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "105317", 
+    "Level": 6, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "105318", 
+    "Level": 7, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 9, 
+    "ArtifactBonus_ID": "105319", 
+    "Level": 8, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10532", 
+    "Level": 5, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10533", 
+    "Level": 10, 
+    "ArtifactID": "1053"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10551", 
+    "Level": null, 
+    "ArtifactID": "1055"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10552", 
+    "Level": null, 
+    "ArtifactID": "1055"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10553", 
+    "Level": 1, 
+    "ArtifactID": "1055"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10554", 
+    "Level": 3, 
+    "ArtifactID": "1055"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10555", 
+    "Level": 5, 
+    "ArtifactID": "1055"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10556", 
+    "Level": 7, 
+    "ArtifactID": "1055"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10557", 
+    "Level": 5, 
+    "ArtifactID": "1055"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10558", 
+    "Level": 10, 
+    "ArtifactID": "1055"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10561", 
+    "Level": null, 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10562", 
+    "Level": 1, 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10563", 
+    "Level": 3, 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10564", 
+    "Level": 7, 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10565", 
+    "Level": 9, 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10566", 
+    "Level": 5, 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10567", 
+    "Level": 10, 
+    "ArtifactID": "1056"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10570", 
+    "Level": 5, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10571", 
+    "Level": null, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "105710", 
+    "Level": 10, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10572", 
+    "Level": null, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10573", 
+    "Level": null, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10574", 
+    "Level": 2, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10575", 
+    "Level": 4, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10576", 
+    "Level": 4, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10577", 
+    "Level": 6, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 7, 
+    "ArtifactBonus_ID": "10578", 
+    "Level": 8, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 8, 
+    "ArtifactBonus_ID": "10579", 
+    "Level": 8, 
+    "ArtifactID": "1057"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10581", 
+    "Level": null, 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10582", 
+    "Level": null, 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10583", 
+    "Level": 1, 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10584", 
+    "Level": 2, 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10585", 
+    "Level": 3, 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10586", 
+    "Level": 6, 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 6, 
+    "ArtifactBonus_ID": "10587", 
+    "Level": 8, 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10588", 
+    "Level": 5, 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 11, 
+    "ArtifactBonus_ID": "10589", 
+    "Level": 10, 
+    "ArtifactID": "1058"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": null, 
+    "ArtifactBonus_ID": "10591", 
+    "Level": null, 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 1, 
+    "ArtifactBonus_ID": "10592", 
+    "Level": null, 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 2, 
+    "ArtifactBonus_ID": "10593", 
+    "Level": 2, 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 3, 
+    "ArtifactBonus_ID": "10594", 
+    "Level": 4, 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 4, 
+    "ArtifactBonus_ID": "10595", 
+    "Level": 6, 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 5, 
+    "ArtifactBonus_ID": "10596", 
+    "Level": 8, 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 10, 
+    "ArtifactBonus_ID": "10597", 
+    "Level": 5, 
+    "ArtifactID": "1059"
+  }, 
+  {
+    "LastTimeRowUpdated": "2000-01-01 00:00:00", 
+    "BonusID": 12, 
+    "ArtifactBonus_ID": "10598", 
+    "Level": 10, 
+    "ArtifactID": "1059"
+  }
+]

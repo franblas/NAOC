@@ -49,6 +49,12 @@ class DatabaseBootstrap {
     m.importData(m.resourceFile2)
   }
 
+  def worldObjects(): Unit = {
+    val wo = new WorldObjects()
+    wo.createIndex()
+    wo.importData()
+  }
+
   def setup(): Unit = {
     println("Bootstrap the database ...")
     accounts()
@@ -58,6 +64,7 @@ class DatabaseBootstrap {
     zones()
     startupLocations()
     //mobs()
+    worldObjects()
   }
 
 }

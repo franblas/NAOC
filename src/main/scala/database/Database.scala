@@ -16,4 +16,14 @@ class Database {
     parse(json)
   }
 
+  def intChecker(a: JValue): Int = {
+    if (a.values == null) return 0
+    a.values.toString.toInt
+  }
+
+  def stringChecker(a: JValue): String = {
+    if (a.values == null) return ""
+    a.values.toString
+  }
+
 }

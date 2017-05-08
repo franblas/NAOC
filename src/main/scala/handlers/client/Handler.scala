@@ -36,6 +36,10 @@ class Handler {
       case 0xE8 => new PlayerInitRequest(gameClient)
       case 0x99 => new DoorRequest()
       case 0xA9 => new PlayerPositionUpdate(gameClient)
+      case 0xBE => new NPCCreationRequest(gameClient)
+      case 0xAF => new PlayerCommandHandler()
+      case 0xA5 => new ObjectUpdateRequest(gameClient)
+      case 0x74 => new PlayerAttackRequest(gameClient)
       case _ => new HandlerProcessorNoOpts()
     }
     request.process(data)
@@ -49,13 +53,6 @@ class Handler {
   def dataFormat(rawData: Array[Byte]): Array[Byte] = {
     rawData.slice(codePosition+1, rawData.length)
   }
-
-  /*
-  {
-    "0x20": "udp_init_request_handler",
-    "0xAF": "player_command_handler",
-  }
-  */
 }
 
 trait HandlerProcessor {

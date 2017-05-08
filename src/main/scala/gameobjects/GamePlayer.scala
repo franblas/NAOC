@@ -56,7 +56,7 @@ class GamePlayer(charData: Document) {
     this.dbCharacter = charData
     initCurrentRegion().flatMap(result => {
       this.currentRegion = result.head
-      println(this.currentRegion)
+      //println(this.currentRegion)
       initCurrentPosition()
     }).flatMap(_ => {
       initCurrentZone()
@@ -89,11 +89,21 @@ class GamePlayer(charData: Document) {
               "z" -> doc.getInteger("z").toInt,
               "heading" -> doc.getInteger("heading").toInt
             )
-            println(this.currentPosition)
+            //println(this.currentPosition)
           }
         })
       }
     }
+  }
+
+  def updateCurrentPosition(x: Int, y: Int, z: Int): Unit = {
+    this.currentPosition = Document(
+      "x" -> x,
+      "y" -> y,
+      "z" -> z,
+      "heading" -> this.currentPosition.getInteger("heading").toInt
+    )
+    //println(this.currentPosition)
   }
 
   def inZone(x: Int, y: Int, zone: Document): Boolean = {

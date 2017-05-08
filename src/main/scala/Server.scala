@@ -18,7 +18,7 @@ class Server extends Actor {
   import Tcp._
   import context.system
 
-  IO(Tcp) ! Bind(self, new InetSocketAddress("localhost", 10300))
+  IO(Tcp) ! Bind(self, new InetSocketAddress("0.0.0.0", 10300))
 
   var gameClients: Map[Int, ActorRef] = Map.empty[Int, ActorRef]
   var sessionId: Int = 1
@@ -35,6 +35,13 @@ class Server extends Actor {
       self,
       "SendNPCsUpdates"
     )
+    // setup the static objs world update job
+    context.system.scheduler.schedule(
+      Duration.create(0, TimeUnit.MILLISECONDS), // initial delay
+      Duration.create(worldUpdate.OBJ_UPDATE_INTERVAL, TimeUnit.SECONDS), // frequency
+      self,
+      "SendWOsUpdates"
+    )
   }
 
   def receive = {
@@ -43,8 +50,9 @@ class Server extends Actor {
       println("Local Address", localAddress)
 
     case CommandFailed(_: Bind) => context stop self
-
+      
     case "SendNPCsUpdates" => broadcast(worldUpdate.NPC_UPDATE_KEYWORD)
+    case "SendWOsUpdates" => broadcast(worldUpdate.OBJ_UPDATE_KEYWORD)
 
     case c @ Connected(remote, local) =>
       val handler = context.actorOf(Props(new GameClient(sessionId)))

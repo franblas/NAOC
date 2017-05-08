@@ -41,6 +41,7 @@ class GameClient(session: Int) extends Actor {
       this.requestCounter += 1
       ref ! Write(ByteString.apply(data))
     case worldUpdate.NPC_UPDATE_KEYWORD => worldUpdate.updateNPCs(this)
+    case worldUpdate.OBJ_UPDATE_KEYWORD => worldUpdate.updateWorldObjects(this)
     case PeerClosed => context stop self
   }
 }

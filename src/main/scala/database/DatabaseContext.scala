@@ -9,7 +9,7 @@ object DatabaseContext {
 
   val host: String = "localhost"
   val port: Int = 27017
-  val poolSize : Int = 50
+  val poolSize: Int = 50
 
   val client: MongoClient = MongoClient(f"mongodb://$host:$port/?maxPoolSize=$poolSize")
   val databaseName: String = "naoc"

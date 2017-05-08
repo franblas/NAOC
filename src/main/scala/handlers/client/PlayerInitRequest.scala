@@ -3,6 +3,7 @@ package handlers.client
 import database.Mobs
 import handlers.GameClient
 import handlers.server._
+import world.Point
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -38,7 +39,7 @@ class PlayerInitRequest(gameClient: GameClient) extends HandlerProcessor {
     sendMobsAndEquipmentToPlayer().map(_ => {
       println("INIT PLAYER FINISH")
       //gameclient.send_pak(player_init_finished_pak(0))
-      gameClient.sendPacket(new PlayerInitFinished().process())
+      gameClient.sendPacket(new PlayerInitFinished(gameClient).process())
       //gameclient.send_pak(started_help_pak())
       gameClient.sendPacket(new StartedHelp().process())
       //gameclient.send_pak(player_free_level_update_pak())
@@ -54,11 +55,16 @@ class PlayerInitRequest(gameClient: GameClient) extends HandlerProcessor {
     mobs.getMobsFromRegion(regionId).map(results => {
       println("LENGTH MOBS = ", results.length)
       results.foreach(mob => {
-        if (player.inZone(mob.getInteger("x").toInt, mob.getInteger("y").toInt, player.currentZone)) {
-          gameClient.sendPacket(new NPCCreate(mob, gameClient).process())
-          //gameClient.sendPacket(new LivingEquipmentUpdate(mob, gameClient).process())
-          //if npc.inventory:
-          //  gameclient.send_pak(living_equipment_update_pak(npc, mobs, gameclient))
+        val mobX = mob.getInteger("x")
+        val mobY = mob.getInteger("y")
+        if (player.inZone(mobX, mobY, player.currentZone)) {
+          val mobPosition = new Point(mobX, mobY)
+          if (mobPosition.inRadius(player.currentPosition.getInteger("x"), player.currentPosition.getInteger("y"), 3600)) {
+            gameClient.sendPacket(new NPCCreate(mob, gameClient).process())
+            //gameClient.sendPacket(new LivingEquipmentUpdate(mob, gameClient).process())
+            //if npc.inventory:
+            //  gameclient.send_pak(living_equipment_update_pak(npc, mobs, gameclient))
+          }
         }
       })
       println("END OF LOOP")

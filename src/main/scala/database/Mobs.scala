@@ -24,16 +24,6 @@ class Mobs extends Database {
       .onComplete(_ => println("Mobs index created"))
   }
 
-  def intChecker(a: JValue): Int = {
-    if (a.values == null) return 0
-    a.values.toString.toInt
-  }
-
-  def stringChecker(a: JValue): String = {
-    if (a.values == null) return ""
-    a.values.toString
-  }
-
   def importData(file: String): Unit = {
     val jsonData = loadJsonResource(file)
     val data: List[Document] = for {
@@ -125,7 +115,7 @@ class Mobs extends Database {
       "path_id" -> stringChecker(pathId),
       "is_cloak_hood_up" -> intChecker(isCloakHoodUp),
       "max_distance" -> intChecker(maxDistance),
-      "object_id" -> Random.nextInt(Short.MaxValue+1)
+      "object_id" -> (Random.nextInt((Short.MaxValue+1)*2)-(Short.MaxValue+1))
     )
 
     collection.insertMany(data)
@@ -143,6 +133,16 @@ class Mobs extends Database {
       notEqual("model", 0),
       notEqual("size", 0)
     ))
+      .toFuture
+      .recoverWith { case e: Throwable => Future.failed(e) }
+  }
+
+  def getSingleMobFromRegion(objectId: Int, regionId: Int): Future[Seq[Document]] = {
+    val doc = Document(
+      "object_id" -> objectId,
+      "region" -> regionId
+    )
+    collection.find(doc)
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
   }

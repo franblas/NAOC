@@ -24,6 +24,7 @@ class NPCCreate(npc: Document, gameClient: GameClient) {
     //ins = write_short(npc.object_id)
     //writer.writeShort(npc.getObjectId("_id").toString.replaceAll("[^\\d]", "").substring(0,4).toShort)
     writer.writeShort(npc.getInteger("object_id").toShort)
+    //npc.getObjectId("_id").toHexString
 
     //# pak.WriteShort((ushort)(speed));
     //speed = npc.speed

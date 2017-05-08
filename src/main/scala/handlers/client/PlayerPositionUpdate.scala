@@ -147,6 +147,8 @@ class PlayerPositionUpdate(gameClient: GameClient) extends HandlerProcessor {
       val realY = newZone.getInteger("offset_y").toInt + yOffsetInZone
       //println("realY", realY)
 
+      player.updateCurrentPosition(realX, realY, realZ.toInt)
+
       // bool zoneChange = newZone != client.Player.LastPositionUpdateZone;
       // if (zoneChange)
       // {

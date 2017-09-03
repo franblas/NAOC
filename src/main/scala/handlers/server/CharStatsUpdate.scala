@@ -1,7 +1,8 @@
 package handlers.server
 
+import gameobjects.GamePlayer
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -12,10 +13,14 @@ import scala.concurrent.Future
 class CharStatsUpdate(gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
     val player = gameClient.player
-    if (player == null) {
-      return Future { Array.emptyByteArray }
-    }
 
+    player match {
+      case null => Future { Array.emptyByteArray }
+      case _ => compute(player)
+    }
+  }
+
+  private def compute(player: GamePlayer): Future[Array[Byte]] = {
     val character = player.dbCharacter
     val updateStats: Seq[Int] = Seq(
       character.getInteger("strength"),
@@ -28,7 +33,7 @@ class CharStatsUpdate(gameClient: GameClient) {
       character.getInteger("charisma")
     )
 
-    val writer = new PacketWriter(0xFB)
+    val writer = new PacketWriter(ServerCodes.charStatsUpdate)
     updateStats.foreach(stat => {
       writer.writeShort(stat.toShort)
     })
@@ -53,8 +58,6 @@ class CharStatsUpdate(gameClient: GameClient) {
     writer.writeByte(0x00)
     writer.writeShort(0x1E)
     writer.writeShort(0x00)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

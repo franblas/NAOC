@@ -1,7 +1,7 @@
 package handlers.server
 
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -12,17 +12,19 @@ import scala.concurrent.Future
 class Time(gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
     val player = gameClient.player
-    if (player == null) {
-      return Future { Array.emptyByteArray }
-    }
 
-    val writer = new PacketWriter(0x7E)
+    player match {
+      case null => Future { Array.emptyByteArray }
+      case _ => compute()
+    }
+  }
+
+  private def compute(): Future[Array[Byte]] = {
+    val writer = new PacketWriter(ServerCodes.time)
     //pak.WriteInt(WorldMgr.GetCurrentGameTime(m_gameClient.Player));
-    writer.writeInt(0x02dc9708)
+    writer.writeInt(0x02dc9708) // TODO: time should be dynamic (day/night cycle)
     //pak.WriteInt(WorldMgr.GetDayIncrement(m_gameClient.Player));
     writer.writeInt(24)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

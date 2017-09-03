@@ -1,8 +1,9 @@
 package handlers.server
 
 import database.{Classes, Races}
+import gameobjects.GamePlayer
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -17,13 +18,17 @@ class UpdatePlayer(gameClient: GameClient) {
 
   def process(): Future[Array[Byte]] = {
     val player = gameClient.player
-    if (player == null) {
-      return Future { Array.emptyByteArray }
-    }
 
+    player match {
+      case null => Future { Array.emptyByteArray }
+      case _ => compute(player)
+    }
+  }
+
+  private def compute(player: GamePlayer): Future[Array[Byte]] = {
     val character = player.dbCharacter
 
-    val writer = new PacketWriter(0x16)
+    val writer = new PacketWriter(ServerCodes.updatePlayer)
     writer.writeByte(0x03)
     writer.writeByte(0x0F)
     writer.writeByte(0x00)

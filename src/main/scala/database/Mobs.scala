@@ -14,15 +14,15 @@ import scala.util.Random
   */
 class Mobs extends Database {
   private val collection = db.getCollection("mobs")
-  val resourceFile = "data/mobs.json"
-  val resourceFile2 = "data/mobs_2.json"
+  val resourceFile = "data/all_mobs.json"
+  //val resourceFile2 = "data/mobs_bis_2.json"
 
-  def createIndex(): Unit = {
+  /*def createIndex(): Unit = {
     collection.createIndex(Document("mob_id" -> 1), IndexOptions().unique(true))
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
       .onComplete(_ => println("Mobs index created"))
-  }
+  }*/
 
   def importData(file: String): Unit = {
     val jsonData = loadJsonResource(file)
@@ -38,7 +38,6 @@ class Mobs extends Database {
       ("Level", level) <- child
       ("RespawnInterval", respawnInterval) <- child
       ("Region", region) <- child
-      ("Mob_ID", mobId) <- child
       ("X", x) <- child
       ("Y", y) <- child
       ("Z", z) <- child
@@ -71,6 +70,7 @@ class Mobs extends Database {
       ("PathID", pathId) <- child
       ("IsCloakHoodUp", isCloakHoodUp) <- child
       ("MaxDistance", maxDistance) <- child
+      ("Object_ID", objectId) <- child
     } yield Document(
       "strength" -> intChecker(strength),
       "constitution" -> intChecker(constitution),
@@ -82,7 +82,6 @@ class Mobs extends Database {
       "level" -> intChecker(level),
       "respawn_interval" -> intChecker(respawnInterval),
       "region" -> intChecker(region),
-      "mob_id" -> stringChecker(mobId),
       "x" -> intChecker(x),
       "y" -> intChecker(y),
       "z" -> intChecker(z),
@@ -113,9 +112,9 @@ class Mobs extends Database {
       "roaming_range" -> intChecker(roamingRange),
       "intelligence" -> intChecker(intelligence),
       "path_id" -> stringChecker(pathId),
-      "is_cloak_hood_up" -> intChecker(isCloakHoodUp),
+      "is_cloak_hood_up" -> booleanChecker(isCloakHoodUp),
       "max_distance" -> intChecker(maxDistance),
-      "object_id" -> (Random.nextInt((Short.MaxValue+1)*2)-(Short.MaxValue+1))
+      "object_id" -> intChecker(objectId)
     )
 
     collection.insertMany(data)
@@ -146,28 +145,5 @@ class Mobs extends Database {
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
   }
-
-  /*
-  def get_mobs_from_region(region_id):
-  res = list()
-  conn = connect_db()
-  cursor = conn.execute('''
-    SELECT * FROM MOBS WHERE X IS NOT NULL AND Y IS NOT NULL AND Z IS NOT NULL AND HEADING IS NOT NULL AND MODEL IS NOT NULL AND SIZE IS NOT NULL AND REGION=?''', (region_id,))
-  rep = cursor.fetchall()
-  if rep: res = [a for a in rep]
-  conn.close()
-  return [deserialize_mob(r) for r in res]
-
-  def get_all_mobs():
-  res = list()
-  conn = connect_db()
-  cursor = conn.execute('''
-    SELECT * FROM MOBS WHERE X IS NOT NULL AND Y IS NOT NULL AND Z IS NOT NULL AND HEADING IS NOT NULL AND MODEL IS NOT NULL AND SIZE IS NOT NULL''')
-  rep = cursor.fetchall()
-  if rep: res = [a for a in rep]
-  conn.close()
-  return [deserialize_mob(r) for r in res]
-  */
-
 }
 

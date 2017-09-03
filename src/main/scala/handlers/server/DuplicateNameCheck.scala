@@ -1,9 +1,8 @@
 package handlers.server
 
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -11,7 +10,7 @@ import scala.concurrent.Future
   */
 class DuplicateNameCheck(characterName: String, alreadyExists: Boolean, gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0xCC)
+    val writer = new PacketWriter(ServerCodes.duplicateNameCheck)
     val loginName = gameClient.loginName
     writer.fillString(characterName, 30)
     writer.fillString(loginName, 24)
@@ -21,9 +20,7 @@ class DuplicateNameCheck(characterName: String, alreadyExists: Boolean, gameClie
       writer.writeByte(0x00)
     }
     writer.fill(0x00, 3)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }
 

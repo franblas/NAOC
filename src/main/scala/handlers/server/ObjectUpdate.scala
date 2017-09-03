@@ -1,12 +1,11 @@
 package handlers.server
 
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 import org.mongodb.scala.Document
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
-import scala.util.Random
 
 /**
   * Created by franblas on 17/04/17.
@@ -15,11 +14,15 @@ class ObjectUpdate(obj: Document, gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
     val player = gameClient.player
     val zone =  player.currentZone
-    if (player == null || obj.isEmpty || zone.isEmpty) {
-      return Future { Array.emptyByteArray }
-    }
 
-    val writer = new PacketWriter(0xA1)
+    player match {
+      case null => Future { Array.emptyByteArray }
+      case _ => compute(zone)
+    }
+  }
+
+  private def compute(zone: Document): Future[Array[Byte]] = {
+    val writer = new PacketWriter(ServerCodes.objectUpdate)
 
     //# var xOffsetInZone = (ushort) (obj.X - z.XOffset);
     //offset_x_in_zone = (obj.X - zone['offset_x']) & 0xFFFF
@@ -158,8 +161,6 @@ class ObjectUpdate(obj: Document, gameClient: GameClient) {
     //ins += write_byte(target_zone)
     writer.writeByte(targetZone.toByte)
 
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

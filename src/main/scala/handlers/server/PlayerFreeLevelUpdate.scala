@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -10,7 +9,7 @@ import scala.concurrent.Future
   */
 class PlayerFreeLevelUpdate {
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0x4C)
+    val writer = new PacketWriter(ServerCodes.playerFreeLevelUpdate)
 
     //// pak.WriteShort((ushort)player.ObjectID);
     //ins = write_short(7)
@@ -47,8 +46,6 @@ class PlayerFreeLevelUpdate {
     //time = 0x275f
     //ins += write_short(time)
     writer.writeShort(0x275F)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

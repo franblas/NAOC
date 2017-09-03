@@ -43,15 +43,15 @@ class DatabaseBootstrap {
 
   def mobs(): Unit = {
     val m = new Mobs()
-    m.createIndex()
+    //m.createIndex()
     println("Loading mobs, can take some time ...")
     m.importData(m.resourceFile)
-    m.importData(m.resourceFile2)
+    //m.importData(m.resourceFile2)
   }
 
   def worldObjects(): Unit = {
     val wo = new WorldObjects()
-    wo.createIndex()
+    //wo.createIndex()
     wo.importData()
   }
 

@@ -2,9 +2,8 @@ package handlers.server
 
 import java.nio.ByteOrder
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -23,7 +22,7 @@ class UpdatePoints {
     val champExperience = 0x00
     val champExperienceForNextLevel = 0x00
 
-    val writer = new PacketWriter(0x91)
+    val writer = new PacketWriter(ServerCodes.updatePoints)
     writer.writeInt(realmPoints.toInt)
     writer.writeShort(levelPermill.toShort)
     writer.writeShort(skillSpecialityPoints.toShort)
@@ -34,8 +33,6 @@ class UpdatePoints {
     writer.writeLong(experienceForNextLevel.toLong, ByteOrder.LITTLE_ENDIAN)
     writer.writeLong(champExperience.toLong, ByteOrder.LITTLE_ENDIAN)
     writer.writeLong(champExperienceForNextLevel.toLong, ByteOrder.LITTLE_ENDIAN)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -10,10 +9,8 @@ import scala.concurrent.Future
   */
 class Realm(realm: Int) {
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0xFE)
+    val writer = new PacketWriter(ServerCodes.realm)
     writer.writeByte(realm.toByte)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

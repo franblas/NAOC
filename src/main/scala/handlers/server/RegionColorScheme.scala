@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -10,13 +9,11 @@ import scala.concurrent.Future
   */
 class RegionColorScheme(color: Int) {
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0x4C)
+    val writer = new PacketWriter(ServerCodes.regionColorScheme)
     writer.writeShort(0x00)
     writer.writeByte(0x05)
     writer.writeByte(color.toByte)
     writer.writeInt(0x00)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

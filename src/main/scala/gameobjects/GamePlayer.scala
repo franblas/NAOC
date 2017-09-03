@@ -115,8 +115,8 @@ class GamePlayer(charData: Document) {
     val startY = 8192*offsetY
     val endX = startX + height * 8192
     val endY = startY + width * 8192
-    if ((startX <= x && x <= endX) && (startY <= y && y <= endY)) return true
-    false
+    if ((startX <= x && x <= endX) && (startY <= y && y <= endY)) true
+    else false
   }
 
   def initCurrentZone(): Future[Unit] = {

@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -10,11 +9,9 @@ import scala.concurrent.Future
   */
 class AttackMode(attackState: Byte) {
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0x74)
+    val writer = new PacketWriter(ServerCodes.attackMode)
     writer.writeByte(attackState)
     writer.fill(0x00, 3)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

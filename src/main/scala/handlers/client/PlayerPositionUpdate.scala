@@ -1,6 +1,7 @@
 package handlers.client
 
 import database.Zones
+import gameobjects.GamePlayer
 import handlers.GameClient
 import handlers.packets.PacketReader
 
@@ -17,10 +18,14 @@ class PlayerPositionUpdate(gameClient: GameClient) extends HandlerProcessor {
   override def process(data: Array[Byte]): Future[Array[Byte]] = {
     val reader = new PacketReader(data)
     val player = gameClient.player
-    if (player == null) {
-      return Future { Array.emptyByteArray }
-    }
 
+    player match {
+      case null => Future { Array.emptyByteArray }
+      case _ => compute(reader, player)
+    }
+  }
+
+  private def compute(reader: PacketReader, player: GamePlayer): Future[Array[Byte]] = {
     // int environmentTick = Environment.TickCount;
     // int packetVersion;
     // if (client.Version > GameClient.eClientVersion.Version171)
@@ -119,83 +124,84 @@ class PlayerPositionUpdate(gameClient: GameClient) extends HandlerProcessor {
       // 	return; // TODO: what should we do? player lost in space
       // }
       //if not new_zone: return
-      if (newZone.isEmpty) return Future { Array.emptyByteArray }
+      if (newZone.isEmpty) {
+        Future { Array.emptyByteArray }
+      } else {
+        //player.current_zone = new_zone
+        player.currentZone = newZone
 
-      //player.current_zone = new_zone
-      player.currentZone = newZone
+        // // move to bind if player fell through the floor
+        // if (realZ == 0)
+        // {
+        // 	client.Player.MoveTo(
+        // 		(ushort)client.Player.BindRegion,
+        // 		client.Player.BindXpos,
+        // 		client.Player.BindYpos,
+        // 		(ushort)client.Player.BindZpos,
+        // 		(ushort)client.Player.BindHeading
+        // 	);
+        // 	return;
+        // }
 
-      // // move to bind if player fell through the floor
-      // if (realZ == 0)
-      // {
-      // 	client.Player.MoveTo(
-      // 		(ushort)client.Player.BindRegion,
-      // 		client.Player.BindXpos,
-      // 		client.Player.BindYpos,
-      // 		(ushort)client.Player.BindZpos,
-      // 		(ushort)client.Player.BindHeading
-      // 	);
-      // 	return;
-      // }
+        // int realX = newZone.XOffset + xOffsetInZone;
+        // int realY = newZone.YOffset + yOffsetInZone;
+        //real_X = int(new_zone.get('offset_x')) + x_offset_in_zone
+        val realX = newZone.getInteger("offset_x").toInt + xOffsetInZone
+        //println("realX", realX)
 
-      // int realX = newZone.XOffset + xOffsetInZone;
-      // int realY = newZone.YOffset + yOffsetInZone;
-      //real_X = int(new_zone.get('offset_x')) + x_offset_in_zone
-      val realX = newZone.getInteger("offset_x").toInt + xOffsetInZone
-      //println("realX", realX)
+        //real_Y = int(new_zone.get('offset_y')) + y_offset_in_zone
+        val realY = newZone.getInteger("offset_y").toInt + yOffsetInZone
+        //println("realY", realY)
 
-      //real_Y = int(new_zone.get('offset_y')) + y_offset_in_zone
-      val realY = newZone.getInteger("offset_y").toInt + yOffsetInZone
-      //println("realY", realY)
+        player.updateCurrentPosition(realX, realY, realZ.toInt)
 
-      player.updateCurrentPosition(realX, realY, realZ.toInt)
+        // bool zoneChange = newZone != client.Player.LastPositionUpdateZone;
+        // if (zoneChange)
+        // {
+        // 	//If the region changes -> make sure we don't take any falling damage
+        // 	if (client.Player.LastPositionUpdateZone != null && newZone.ZoneRegion.ID != client.Player.LastPositionUpdateZone.ZoneRegion.ID)
+        // 				client.Player.MaxLastZ = int.MinValue;
+        // 		// Update water level and diving flag for the new zone
+        // 		client.Out.SendPlayerPositionAndObjectID();
+        // 		zoneChange = true;
+        // 		/*
+        // 		 * "You have entered Burial Tomb."
+        // 		 * "Burial Tomb"
+        // 		 * "Current area is adjusted for one level 1 player."
+        // 		 * "Current area has a 50% instance bonus."
+        // 		 */
+        //         string description = newZone.Description;
+        //         string screenDescription = description;
+        //         var translation = client.GetTranslation(newZone) as DBLanguageZone;
+        //         if (translation != null)
+        //         {
+        //             if (!Util.IsEmpty(translation.Description))
+        //                 description = translation.Description;
+        //             if (!Util.IsEmpty(translation.ScreenDescription))
+        //                 screenDescription = translation.ScreenDescription;
+        //         }
+        //         client.Out.SendMessage(LanguageMgr.GetTranslation(client.Account.Language, "PlayerPositionUpdateHandler.Entered", description),
+        // 			    eChatType.CT_System, eChatLoc.CL_SystemWindow);
+        //         client.Out.SendMessage(screenDescription, eChatType.CT_ScreenCenterSmaller, eChatLoc.CL_SystemWindow);
+        // 		client.Player.LastPositionUpdateZone = newZone;
+        // }
 
-      // bool zoneChange = newZone != client.Player.LastPositionUpdateZone;
-      // if (zoneChange)
-      // {
-      // 	//If the region changes -> make sure we don't take any falling damage
-      // 	if (client.Player.LastPositionUpdateZone != null && newZone.ZoneRegion.ID != client.Player.LastPositionUpdateZone.ZoneRegion.ID)
-      // 				client.Player.MaxLastZ = int.MinValue;
-      // 		// Update water level and diving flag for the new zone
-      // 		client.Out.SendPlayerPositionAndObjectID();
-      // 		zoneChange = true;
-      // 		/*
-      // 		 * "You have entered Burial Tomb."
-      // 		 * "Burial Tomb"
-      // 		 * "Current area is adjusted for one level 1 player."
-      // 		 * "Current area has a 50% instance bonus."
-      // 		 */
-      //         string description = newZone.Description;
-      //         string screenDescription = description;
-      //         var translation = client.GetTranslation(newZone) as DBLanguageZone;
-      //         if (translation != null)
-      //         {
-      //             if (!Util.IsEmpty(translation.Description))
-      //                 description = translation.Description;
-      //             if (!Util.IsEmpty(translation.ScreenDescription))
-      //                 screenDescription = translation.ScreenDescription;
-      //         }
-      //         client.Out.SendMessage(LanguageMgr.GetTranslation(client.Account.Language, "PlayerPositionUpdateHandler.Entered", description),
-      // 			    eChatType.CT_System, eChatLoc.CL_SystemWindow);
-      //         client.Out.SendMessage(screenDescription, eChatType.CT_ScreenCenterSmaller, eChatLoc.CL_SystemWindow);
-      // 		client.Player.LastPositionUpdateZone = newZone;
-      // }
-
-      // int coordsPerSec = 0;
-      // int jumpDetect = 0;
-      // int timediff = Environment.TickCount - client.Player.LastPositionUpdateTick;
-      // int distance = 0;
-      // if (timediff > 0)
-      // {
-      // 	distance = client.Player.LastPositionUpdatePoint.GetDistanceTo(new Point3D(realX, realY, realZ));
-      // 	coordsPerSec = distance * 1000 / timediff;
-      // 	if (distance < 100 && client.Player.LastPositionUpdatePoint.Z > 0)
-      // 	{
-      // 		jumpDetect = realZ - client.Player.LastPositionUpdatePoint.Z;
-      // 	}
-      // }
-
+        // int coordsPerSec = 0;
+        // int jumpDetect = 0;
+        // int timediff = Environment.TickCount - client.Player.LastPositionUpdateTick;
+        // int distance = 0;
+        // if (timediff > 0)
+        // {
+        // 	distance = client.Player.LastPositionUpdatePoint.GetDistanceTo(new Point3D(realX, realY, realZ));
+        // 	coordsPerSec = distance * 1000 / timediff;
+        // 	if (distance < 100 && client.Player.LastPositionUpdatePoint.Z > 0)
+        // 	{
+        // 		jumpDetect = realZ - client.Player.LastPositionUpdatePoint.Z;
+        // 	}
+        // }
+      }
     }).flatMap(_ => {
-      return Future { Array.emptyByteArray }
+      Future { Array.emptyByteArray }
     })
   }
 }

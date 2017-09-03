@@ -1,7 +1,7 @@
 package handlers.server
 
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 import org.mongodb.scala.Document
 
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -13,11 +13,15 @@ import scala.concurrent.Future
 class LivingEquipmentUpdate(npc: Document, gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
     val player = gameClient.player
-    if (player == null || npc.isEmpty) {
-      return Future { Array.emptyByteArray }
-    }
 
-    val writer = new PacketWriter(0x15)
+    player match {
+      case null => Future { Array.emptyByteArray }
+      case _ => compute()
+    }
+  }
+
+  private def compute(): Future[Array[Byte]] = {
+    val writer = new PacketWriter(ServerCodes.livingEquipmentUpdate)
     //# pak.WriteShort((ushort)living.ObjectID);
     //ins = write_short(mobs)
     writer.writeShort(npc.getInteger("object_id").toShort)
@@ -47,9 +51,7 @@ class LivingEquipmentUpdate(npc: Document, gameClient: GameClient) {
     */
     writer.writeByte(0x00)
 
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }
 

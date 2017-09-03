@@ -1,7 +1,7 @@
 package handlers.server
 
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 import org.mongodb.scala.Document
 
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -13,11 +13,15 @@ import scala.concurrent.Future
 class NPCCreate(npc: Document, gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
     val player = gameClient.player
-    if (player == null || npc.isEmpty) {
-      return Future { Array.emptyByteArray }
-    }
 
-    val writer = new PacketWriter(0xDA)
+    player match {
+      case null => Future { Array.emptyByteArray }
+      case _ => compute()
+    }
+  }
+
+  private def compute(): Future[Array[Byte]] = {
+    val writer = new PacketWriter(ServerCodes.npcCreate)
     //# speed = 0
     val speedZ = 0
     //# pak.WriteShort((ushort)npc.ObjectID);
@@ -231,8 +235,6 @@ class NPCCreate(npc: Document, gameClient: GameClient) {
     //ins += write_byte(0x00)
     writer.writeByte(0x00)
 
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

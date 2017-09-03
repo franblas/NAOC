@@ -27,7 +27,7 @@ class Server extends Actor {
   override def preStart(): Unit = {
     super.preStart()
     // bootstrap the database
-    new DatabaseBootstrap().setup()
+    //new DatabaseBootstrap().setup()
     // setup the npc world update job
     context.system.scheduler.schedule(
       Duration.create(0, TimeUnit.MILLISECONDS), // initial delay

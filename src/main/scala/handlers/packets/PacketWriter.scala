@@ -2,6 +2,9 @@ package handlers.packets
 
 import java.nio.{ByteBuffer, ByteOrder}
 
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.Future
+
 /**
   * Created by franblas on 26/03/17.
   */
@@ -64,6 +67,10 @@ class PacketWriter(val packetCode: Int) extends Packets {
     finalPacket :+= packetCode.toByte
     finalPacket ++= packet
     finalPacket
+  }
+
+  def toFinalFuture(): Future[Array[Byte]] = {
+    Future { getFinalPacket() }
   }
 
 }

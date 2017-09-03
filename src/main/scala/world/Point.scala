@@ -16,7 +16,7 @@ class Point(x: Int, y: Int) {
     val dx = x - centerX
     val dy = y - centerY
     val dist = dx*dx + dy*dy
-    if (dist > radius2) false
+    if (dist >= radius2) false
     else true
   }
 

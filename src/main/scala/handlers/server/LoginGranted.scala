@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.{PacketWriter, PacketsUtils}
+import handlers.packets.{PacketWriter, PacketsUtils, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -11,7 +10,7 @@ import scala.concurrent.Future
 class LoginGranted(version: String, username: String) {
 
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0x2A)
+    val writer = new PacketWriter(ServerCodes.loginGranted)
     writer.writeByte(0x01)
     writer.writeByte(PacketsUtils.parseVersion(version, true))
     writer.writeByte(PacketsUtils.parseVersion(version, false))
@@ -22,9 +21,7 @@ class LoginGranted(version: String, username: String) {
     writer.writeByte(0x00)
     writer.writeByte(0x00)
     writer.writeByte(0x00)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }
 

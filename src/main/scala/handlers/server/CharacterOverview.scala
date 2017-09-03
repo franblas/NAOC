@@ -4,11 +4,11 @@ import java.nio.ByteOrder
 
 import database.{Characters, Classes, Races}
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
+import scala.concurrent.{Await, Future}
 
 /**
   * Created by franblas on 07/04/17.
@@ -19,7 +19,7 @@ class CharacterOverview(realm: Int, gameClient: GameClient) {
   private val races = new Races()
 
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0xFD)
+    val writer = new PacketWriter(ServerCodes.characterOverview)
     val loginName = gameClient.loginName
     writer.fillString(loginName, 24)
 
@@ -63,13 +63,15 @@ class CharacterOverview(realm: Int, gameClient: GameClient) {
               //   pak.Fill(0x0, 24); //No known location
               writer.fill(0x0, 24) // No known location
 
+              // TODO: try to get rid of await
               Await.result(classes.getCharClass(character.getInteger("char_class")).map(result => {
                 writer.fillString(result.head.getString("char_class_name"), 24)
-              }), 2000 millis)
+              }), 5000 millis)
 
+              // TODO: try to get rid of await
               Await.result(races.getRace(character.getInteger("race")).map(result => {
                 writer.fillString(result.head.getString("race_id"), 24)
-              }), 2000 millis)
+              }), 5000 millis)
 
               writer.writeByte(character.getInteger("level").toByte)
               writer.writeByte(character.getInteger("char_class").toByte)

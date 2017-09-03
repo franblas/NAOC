@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -10,15 +9,13 @@ import scala.concurrent.Future
   */
 class Weather {
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0x92)
+    val writer = new PacketWriter(ServerCodes.weather)
     writer.writeInt(0x00)
     writer.writeInt(0x00)
     writer.writeShort(0x00)
     writer.writeShort(0x00)
     writer.writeShort(0x00)
     writer.writeShort(0x00)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

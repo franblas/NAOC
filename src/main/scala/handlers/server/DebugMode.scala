@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -10,7 +9,7 @@ import scala.concurrent.Future
   */
 class DebugMode {
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0x21)
+    val writer = new PacketWriter(ServerCodes.debugMode)
     /*
     // if (m_gameClient.Account.PrivLevel == 1)
     // {
@@ -23,8 +22,6 @@ class DebugMode {
     */
     writer.writeByte(0x00)
     writer.writeByte(0x00)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

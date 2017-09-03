@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -11,14 +10,12 @@ import scala.concurrent.Future
 class PingReply(timestamp: Int, sequence: Int) {
 
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0x29)
+    val writer = new PacketWriter(ServerCodes.pingReply)
     writer.writeInt(timestamp)
     writer.fill(0x00, 4)
     writer.writeShort((sequence+1).toShort)
     writer.fill(0x00, 6)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }
 

@@ -1,7 +1,7 @@
 package handlers.server
 
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -12,11 +12,15 @@ import scala.concurrent.Future
 class UpdateMaxSpeed(gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
     val player = gameClient.player
-    if (player == null) {
-      return Future { Array.emptyByteArray }
-    }
 
-    val writer = new PacketWriter(0xB6)
+    player match {
+      case null => Future { Array.emptyByteArray }
+      case _ => compute()
+    }
+  }
+
+  private def compute(): Future[Array[Byte]] = {
+    val writer = new PacketWriter(ServerCodes.updateMaxSpeed)
     // pak.WriteShort((ushort) (m_gameClient.Player.MaxSpeed*100/GamePlayer.PLAYER_BASE_SPEED));
     // ins = write_short(0x007D)
     writer.writeShort(0x007D)
@@ -28,8 +32,6 @@ class UpdateMaxSpeed(gameClient: GameClient) {
     // 	((m_gameClient.Player.MaxSpeed*100/GamePlayer.PLAYER_BASE_SPEED)*(m_gameClient.Player.GetModified(eProperty.WaterSpeed)*.01))));
     // ins += write_byte(0x00)
     writer.writeByte(0x00)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

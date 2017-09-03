@@ -15,9 +15,13 @@ class CharacterOverviewRequest(gameClient: GameClient) extends HandlerProcessor 
     val accountName = reader.readString(24)
     if (accountName.contains(accountName.split("-")(0) + "-X")) {
       println("No realm (multiple account selection)")
-      return new Realm(0x00).process() // No realm (multiple account selection)
+      new Realm(0x00).process() // No realm (multiple account selection)
+    } else {
+      realmChoice(accountName)
     }
+  }
 
+  private def realmChoice(accountName: String): Future[Array[Byte]] = {
     if (accountName.endsWith("-S")) {
       println("Albion")
       new CharacterOverview(0x01, gameClient).process()

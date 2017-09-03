@@ -20,26 +20,25 @@ class CharacterSelectRequest(gameClient: GameClient) extends HandlerProcessor {
     reader.skip(4)
     val charName = reader.readString(28).replace("*", "")
     if (charName == null || charName == "" || charName.length < 3) {
-      return Future {
+      Future {
         Array.emptyByteArray
       }
-    }
-
-
-    (if (charName != "noname") {
-      character.getCharacter(gameClient.loginName, charName).flatMap(result => {
-        if (result.nonEmpty) {
-          gameClient.player = new GamePlayer(result.head)
-          gameClient.player.init()
-        } else {
-          Future.successful()
-        }
-      })
     } else {
-      Future.successful()
-    }).flatMap(_ =>
-      new SessionId(gameClient).process()
-    )
+      (if (charName != "noname") {
+        character.getCharacter(gameClient.loginName, charName).flatMap(result => {
+          if (result.nonEmpty) {
+            gameClient.player = new GamePlayer(result.head)
+            gameClient.player.init()
+          } else {
+            Future.successful()
+          }
+        })
+      } else {
+        Future.successful()
+      }).flatMap(_ =>
+        new SessionId(gameClient).process()
+      )
+    }
   }
 
     /*if (charName != "noname") {

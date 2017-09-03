@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -10,7 +9,7 @@ import scala.concurrent.Future
   */
 class SetControlledHorse {
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0x4E)
+    val writer = new PacketWriter(ServerCodes.setControlledHorse)
     /*
     // if (player.HasHorse)
     // {
@@ -39,8 +38,6 @@ class SetControlledHorse {
       // }
     */
     writer.fill(0x00, 8)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

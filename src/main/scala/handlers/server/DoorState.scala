@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -14,14 +13,12 @@ class DoorState(doorId: Int, doorState: Byte) {
     val doorType = doorId / 100000000
     val flag = 0x01
 
-    val writer = new PacketWriter(0x99)
+    val writer = new PacketWriter(ServerCodes.doorState)
     writer.writeInt(doorId)
     writer.writeByte(doorState)
     writer.writeByte(flag.toByte)
     writer.writeByte(0xFF.toByte)
     writer.writeByte(0x00)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

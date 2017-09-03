@@ -16,12 +16,12 @@ class WorldObjects extends Database {
   private val collection = db.getCollection("world_objects")
   private val resourceFile = "data/world_objects.json"
 
-  def createIndex(): Unit = {
+  /*def createIndex(): Unit = {
     collection.createIndex(Document("world_object_id" -> 1), IndexOptions().unique(true))
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
       .onComplete(_ => println("World objects index created"))
-  }
+  }*/
 
   def importData(): Unit = {
     val jsonData = loadJsonResource(resourceFile)
@@ -39,8 +39,8 @@ class WorldObjects extends Database {
       JField("Region", JInt(region)) <- child
       ("Emblem", emblem) <- child
       JField("TranslationId", JString(translationId)) <- child
-      JField("Type", JString(wotype)) <- child
-      JField("WorldObject_ID", JString(woId)) <- child
+      JField("ClassType", JString(wotype)) <- child
+      JField("Object_ID", JInt(objectId)) <- child
     } yield Document(
       "realm" -> intChecker(realm),
       "name" -> name.toString,
@@ -55,8 +55,7 @@ class WorldObjects extends Database {
       "emblem" -> intChecker(emblem),
       "translation_id" -> translationId.toString,
       "type" -> wotype.toString,
-      "world_object_id" -> woId.toString,
-      "object_id" -> (Random.nextInt((Short.MaxValue+1)*2)-(Short.MaxValue+1))
+      "object_id" -> objectId.toInt
     )
     collection.insertMany(data)
       .toFuture

@@ -1,7 +1,8 @@
 package handlers.server
 
+import gameobjects.GamePlayer
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -12,11 +13,15 @@ import scala.concurrent.Future
 class PlayerPositionAndObjectId(gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
     val player = gameClient.player
-    if (player == null) {
-      return Future { Array.emptyByteArray }
-    }
 
-    val writer = new PacketWriter(0x20)
+    player match {
+      case null => Future { Array.emptyByteArray }
+      case _ => compute(player)
+    }
+  }
+
+  private def compute(player: GamePlayer): Future[Array[Byte]] = {
+    val writer = new PacketWriter(ServerCodes.playerPositionAndObjectId)
     // ins = write_short(player.object_id)
     writer.writeShort(player.objectId.toShort)
     // ins += write_short(player.current_position.get('Z'))
@@ -78,9 +83,6 @@ class PlayerPositionAndObjectId(gameClient: GameClient) {
     // ins += write_byte(0x00)
     writer.writeByte(0x00)
 
-    Future {
-      writer.getFinalPacket()
-    }
-
+    writer.toFinalFuture()
   }
 }

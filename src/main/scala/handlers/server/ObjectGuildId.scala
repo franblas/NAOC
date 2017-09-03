@@ -1,8 +1,7 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -11,7 +10,7 @@ import scala.concurrent.Future
 class ObjectGuildId {
   def process(): Future[Array[Byte]] = {
 
-    val writer = new PacketWriter(0xDE)
+    val writer = new PacketWriter(ServerCodes.objectGuildId)
     //// pak.WriteShort((ushort) obj.ObjectID);
     //ins = write_short(0x07)
     writer.writeShort(0x07)
@@ -29,8 +28,6 @@ class ObjectGuildId {
     //// pak.WriteShort(0x00); //seems random, not used by the client
     //ins += write_short(0x00)
     writer.writeShort(0x00)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

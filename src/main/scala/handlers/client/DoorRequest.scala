@@ -1,7 +1,7 @@
-package handlers.server
+package handlers.client
 
-import handlers.client.HandlerProcessor
 import handlers.packets.PacketReader
+import handlers.server.DoorState
 
 import scala.concurrent.Future
 

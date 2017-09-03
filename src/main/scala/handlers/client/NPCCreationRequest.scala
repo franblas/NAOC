@@ -18,17 +18,16 @@ class NPCCreationRequest(gameClient: GameClient) extends HandlerProcessor {
   override def process(data: Array[Byte]): Future[Array[Byte]] = {
     val player = gameClient.player
     if (player == null || player.currentRegion == null) {
-      return Future { Array.emptyByteArray }
+      Future { Array.emptyByteArray }
+    } else {
+      val reader = new PacketReader(data)
+      val objectId = reader.readShort()
+      val regionId = player.currentRegion.getInteger("region_id").toInt
+      mobs.getSingleMobFromRegion(objectId.toInt, regionId).map(results => {
+        val mob = results.head
+        if (mob.nonEmpty) gameClient.sendPacket(new NPCCreate(mob, gameClient).process())
+        Array.emptyByteArray
+      })
     }
-
-    val reader = new PacketReader(data)
-    val objectId = reader.readShort()
-    val regionId = player.currentRegion.getInteger("region_id").toInt
-    mobs.getSingleMobFromRegion(objectId.toInt, regionId).map(results => {
-      val mob = results.head
-      if (mob.nonEmpty) gameClient.sendPacket(new NPCCreate(mob, gameClient).process())
-      Array.emptyByteArray
-    })
-
   }
 }

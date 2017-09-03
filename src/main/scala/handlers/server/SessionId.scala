@@ -1,9 +1,8 @@
 package handlers.server
 
 import handlers.GameClient
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -11,10 +10,8 @@ import scala.concurrent.Future
   */
 class SessionId(gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
-    val writer = new PacketWriter(0x28)
+    val writer = new PacketWriter(ServerCodes.sessionId)
     writer.writeShort(gameClient.sessionId.toShort)
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

@@ -1,9 +1,8 @@
 package handlers.server
 
-import handlers.packets.PacketWriter
+import handlers.packets.{PacketWriter, ServerCodes}
 import org.mongodb.scala.Document
 
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -12,7 +11,7 @@ import scala.concurrent.Future
 class ObjectCreate(obj: Document) {
   def process(): Future[Array[Byte]] = {
 
-    val writer = new PacketWriter(0xD9)
+    val writer = new PacketWriter(ServerCodes.objectCreate)
 
 
     //pak.WriteShort((ushort)obj.ObjectID);
@@ -109,9 +108,6 @@ class ObjectCreate(obj: Document) {
     */
     writer.writeByte(0x00)
 
-
-    Future {
-      writer.getFinalPacket()
-    }
+    writer.toFinalFuture()
   }
 }

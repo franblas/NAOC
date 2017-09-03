@@ -17,13 +17,27 @@ class Database {
   }
 
   def intChecker(a: JValue): Int = {
-    if (a.values == null) return 0
-    a.values.toString.toInt
+    a match {
+      case null => 0
+      case _ if a.values == null => 0
+      case _ => a.values.toString.toInt
+    }
   }
 
   def stringChecker(a: JValue): String = {
-    if (a.values == null) return ""
-    a.values.toString
+    a match {
+      case null => ""
+      case _ if a.values == null => ""
+      case _ => a.values.toString
+    }
+  }
+
+  def booleanChecker(a: JValue): Boolean = {
+    a match {
+      case null => false
+      case _ if a.values == null => false
+      case _ => a.values.toString.toBoolean
+    }
   }
 
 }

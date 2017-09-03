@@ -3,7 +3,7 @@ package handlers.client
 import database.Mobs
 import handlers.GameClient
 import handlers.server._
-import world.Point
+import world.{Point, WorldUpdate}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -14,6 +14,7 @@ import scala.concurrent.Future
 class PlayerInitRequest(gameClient: GameClient) extends HandlerProcessor {
 
   val mobs = new Mobs()
+  val worldUpdate = new WorldUpdate()
 
   override def process(data: Array[Byte]): Future[Array[Byte]] = {
 
@@ -38,12 +39,12 @@ class PlayerInitRequest(gameClient: GameClient) extends HandlerProcessor {
     //send_mobs_and_mob_equipment_to_player(gameclient)
     sendMobsAndEquipmentToPlayer().map(_ => {
       println("INIT PLAYER FINISH")
-      //gameclient.send_pak(player_init_finished_pak(0))
-      gameClient.sendPacket(new PlayerInitFinished(gameClient).process())
       //gameclient.send_pak(started_help_pak())
       gameClient.sendPacket(new StartedHelp().process())
       //gameclient.send_pak(player_free_level_update_pak())
       gameClient.sendPacket(new PlayerFreeLevelUpdate().process())
+      //gameclient.send_pak(player_init_finished_pak(0))
+      gameClient.sendPacket(new PlayerInitFinished(gameClient).process())
       Array.emptyByteArray
     })
   }
@@ -52,14 +53,18 @@ class PlayerInitRequest(gameClient: GameClient) extends HandlerProcessor {
     val player = gameClient.player
     val regionId = player.currentRegion.getInteger("region_id").toInt
 
+    val t1 = System.nanoTime()
+    println("FIRST PLAYER CURRENT ZONE", player.currentZone)
+    println("FIRST PLAYER CURRENT POS", player.currentPosition)
+
     mobs.getMobsFromRegion(regionId).map(results => {
-      println("LENGTH MOBS = ", results.length)
+      println("FIRST LENGTH MOBS = ", results.length)
       results.foreach(mob => {
         val mobX = mob.getInteger("x")
         val mobY = mob.getInteger("y")
         if (player.inZone(mobX, mobY, player.currentZone)) {
           val mobPosition = new Point(mobX, mobY)
-          if (mobPosition.inRadius(player.currentPosition.getInteger("x"), player.currentPosition.getInteger("y"), 3600)) {
+          if (mobPosition.inRadius(player.currentPosition.getInteger("x"), player.currentPosition.getInteger("y"), worldUpdate.VISIBILITY_DISTANCE)) {
             gameClient.sendPacket(new NPCCreate(mob, gameClient).process())
             //gameClient.sendPacket(new LivingEquipmentUpdate(mob, gameClient).process())
             //if npc.inventory:
@@ -67,7 +72,9 @@ class PlayerInitRequest(gameClient: GameClient) extends HandlerProcessor {
           }
         }
       })
-      println("END OF LOOP")
+      println("FIRST END OF LOOP")
+      val t2 = System.nanoTime()
+      println("Elapsed time FIRST MOBS: " + (t2 - t1) + "ns")
     })
   }
 }

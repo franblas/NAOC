@@ -30,14 +30,14 @@ class Server extends Actor {
     //new DatabaseBootstrap().setup()
     // setup the npc world update job
     context.system.scheduler.schedule(
-      Duration.create(0, TimeUnit.MILLISECONDS), // initial delay
+      Duration.create(1000, TimeUnit.MILLISECONDS), // initial delay
       Duration.create(worldUpdate.NPC_UPDATE_INTERVAL, TimeUnit.SECONDS), // frequency
       self,
       "SendNPCsUpdates"
     )
     // setup the static objs world update job
     context.system.scheduler.schedule(
-      Duration.create(0, TimeUnit.MILLISECONDS), // initial delay
+      Duration.create(1500, TimeUnit.MILLISECONDS), // initial delay
       Duration.create(worldUpdate.OBJ_UPDATE_INTERVAL, TimeUnit.SECONDS), // frequency
       self,
       "SendWOsUpdates"

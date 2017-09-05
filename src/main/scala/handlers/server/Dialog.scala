@@ -11,12 +11,7 @@ import scala.concurrent.Future
   */
 class Dialog(code: Int, data1: Int, data2: Int, data3: Int, data4: Int, dialogType: Int, autoWrapText: Boolean, msg: String, gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
-    val player = gameClient.player
-
-    player match {
-      case null => Future { Array.emptyByteArray }
-      case _ => compute()
-    }
+    gameClient.player.map(_ => compute()).getOrElse(Future { Array.emptyByteArray })
   }
 
   private def compute(): Future[Array[Byte]] = {

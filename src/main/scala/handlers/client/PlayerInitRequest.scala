@@ -50,31 +50,32 @@ class PlayerInitRequest(gameClient: GameClient) extends HandlerProcessor {
   }
 
   def sendMobsAndEquipmentToPlayer(): Future[Unit] = {
-    val player = gameClient.player
-    val regionId = player.currentRegion.getInteger("region_id").toInt
+    gameClient.player.map(player => {
+      val regionId = player.currentRegion.getInteger("region_id").toInt
 
-    val t1 = System.nanoTime()
-    println("FIRST PLAYER CURRENT ZONE", player.currentZone)
-    println("FIRST PLAYER CURRENT POS", player.currentPosition)
+      val t1 = System.nanoTime()
+      println("FIRST PLAYER CURRENT ZONE", player.currentZone)
+      println("FIRST PLAYER CURRENT POS", player.currentPosition)
 
-    mobs.getMobsFromRegion(regionId).map(results => {
-      println("FIRST LENGTH MOBS = ", results.length)
-      results.foreach(mob => {
-        val mobX = mob.getInteger("x")
-        val mobY = mob.getInteger("y")
-        if (player.inZone(mobX, mobY, player.currentZone)) {
-          val mobPosition = new Point(mobX, mobY)
-          if (mobPosition.inRadius(player.currentPosition.getInteger("x"), player.currentPosition.getInteger("y"), worldUpdate.VISIBILITY_DISTANCE)) {
-            gameClient.sendPacket(new NPCCreate(mob, gameClient).process())
-            //gameClient.sendPacket(new LivingEquipmentUpdate(mob, gameClient).process())
-            //if npc.inventory:
-            //  gameclient.send_pak(living_equipment_update_pak(npc, mobs, gameclient))
+      mobs.getMobsFromRegion(regionId).map(results => {
+        println("FIRST LENGTH MOBS = ", results.length)
+        results.foreach(mob => {
+          val mobX = mob.getInteger("x")
+          val mobY = mob.getInteger("y")
+          if (player.inZone(mobX, mobY, player.currentZone)) {
+            val mobPosition = new Point(mobX, mobY)
+            if (mobPosition.inRadius(player.currentPosition.getInteger("x"), player.currentPosition.getInteger("y"), worldUpdate.VISIBILITY_DISTANCE)) {
+              gameClient.sendPacket(new NPCCreate(mob, gameClient).process())
+              //gameClient.sendPacket(new LivingEquipmentUpdate(mob, gameClient).process())
+              //if npc.inventory:
+              //  gameclient.send_pak(living_equipment_update_pak(npc, mobs, gameclient))
+            }
           }
-        }
+        })
+        println("FIRST END OF LOOP")
+        val t2 = System.nanoTime()
+        println("Elapsed time FIRST MOBS: " + (t2 - t1) + "ns")
       })
-      println("FIRST END OF LOOP")
-      val t2 = System.nanoTime()
-      println("Elapsed time FIRST MOBS: " + (t2 - t1) + "ns")
-    })
+    }).getOrElse(Future.successful())
   }
 }

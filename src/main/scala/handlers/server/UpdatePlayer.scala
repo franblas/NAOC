@@ -17,12 +17,7 @@ class UpdatePlayer(gameClient: GameClient) {
   private val races = new Races()
 
   def process(): Future[Array[Byte]] = {
-    val player = gameClient.player
-
-    player match {
-      case null => Future { Array.emptyByteArray }
-      case _ => compute(player)
-    }
+    gameClient.player.map(player => compute(player)).getOrElse(Future { Array.emptyByteArray })
   }
 
   private def compute(player: GamePlayer): Future[Array[Byte]] = {

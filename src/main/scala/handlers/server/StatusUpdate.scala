@@ -11,12 +11,7 @@ import scala.concurrent.Future
   */
 class StatusUpdate(sittingFlag: Int, gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
-    val player = gameClient.player
-
-    player match {
-      case null => Future { Array.emptyByteArray }
-      case _ => compute()
-    }
+    gameClient.player.map(_ => compute()).getOrElse(Future { Array.emptyByteArray })
   }
 
   private def percentage(v: Int, maxV: Int): Int = {

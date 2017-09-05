@@ -27,8 +27,8 @@ class CharacterSelectRequest(gameClient: GameClient) extends HandlerProcessor {
       (if (charName != "noname") {
         character.getCharacter(gameClient.loginName, charName).flatMap(result => {
           if (result.nonEmpty) {
-            gameClient.player = new GamePlayer(result.head)
-            gameClient.player.init()
+            gameClient.player = Some(new GamePlayer(result.head))
+            gameClient.player.map(gp => gp.init()).getOrElse(Future.successful())
           } else {
             Future.successful()
           }

@@ -12,12 +12,7 @@ import scala.concurrent.Future
   */
 class NPCCreate(npc: Document, gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
-    val player = gameClient.player
-
-    player match {
-      case null => Future { Array.emptyByteArray }
-      case _ => compute()
-    }
+    gameClient.player.map(_ => compute()).getOrElse(Future { Array.emptyByteArray })
   }
 
   private def compute(): Future[Array[Byte]] = {

@@ -15,6 +15,8 @@ class ObjectUpdateRequest(gameClient: GameClient) extends HandlerProcessor {
   val worldUpdate = new WorldUpdate()
 
   override def process(data: Array[Byte]): Future[Array[Byte]] = {
+    // TODO
+    println("---> ObjectUpdateRequest")
     Future {
       worldUpdate.updateWorldObjects(gameClient)
       Array.emptyByteArray

@@ -12,13 +12,7 @@ import scala.concurrent.Future
   */
 class ObjectUpdate(obj: Document, gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
-    val player = gameClient.player
-    val zone =  player.currentZone
-
-    player match {
-      case null => Future { Array.emptyByteArray }
-      case _ => compute(zone)
-    }
+    gameClient.player.map(player => compute(player.currentZone)).getOrElse(Future { Array.emptyByteArray })
   }
 
   private def compute(zone: Document): Future[Array[Byte]] = {

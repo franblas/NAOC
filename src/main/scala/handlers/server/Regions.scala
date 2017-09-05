@@ -11,14 +11,13 @@ import scala.concurrent.Future
   */
 class Regions(gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
-    val player = gameClient.player
-
-    player match {
-      case null => Future { Array.emptyByteArray }
-      case _ if player.currentRegion == null => Future { Array.emptyByteArray }
-      case _ if player.currentRegion.getInteger("region_id", -100) == -100 => Future { Array.emptyByteArray }
-      case _ => compute(player.currentRegion.getInteger("region_id", -100))
-    }
+    gameClient.player.map(player => {
+      if (player.currentRegion == null || player.currentRegion.getInteger("region_id", -100) == -100) {
+        Future { Array.emptyByteArray }
+      } else {
+        compute(player.currentRegion.getInteger("region_id", -100))
+      }
+    }).getOrElse(Future { Array.emptyByteArray })
   }
 
   private def compute(regionId: Int): Future[Array[Byte]] = {

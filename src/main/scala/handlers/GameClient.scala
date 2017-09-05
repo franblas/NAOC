@@ -22,7 +22,7 @@ class GameClient(session: Int) extends Actor {
   var loginName: String = ""
   var requestCounter: Int = 0
   var theRef: ActorRef = _
-  var player: GamePlayer = _
+  var player: Option[GamePlayer] = _
 
   case class ProcessedMessage(ref: ActorRef, data: Array[Byte])
 

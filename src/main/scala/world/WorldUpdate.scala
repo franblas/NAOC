@@ -24,12 +24,8 @@ class WorldUpdate {
   val OBJ_UPDATE_DISTANCE = 4096
 
   def updateNPCs(gameClient: GameClient): Unit = {
-    val player = gameClient.player
-
-    player match {
-      case null =>
-      case _ if !player.enteredGame =>
-      case _ =>
+    gameClient.player.map(player => {
+      if (player.enteredGame) {
         val regionId = player.currentRegion.getInteger("region_id").toInt
         val t1 = System.nanoTime()
         mobs.getMobsFromRegion(regionId).map(results => {
@@ -51,16 +47,13 @@ class WorldUpdate {
           val t2 = System.nanoTime()
           println("Elapsed time MOBS: " + (t2 - t1) + "ns")
         })
-    }
+      }
+    })
   }
 
   def updateWorldObjects(gameClient: GameClient): Unit = {
-    val player = gameClient.player
-
-    player match {
-      case null =>
-      case _ if !player.enteredGame =>
-      case _ =>
+    gameClient.player.map(player => {
+      if (player.enteredGame) {
         val regionId = player.currentRegion.getInteger("region_id").toInt
 
         val t1 = System.nanoTime()
@@ -83,6 +76,7 @@ class WorldUpdate {
           val t2 = System.nanoTime()
           println("Elapsed time WO: " + (t2 - t1) + "ns")
         })
-    }
+      }
+    })
   }
 }

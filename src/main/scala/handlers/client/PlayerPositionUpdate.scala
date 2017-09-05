@@ -17,12 +17,7 @@ class PlayerPositionUpdate(gameClient: GameClient) extends HandlerProcessor {
 
   override def process(data: Array[Byte]): Future[Array[Byte]] = {
     val reader = new PacketReader(data)
-    val player = gameClient.player
-
-    player match {
-      case null => Future { Array.emptyByteArray }
-      case _ => compute(reader, player)
-    }
+    gameClient.player.map(player => compute(reader, player)).getOrElse(Future { Array.emptyByteArray })
   }
 
   private def compute(reader: PacketReader, player: GamePlayer): Future[Array[Byte]] = {

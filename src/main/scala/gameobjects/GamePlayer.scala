@@ -33,7 +33,7 @@ class GamePlayer(charData: Character) {
   // max_encumberance = -1
   // encumberance = -1
   val objectId: Int = Random.nextInt(Short.MaxValue+1) //TODO
-  var currentPosition: Position = _
+  var currentPosition: Position = Position(0,0,0,0)
   var currentZone: Zone = _
   var currentRegion: Region = _
   // is_underwater = False
@@ -43,7 +43,7 @@ class GamePlayer(charData: Character) {
   // is_turning_disabled = False
   // max_speed = -1
   var currentSpeed: Int = 0
-  var money: Money = _
+  var money: Money = Money(0,0,0,0,0)
   var isMezzed: Boolean = false
   var isStunned: Boolean = false
   var isStrafing: Boolean = false

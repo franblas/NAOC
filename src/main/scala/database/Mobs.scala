@@ -68,6 +68,8 @@ class Mobs extends Database {
       .onComplete(_ => println("Mobs index created"))
   }*/
 
+  def countMobs(): Future[Long] = collection.count().toFuture
+
   def importData(file: String): Unit = {
     val jsonData = loadJsonResource(file)
     val data: List[Document] = for {

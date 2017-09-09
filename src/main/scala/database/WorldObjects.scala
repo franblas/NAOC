@@ -38,6 +38,8 @@ class WorldObjects extends Database {
       .onComplete(_ => println("World objects index created"))
   }*/
 
+  def countWorldObjects(): Future[Long] = collection.count().toFuture
+
   def importData(): Unit = {
     val jsonData = loadJsonResource(resourceFile)
     val data: List[Document] = for {

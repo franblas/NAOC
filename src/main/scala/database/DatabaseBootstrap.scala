@@ -1,5 +1,7 @@
 package database
 
+import scala.concurrent.ExecutionContext.Implicits.global
+
 /**
   * Created by franblas on 01/04/17.
   */
@@ -44,15 +46,23 @@ class DatabaseBootstrap {
   def mobs(): Unit = {
     val m = new Mobs()
     //m.createIndex()
-    println("Loading mobs, can take some time ...")
-    m.importData(m.resourceFile)
-    //m.importData(m.resourceFile2)
+    m.countMobs().map(nb => {
+      if (nb < 90000) {
+        println("Loading mobs, can take some time ...")
+        m.importData(m.resourceFile)
+        //m.importData(m.resourceFile2)
+      }
+    })
   }
 
   def worldObjects(): Unit = {
     val wo = new WorldObjects()
     //wo.createIndex()
-    wo.importData()
+    wo.countWorldObjects().map(nb => {
+      if (nb < 900) {
+        wo.importData()
+      }
+    })
   }
 
   def setup(): Unit = {
@@ -63,7 +73,7 @@ class DatabaseBootstrap {
     regions()
     zones()
     startupLocations()
-    //mobs()
+    mobs()
     worldObjects()
   }
 

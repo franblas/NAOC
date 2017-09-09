@@ -68,7 +68,7 @@ class CharacterOverview(realm: Int, gameClient: GameClient) {
                 //writer.fillString(result.head.getString("char_class_name"), 24)
                 writer.fillString(result.head.characterClassName, 24)
               }), 5000 millis)
-
+              
               // TODO: try to get rid of await
               Await.result(races.getRace(character.race).map(result => {
                 //writer.fillString(result.head.getString("race_id"), 24)

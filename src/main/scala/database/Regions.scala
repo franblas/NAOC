@@ -10,6 +10,17 @@ import scala.concurrent.Future
 /**
   * Created by franblas on 02/04/17.
   */
+case class Region(name: String,
+                  ip: String,
+                  housingEnabled: Boolean,
+                  regionId: Int,
+                  isFrontier: Boolean,
+                  expansion: Int,
+                  waterLevel: Int,
+                  divingEnabled: Boolean,
+                  port: Int,
+                  description: String)
+
 class Regions extends Database {
   private val collection = db.getCollection("regions")
   private val resourceFile = "data/regions.json"
@@ -54,11 +65,25 @@ class Regions extends Database {
       .onComplete(_ => println("Regions data imported"))
   }
 
-  def getRegion(id: Int): Future[Seq[Document]] = {
+  def getRegion(id: Int): Future[Seq[Region]] = {
     val doc = Document(
       "region_id" -> id
     )
     collection.find(doc)
+      .map(d => {
+        Region(
+          d.getString("name"),
+          d.getString("ip"),
+          d.getBoolean("housing_enabled"),
+          d.getInteger("region_id"),
+          d.getBoolean("is_frontier"),
+          d.getInteger("expansion"),
+          d.getInteger("water_level"),
+          d.getBoolean("diving_enabled"),
+          d.getInteger("port"),
+          d.getString("description")
+        )
+      })
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
   }

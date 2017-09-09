@@ -3,6 +3,8 @@ package handlers
 import akka.actor.{Actor, ActorRef}
 import akka.util.ByteString
 import akka.pattern.pipe
+import database.Characters
+import org.mongodb.scala.Document
 import gameobjects.GamePlayer
 import handlers.client.Handler
 import world.WorldUpdate
@@ -22,7 +24,7 @@ class GameClient(session: Int) extends Actor {
   var loginName: String = ""
   var requestCounter: Int = 0
   var theRef: ActorRef = _
-  var player: Option[GamePlayer] = _
+  var player: Option[GamePlayer] = Some(new GamePlayer(new Characters().documentToCharacter(Document())))
 
   case class ProcessedMessage(ref: ActorRef, data: Array[Byte])
 

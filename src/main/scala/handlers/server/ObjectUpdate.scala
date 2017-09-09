@@ -1,5 +1,6 @@
 package handlers.server
 
+import database.Zone
 import handlers.GameClient
 import handlers.packets.{PacketWriter, ServerCodes}
 import org.mongodb.scala.Document
@@ -15,16 +16,16 @@ class ObjectUpdate(obj: Document, gameClient: GameClient) {
     gameClient.player.map(player => compute(player.currentZone)).getOrElse(Future { Array.emptyByteArray })
   }
 
-  private def compute(zone: Document): Future[Array[Byte]] = {
+  private def compute(zone: Zone): Future[Array[Byte]] = {
     val writer = new PacketWriter(ServerCodes.objectUpdate)
 
     //# var xOffsetInZone = (ushort) (obj.X - z.XOffset);
     //offset_x_in_zone = (obj.X - zone['offset_x']) & 0xFFFF
-    val offsetXInZone = obj.getInteger("x") - zone.getInteger("offset_x")
+    val offsetXInZone = obj.getInteger("x") - zone.offsetX
 
     //# var yOffsetInZone = (ushort) (obj.Y - z.YOffset);
     //offset_y_in_zone = (obj.Y - zone['offset_y']) & 0xFFFF
-    val offsetYInZone = obj.getInteger("y") - zone.getInteger("offset_y")
+    val offsetYInZone = obj.getInteger("y") - zone.offsetY
 
     //# ushort xOffsetInTargetZone = 0;
     //offset_x_in_target_zone = 0
@@ -148,7 +149,7 @@ class ObjectUpdate(obj: Document, gameClient: GameClient) {
 
     //# pak.WriteByte((byte) z.ZoneSkinID);
     //ins += write_byte(zone['zone_id'])
-    writer.writeByte(zone.getInteger("id").toByte)
+    writer.writeByte(zone.id.toByte)
 
     //# #Dinberg:Instances - targetZone already accomodates for this feat.
     //# pak.WriteByte((byte) targetZone);

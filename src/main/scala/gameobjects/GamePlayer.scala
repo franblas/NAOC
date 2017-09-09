@@ -1,7 +1,6 @@
 package gameobjects
 
-import database.{Regions, StartupLocations, Zones}
-import org.mongodb.scala.Document
+import database._
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -10,14 +9,17 @@ import scala.util.Random
 /**
   * Created by franblas on 09/04/17.
   */
-class GamePlayer(charData: Document) {
+case class Position(x: Int, y: Int, z: Int, heading: Int)
+case class Money(copper: Int, silver: Int, gold: Int, platinium: Int, mithril: Int)
+
+class GamePlayer(charData: Character) {
 
   val region = new Regions()
   val startupLocation = new StartupLocations()
   val zone = new Zones()
 
   var enteredGame = false
-  var dbCharacter: Document = _
+  var dbCharacter: Character = _
   var race = ""
   //ability_bonus = list()
   //item_bonus = list()
@@ -31,9 +33,9 @@ class GamePlayer(charData: Document) {
   // max_encumberance = -1
   // encumberance = -1
   val objectId: Int = Random.nextInt(Short.MaxValue+1) //TODO
-  var currentPosition: Document = _
-  var currentZone: Document = _
-  var currentRegion: Document = _
+  var currentPosition: Position = _
+  var currentZone: Zone = _
+  var currentRegion: Region = _
   // is_underwater = False
   // guild = dict()
   // has_horse, active_horse = False, dict()
@@ -41,7 +43,7 @@ class GamePlayer(charData: Document) {
   // is_turning_disabled = False
   // max_speed = -1
   var currentSpeed: Int = 0
-  var money: Document = _
+  var money: Money = _
   var isMezzed: Boolean = false
   var isStunned: Boolean = false
   var isStrafing: Boolean = false
@@ -56,7 +58,6 @@ class GamePlayer(charData: Document) {
     this.dbCharacter = charData
     initCurrentRegion().flatMap(result => {
       this.currentRegion = result.head
-      //println(this.currentRegion)
       initCurrentPosition()
     }).flatMap(_ => {
       initCurrentZone()
@@ -65,31 +66,25 @@ class GamePlayer(charData: Document) {
     })
   }
 
-  def initCurrentRegion(): Future[Seq[Document]] = {
-    val regionId = dbCharacter.getInteger("region")
+  def initCurrentRegion(): Future[Seq[Region]] = {
+    val regionId = dbCharacter.region
     region.getRegion(regionId)
   }
 
   def initCurrentPosition(): Future[Unit] = {
-    this.currentPosition = Document(
-      "x" -> this.dbCharacter.getInteger("x").toInt,
-      "y" -> this.dbCharacter.getInteger("y").toInt,
-      "z" -> this.dbCharacter.getInteger("z").toInt,
-      "heading" -> 0
-    )
+    this.currentPosition = Position(this.dbCharacter.x, this.dbCharacter.y, this.dbCharacter.z, 0)
 
     Future {
-      if (this.currentPosition.getInteger("x") == 0 || this.currentPosition.getInteger("y") == 0 || this.currentPosition.getInteger("z") == 0) {
-        startupLocation.getStartupLocation(this.currentRegion.getInteger("region_id"), this.dbCharacter.getInteger("realm")).map(result => {
+      if (this.currentPosition.x == 0 || this.currentPosition.y == 0 || this.currentPosition.z == 0) {
+        startupLocation.getStartupLocation(this.currentRegion.regionId, this.dbCharacter.realm).map(result => {
           if (result.nonEmpty) {
-            val doc = result.head
-            this.currentPosition = Document(
-              "x" -> doc.getInteger("x").toInt,
-              "y" -> doc.getInteger("y").toInt,
-              "z" -> doc.getInteger("z").toInt,
-              "heading" -> doc.getInteger("heading").toInt
+            val startupLocation = result.head
+            this.currentPosition = Position(
+              startupLocation.x,
+              startupLocation.y,
+              startupLocation.z,
+              startupLocation.heading
             )
-            //println(this.currentPosition)
           }
         })
       }
@@ -97,20 +92,14 @@ class GamePlayer(charData: Document) {
   }
 
   def updateCurrentPosition(x: Int, y: Int, z: Int): Unit = {
-    this.currentPosition = Document(
-      "x" -> x,
-      "y" -> y,
-      "z" -> z,
-      "heading" -> this.currentPosition.getInteger("heading").toInt
-    )
-    //println(this.currentPosition)
+    this.currentPosition = Position(x, y, z, this.currentPosition.heading)
   }
 
-  def inZone(x: Int, y: Int, zone: Document): Boolean = {
-    val offsetX = zone.getInteger("offset_x")
-    val offsetY = zone.getInteger("offset_y")
-    val width = zone.getInteger("width")
-    val height = zone.getInteger("height")
+  def inZone(x: Int, y: Int, zone: Zone): Boolean = {
+    val offsetX = zone.offsetX
+    val offsetY = zone.offsetY
+    val width = zone.width
+    val height = zone.height
     val startX = 8192*offsetX
     val startY = 8192*offsetY
     val endX = startX + height * 8192
@@ -120,9 +109,9 @@ class GamePlayer(charData: Document) {
   }
 
   def initCurrentZone(): Future[Unit] = {
-    zone.getZoneFromRegion(this.currentRegion.getInteger("region_id")).map(result => {
+    zone.getZoneFromRegion(this.currentRegion.regionId).map(result => {
       result.foreach(zone => {
-        if (inZone(this.currentPosition.getInteger("x"), this.currentPosition.getInteger("y"), zone)) {
+        if (inZone(this.currentPosition.x, this.currentPosition.y, zone)) {
           this.currentZone = zone
         }
       })
@@ -130,12 +119,12 @@ class GamePlayer(charData: Document) {
   }
 
   def initMoney() = {
-    this.money = Document(
-      "copper" -> this.dbCharacter.getInteger("copper").toInt,
-      "silver" -> this.dbCharacter.getInteger("silver").toInt,
-      "gold" -> this.dbCharacter.getInteger("gold").toInt,
-      "platinium" -> this.dbCharacter.getInteger("platinium").toInt,
-      "mithril" -> this.dbCharacter.getInteger("mithril").toInt
+    this.money = Money(
+      this.dbCharacter.copper,
+      this.dbCharacter.silver,
+      this.dbCharacter.gold,
+      this.dbCharacter.platinium,
+      this.dbCharacter.mithril
     )
   }
 

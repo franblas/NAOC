@@ -51,7 +51,7 @@ class PlayerInitRequest(gameClient: GameClient) extends HandlerProcessor {
 
   def sendMobsAndEquipmentToPlayer(): Future[Unit] = {
     gameClient.player.map(player => {
-      val regionId = player.currentRegion.getInteger("region_id").toInt
+      val regionId = player.currentRegion.regionId
 
       val t1 = System.nanoTime()
       println("FIRST PLAYER CURRENT ZONE", player.currentZone)
@@ -64,7 +64,7 @@ class PlayerInitRequest(gameClient: GameClient) extends HandlerProcessor {
           val mobY = mob.getInteger("y")
           if (player.inZone(mobX, mobY, player.currentZone)) {
             val mobPosition = new Point(mobX, mobY)
-            if (mobPosition.inRadius(player.currentPosition.getInteger("x"), player.currentPosition.getInteger("y"), worldUpdate.VISIBILITY_DISTANCE)) {
+            if (mobPosition.inRadius(player.currentPosition.x, player.currentPosition.y, worldUpdate.VISIBILITY_DISTANCE)) {
               gameClient.sendPacket(new NPCCreate(mob, gameClient).process())
               //gameClient.sendPacket(new LivingEquipmentUpdate(mob, gameClient).process())
               //if npc.inventory:

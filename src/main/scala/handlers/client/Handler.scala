@@ -41,7 +41,7 @@ class Handler {
           case ClientCodes.playerCommand => new PlayerCommandHandler()
           case ClientCodes.objectUpdate => new ObjectUpdateRequest(gameClient)
           case ClientCodes.playerAttack => new PlayerAttackRequest(gameClient)
-          case 0xAC => new HandlerProcessorNoOpts()
+          case 0xAC => new CharacterSelectRequest(gameClient)
           case _ => new HandlerProcessorNoOpts()
         }
         request.process(data)

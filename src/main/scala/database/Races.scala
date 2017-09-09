@@ -10,6 +10,20 @@ import scala.concurrent.Future
 /**
   * Created by franblas on 02/04/17.
   */
+case class Race(id: Int,
+                resistCrush: Int,
+                resistNatural: Int,
+                resistThrust: Int,
+                resistSlash: Int,
+                resistSpirit: Int,
+                resistMatter: Int,
+                resistBody: Int,
+                resistHeat: Int,
+                resistEnergy: Int,
+                resistCold: Int,
+                raceId: String,
+                name: String)
+
 class Races extends Database {
   private val collection = db.getCollection("races")
   private val resourceFile = "data/races.json"
@@ -60,11 +74,28 @@ class Races extends Database {
       .onComplete(_ => println("Races data imported"))
   }
 
-  def getRace(id: Int): Future[Seq[Document]] = {
+  def getRace(id: Int): Future[Seq[Race]] = {
     val doc = Document(
       "id" -> id
     )
     collection.find(doc)
+      .map(d => {
+        Race(
+          d.getInteger("id"),
+          d.getInteger("resist_crush"),
+          d.getInteger("resist_natural"),
+          d.getInteger("resist_thrust"),
+          d.getInteger("resist_slash"),
+          d.getInteger("resist_spirit"),
+          d.getInteger("resist_matter"),
+          d.getInteger("resist_body"),
+          d.getInteger("resist_heat"),
+          d.getInteger("resist_energy"),
+          d.getInteger("resist_cold"),
+          d.getString("race_id"),
+          d.getString("name")
+        )
+      })
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
   }

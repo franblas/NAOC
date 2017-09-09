@@ -1,21 +1,21 @@
 package handlers.server
 
+import database.WorldObject
 import handlers.packets.{PacketWriter, ServerCodes}
-import org.mongodb.scala.Document
 
 import scala.concurrent.Future
 
 /**
   * Created by franblas on 08/05/17.
   */
-class ObjectCreate(obj: Document) {
+class ObjectCreate(obj: WorldObject) {
   def process(): Future[Array[Byte]] = {
 
     val writer = new PacketWriter(ServerCodes.objectCreate)
 
 
     //pak.WriteShort((ushort)obj.ObjectID);
-    writer.writeShort(obj.getInteger("object_id").toShort)
+    writer.writeShort(obj.objectId.toShort)
 
     /*
     if (obj is GameStaticItem) // static_item
@@ -26,19 +26,19 @@ class ObjectCreate(obj: Document) {
     writer.writeShort(0)
 
     //pak.WriteShort(obj.Heading);
-    writer.writeShort(obj.getInteger("heading").toShort)
+    writer.writeShort(obj.heading.toShort)
 
     //pak.WriteShort((ushort)obj.Z);
-    writer.writeShort(obj.getInteger("z").toShort)
+    writer.writeShort(obj.z.toShort)
 
     //pak.WriteInt((uint)obj.X);
-    writer.writeInt(obj.getInteger("x").toInt)
+    writer.writeInt(obj.x)
 
     //pak.WriteInt((uint)obj.Y);
-    writer.writeInt(obj.getInteger("y").toInt)
+    writer.writeInt(obj.y)
 
     //int flag = ((byte)obj.Realm & 3) << 4;
-    val flag = (obj.getInteger("realm").toInt & 3) << 4
+    val flag = (obj.realm & 3) << 4
 
     //ushort model = obj.Model;
     /*
@@ -51,7 +51,7 @@ class ObjectCreate(obj: Document) {
     }
     */
     //pak.WriteShort(model);
-    writer.writeShort(obj.getInteger("model").toShort)
+    writer.writeShort(obj.model.toShort)
 
     /*
     if (obj is Keeps.GameKeepBanner) // game_keep_banner
@@ -94,7 +94,7 @@ class ObjectCreate(obj: Document) {
     }
     pak.WritePascalString(name.Length > 48 ? name.Substring(0, 48) : name);
     */
-    var name = obj.getString("name")
+    var name = obj.name
     if (name.length > 48) name = name.substring(0, 48)
     writer.writePascalString(name)
 

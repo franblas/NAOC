@@ -155,12 +155,10 @@ class CharacterCreateRequest(gameClient: GameClient) extends HandlerProcessor {
             Future.successful()
           } else {
             val result: Future[Unit] = for {
-              accountResult <- account.getAccount(loginName)
-              loginId = accountResult.head.get("_id")
               chars <- characters.getCharacters(loginName, characterReader.realm)
               nextAccountSlot = chars.length
               doc = Document(
-                "login_id" -> loginId,
+                "login_name" -> loginName,
                 "name" -> characterReader.characterName,
                 "custom_mode" -> customMode.toInt,
                 "eye_size" -> characterReader.eyeSize.toInt,

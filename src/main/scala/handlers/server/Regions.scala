@@ -12,10 +12,10 @@ import scala.concurrent.Future
 class Regions(gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
     gameClient.player.map(player => {
-      if (player.currentRegion == null || player.currentRegion.getInteger("region_id", -100) == -100) {
+      if (player.currentRegion == null) {
         Future { Array.emptyByteArray }
       } else {
-        compute(player.currentRegion.getInteger("region_id", -100))
+        compute(player.currentRegion.regionId)
       }
     }).getOrElse(Future { Array.emptyByteArray })
   }

@@ -30,23 +30,27 @@ class UpdatePlayer(gameClient: GameClient) {
     writer.writeByte(0x00)
 
     // ins += write_byte(data['level'])
-    writer.writeByte(character.getInteger("level").toByte)
+    writer.writeByte(character.level.toByte)
     // ins += write_pascal_string(data['name'])
-    writer.writePascalString(character.getString("name"))
+    writer.writePascalString(character.name)
     // ins += write_byte(0x00)
     writer.writeByte(0x00)
 
     // char_class = get_class(data['char_class'])
-    classes.getCharClass(character.getInteger("char_class")).flatMap(result => {
-      val res = result.head
+    classes.getCharClass(character.charClass).flatMap(result => {
+      val charClass = result.head
 
       // ins += write_pascal_string(char_class['char_class_name'])
-      writer.writePascalString(res.getString("char_class_name"))
+      //writer.writePascalString(res.getString("char_class_name"))
+      writer.writePascalString(charClass.characterClassName)
+
       // pak.WriteByte((byte) (player.MaxHealth & 0xFF)); // maxhealth low byte ?
       // ins += write_byte(0x1E)
       writer.writeByte(0x1E)
       // ins += write_pascal_string(char_class['profession'])
-      writer.writePascalString(res.getString("profession"))
+      //writer.writePascalString(res.getString("profession"))
+      writer.writePascalString(charClass.profession)
+
       // ins += write_byte(0x00)
       writer.writeByte(0x00) // unk
       // pak.WritePascalString(player.CharacterClass.GetTitle(player, player.Level)); // player level
@@ -64,17 +68,21 @@ class UpdatePlayer(gameClient: GameClient) {
       // ins += write_byte(0x00)
       writer.writeByte(0x00)
       // ins += write_pascal_string(char_class['base'])
-      writer.writePascalString(res.getString("base"))
+      //writer.writePascalString(res.getString("base"))
+      writer.writePascalString(charClass.base)
+
       writer.writeByte(0x00)
       writer.writePascalString("") // guild name
       writer.writeByte(0x00)
       writer.writePascalString("") // last name
       writer.writeByte(0x01) // ml level
-      races.getRace(character.getInteger("race"))
+      races.getRace(character.race)
     }).map(result => {
       val race = result.head
       // ins += write_pascal_string(char_race['name'])
-      writer.writePascalString(race.getString("name"))
+      //writer.writePascalString(race.getString("name"))
+      writer.writePascalString(race.name)
+
       writer.writeByte(0x00)
       // // 	if (player.GuildRank != null)
       // // 		pak.WritePascalString(player.GuildRank.Title); // Guild title

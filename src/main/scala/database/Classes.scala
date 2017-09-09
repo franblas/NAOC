@@ -10,6 +10,11 @@ import scala.concurrent.Future
 /**
   * Created by franblas on 01/04/17.
   */
+case class GameClass(characterClass: Int,
+                     characterClassName: String,
+                     base: String,
+                     profession: String)
+
 class Classes extends Database {
   private val collection = db.getCollection("classes")
   private val resourceFile = "data/classes.json"
@@ -43,11 +48,19 @@ class Classes extends Database {
   }
 
 
-  def getCharClass(charClass: Int): Future[Seq[Document]] = {
+  def getCharClass(charClass: Int): Future[Seq[GameClass]] = {
     val doc = Document(
       "char_class" -> charClass
     )
     collection.find(doc)
+      .map(d => {
+        GameClass(
+          d.getInteger("char_class"),
+          d.getString("char_class_name"),
+          d.getString("base"),
+          d.getString("profession")
+        )
+      })
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
   }

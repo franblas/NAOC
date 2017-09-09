@@ -23,7 +23,7 @@ class NPCCreationRequest(gameClient: GameClient) extends HandlerProcessor {
         println("---> NPCCreationRequest")
         val reader = new PacketReader(data)
         val objectId = reader.readShort()
-        val regionId = player.currentRegion.getInteger("region_id").toInt
+        val regionId = player.currentRegion.regionId
         mobs.getSingleMobFromRegion(objectId.toInt, regionId).map(results => {
           val mob = results.head
           if (mob.nonEmpty) gameClient.sendPacket(new NPCCreate(mob, gameClient).process())

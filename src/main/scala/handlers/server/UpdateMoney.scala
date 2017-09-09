@@ -19,11 +19,11 @@ class UpdateMoney(gameClient: GameClient) {
     val money = player.money
 
     val writer = new PacketWriter(ServerCodes.updateMoney)
-    writer.writeByte(money.getInteger("copper").toByte)
-    writer.writeByte(money.getInteger("silver").toByte)
-    writer.writeShort(money.getInteger("gold").toShort)
-    writer.writeShort(money.getInteger("mithril").toShort)
-    writer.writeShort(money.getInteger("platinium").toShort)
+    writer.writeByte(money.copper.toByte)
+    writer.writeByte(money.silver.toByte)
+    writer.writeShort(money.gold.toShort)
+    writer.writeShort(money.mithril.toShort)
+    writer.writeShort(money.platinium.toShort)
     writer.toFinalFuture()
   }
 }

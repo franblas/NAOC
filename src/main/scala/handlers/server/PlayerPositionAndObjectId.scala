@@ -20,13 +20,13 @@ class PlayerPositionAndObjectId(gameClient: GameClient) {
     // ins = write_short(player.object_id)
     writer.writeShort(player.objectId.toShort)
     // ins += write_short(player.current_position.get('Z'))
-    writer.writeShort(player.currentPosition.getInteger("z").toShort)
+    writer.writeShort(player.currentPosition.z.toShort)
     // ins += write_int(player.current_position.get('X'))
-    writer.writeInt(player.currentPosition.getInteger("x").toInt)
+    writer.writeInt(player.currentPosition.x)
     // ins += write_int(player.current_position.get('Y'))
-    writer.writeInt(player.currentPosition.getInteger("y").toInt)
+    writer.writeInt(player.currentPosition.y)
     // ins += write_short(player.current_position.get('heading'))
-    writer.writeShort(player.currentPosition.getInteger("heading").toShort)
+    writer.writeShort(player.currentPosition.heading.toShort)
 
     // int flags = 0;
     var flags = 0
@@ -68,7 +68,7 @@ class PlayerPositionAndObjectId(gameClient: GameClient) {
     // //Dinberg - Changing to allow instances...
     // pak.WriteShort(m_gameClient.Player.CurrentRegion.Skin);
     // ins += write_short(int(player.current_region['region_id']))
-    writer.writeShort(player.currentRegion.getInteger("region_id").toShort)
+    writer.writeShort(player.currentRegion.regionId.toShort)
 
     // pak.WritePascalString(GameServer.Instance.Configuration.ServerNameShort); // new in 1.74, same as in SendLoginGranted
     // ins += write_pascal_string('NAOC')

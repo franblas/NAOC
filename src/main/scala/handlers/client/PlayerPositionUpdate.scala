@@ -1,6 +1,6 @@
 package handlers.client
 
-import database.Zones
+import database.{Zone, Zones}
 import gameobjects.GamePlayer
 import handlers.GameClient
 import handlers.packets.PacketReader
@@ -103,7 +103,7 @@ class PlayerPositionUpdate(gameClient: GameClient) extends HandlerProcessor {
 
     //new_zone = get_zone(current_zone_id)
     zones.getZone(currentZoneId.toInt).map(result => {
-      val newZone = result.head
+      val newZone: Zone = result.head
 
       // if (newZone == null)
       // {
@@ -119,7 +119,7 @@ class PlayerPositionUpdate(gameClient: GameClient) extends HandlerProcessor {
       // 	return; // TODO: what should we do? player lost in space
       // }
       //if not new_zone: return
-      if (newZone.isEmpty) {
+      if (result.isEmpty) {
         Future { Array.emptyByteArray }
       } else {
         //player.current_zone = new_zone
@@ -141,11 +141,11 @@ class PlayerPositionUpdate(gameClient: GameClient) extends HandlerProcessor {
         // int realX = newZone.XOffset + xOffsetInZone;
         // int realY = newZone.YOffset + yOffsetInZone;
         //real_X = int(new_zone.get('offset_x')) + x_offset_in_zone
-        val realX = newZone.getInteger("offset_x").toInt + xOffsetInZone
+        val realX = newZone.offsetX + xOffsetInZone
         //println("realX", realX)
 
         //real_Y = int(new_zone.get('offset_y')) + y_offset_in_zone
-        val realY = newZone.getInteger("offset_y").toInt + yOffsetInZone
+        val realY = newZone.offsetY + yOffsetInZone
         //println("realY", realY)
 
         player.updateCurrentPosition(realX, realY, realZ.toInt)

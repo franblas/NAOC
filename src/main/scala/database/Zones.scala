@@ -10,6 +10,22 @@ import scala.concurrent.Future
 /**
   * Created by franblas on 02/04/17.
   */
+case class Zone(coin: Int,
+                isLava: Boolean,
+                name: String,
+                realmPoints: Int,
+                regionId: Int,
+                offsetX: Int,
+                offsetY: Int,
+                experience: Int,
+                divingFlag: Int,
+                width: Int,
+                height: Int,
+                waterLevel: Int,
+                bountyPoints: Int,
+                realm: Int,
+                id: Int)
+
 class Zones extends Database {
   private val collection = db.getCollection("zones")
   private val resourceFile = "data/zones.json"
@@ -64,20 +80,40 @@ class Zones extends Database {
       .onComplete(_ => println("Zones data imported"))
   }
 
-  def getZone(id: Int): Future[Seq[Document]] = {
+  def documentToZone(doc: Document): Zone = Zone(
+    doc.getInteger("coin"),
+    doc.getBoolean("is_lava"),
+    doc.getString("name"),
+    doc.getInteger("realm_points"),
+    doc.getInteger("region_id"),
+    doc.getInteger("offset_x"),
+    doc.getInteger("offset_y"),
+    doc.getInteger("experience"),
+    doc.getInteger("diving_flag"),
+    doc.getInteger("width"),
+    doc.getInteger("height"),
+    doc.getInteger("water_level"),
+    doc.getInteger("bounty_points"),
+    doc.getInteger("realm"),
+    doc.getInteger("id")
+  )
+
+  def getZone(id: Int): Future[Seq[Zone]] = {
     val doc = Document(
       "id" -> id
     )
     collection.find(doc)
+      .map(documentToZone)
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
   }
 
-  def getZoneFromRegion(regionId: Int): Future[Seq[Document]] = {
+  def getZoneFromRegion(regionId: Int): Future[Seq[Zone]] = {
     val doc = Document(
       "region_id" -> regionId
     )
     collection.find(doc)
+      .map(documentToZone)
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
   }

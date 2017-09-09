@@ -18,14 +18,14 @@ class CharStatsUpdate(gameClient: GameClient) {
   private def compute(player: GamePlayer): Future[Array[Byte]] = {
     val character = player.dbCharacter
     val updateStats: Seq[Int] = Seq(
-      character.getInteger("strength"),
-      character.getInteger("dexterity"),
-      character.getInteger("constitution"),
-      character.getInteger("quickness"),
-      character.getInteger("intelligence"),
-      character.getInteger("piety"),
-      character.getInteger("empathy"),
-      character.getInteger("charisma")
+      character.strength,
+      character.dexterity,
+      character.constitution,
+      character.quickness,
+      character.intelligence,
+      character.piety,
+      character.empathy,
+      character.charisma
     )
 
     val writer = new PacketWriter(ServerCodes.charStatsUpdate)

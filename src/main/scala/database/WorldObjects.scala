@@ -12,6 +12,21 @@ import scala.util.Random
 /**
   * Created by franblas on 08/05/17.
   */
+case class WorldObject(realm: Int,
+                       name: String,
+                       respawnInterval: Int,
+                       examineArticle: String,
+                       x: Int,
+                       y: Int,
+                       z: Int,
+                       heading: Int,
+                       model: Int,
+                       region: Int,
+                       emblem: Int,
+                       translationId: String,
+                       `type`: String,
+                       objectId: Int)
+
 class WorldObjects extends Database {
   private val collection = db.getCollection("world_objects")
   private val resourceFile = "data/world_objects.json"
@@ -63,7 +78,7 @@ class WorldObjects extends Database {
       .onComplete(_ => println("World objects data imported"))
   }
 
-  def getWorldObjectsFromRegion(regionId: Int): Future[Seq[Document]] = {
+  def getWorldObjectsFromRegion(regionId: Int): Future[Seq[WorldObject]] = {
     collection.find(and(
       equal("region", regionId),
       notEqual("x", 0),
@@ -71,6 +86,24 @@ class WorldObjects extends Database {
       notEqual("z", 0),
       notEqual("model", 0)
     ))
+      .map(d => {
+        WorldObject(
+          d.getInteger("realm"),
+          d.getString("name"),
+          d.getInteger("respawn_interval"),
+          d.getString("examine_article"),
+          d.getInteger("x"),
+          d.getInteger("y"),
+          d.getInteger("z"),
+          d.getInteger("heading"),
+          d.getInteger("model"),
+          d.getInteger("region"),
+          d.getInteger("emblem"),
+          d.getString("translation_id"),
+          d.getString("type"),
+          d.getInteger("object_id")
+        )
+      })
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
   }

@@ -32,10 +32,10 @@ class WorldUpdate {
           println("update LENGTH MOBS = ", results.length)
           var plop = 0
           results.foreach(mob => {
-            val mobX = mob.getInteger("x")
-            val mobY = mob.getInteger("y")
-            if (player.inZone(mobX, mobY, player.currentZone)) {
-              val mobPosition = new Point(mobX, mobY)
+            //val mobX = mob.getInteger("x")
+            //val mobY = mob.getInteger("y")
+            if (player.inZone(mob.x, mob.y, player.currentZone)) {
+              val mobPosition = new Point(mob.x, mob.y)
               if (mobPosition.inRadius(player.currentPosition.x, player.currentPosition.y, VISIBILITY_DISTANCE)) {
                 gameClient.sendPacket(new ObjectUpdate(mob, gameClient).process())
                 plop += 1

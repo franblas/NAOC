@@ -12,6 +12,50 @@ import scala.util.Random
 /**
   * Created by franblas on 15/04/17.
   */
+case class Mob(strength: Int,
+               constitution: Int,
+               translationId: String,
+               speed: Int,
+               quickness: Int,
+               aggroRange: Int,
+               guild: String,
+               level: Int,
+               respawnInterval: Int,
+               region: Int,
+               x: Int,
+               y: Int,
+               z: Int,
+               heading: Int,
+               dexterity: Int,
+               bodyType: Int,
+               suffix: String,
+               messageArticle: String,
+               factionId: Int,
+               houseNumber: Int,
+               size: Int,
+               realm: Int,
+               itemsListTemplateId: String,
+               charisma: Int,
+               aggroLevel: Int,
+               empathy: Int,
+               name: String,
+               piety: Int,
+               gender: Int,
+               examineArticle: String,
+               equipmentTemplateId: String,
+               meleeDamageType: Int,
+               race: Int,
+               flags: Int,
+               visibleWeaponSlots: Int,
+               model: Int,
+               npcTemplateId: Int,
+               roamingRange: Int,
+               intelligence: Int,
+               pathId: String,
+               isCloakHoodUp: Boolean,
+               maxDistance: Int,
+               objectId: Int)
+
 class Mobs extends Database {
   private val collection = db.getCollection("mobs")
   val resourceFile = "data/all_mobs.json"
@@ -123,7 +167,7 @@ class Mobs extends Database {
       .onComplete(_ => println("Mobs data imported (" + file + ")"))
   }
 
-  def getMobsFromRegion(regionId: Int): Future[Seq[Document]] = {
+  def getMobsFromRegion(regionId: Int): Future[Seq[Mob]] = {
     collection.find(and(
       equal("region", regionId),
       notEqual("x", 0),
@@ -132,18 +176,66 @@ class Mobs extends Database {
       notEqual("model", 0),
       notEqual("size", 0)
     ))
+      .map(documentToMob)
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
   }
 
-  def getSingleMobFromRegion(objectId: Int, regionId: Int): Future[Seq[Document]] = {
+  def getSingleMobFromRegion(objectId: Int, regionId: Int): Future[Seq[Mob]] = {
     val doc = Document(
       "object_id" -> objectId,
       "region" -> regionId
     )
     collection.find(doc)
+      .map(documentToMob)
       .toFuture
       .recoverWith { case e: Throwable => Future.failed(e) }
   }
+
+  def documentToMob(doc: Document): Mob = Mob(
+    doc.getInteger("strength"),
+    doc.getInteger("constitution"),
+    doc.getString("translation_id"),
+    doc.getInteger("speed"),
+    doc.getInteger("quickness"),
+    doc.getInteger("aggro_range"),
+    doc.getString("guild"),
+    doc.getInteger("level"),
+    doc.getInteger("respawn_interval"),
+    doc.getInteger("region"),
+    doc.getInteger("x"),
+    doc.getInteger("y"),
+    doc.getInteger("z"),
+    doc.getInteger("heading"),
+    doc.getInteger("dexterity"),
+    doc.getInteger("body_type"),
+    doc.getString("suffix"),
+    doc.getString("message_article"),
+    doc.getInteger("faction_id"),
+    doc.getInteger("house_number"),
+    doc.getInteger("size"),
+    doc.getInteger("realm"),
+    doc.getString("items_list_template_id"),
+    doc.getInteger("charisma"),
+    doc.getInteger("aggro_level"),
+    doc.getInteger("empathy"),
+    doc.getString("name"),
+    doc.getInteger("piety"),
+    doc.getInteger("gender"),
+    doc.getString("examine_article"),
+    doc.getString("equipment_template_id"),
+    doc.getInteger("melee_damage_type"),
+    doc.getInteger("race"),
+    doc.getInteger("flags"),
+    doc.getInteger("visible_weapon_slots"),
+    doc.getInteger("model"),
+    doc.getInteger("npc_template_id"),
+    doc.getInteger("roaming_range"),
+    doc.getInteger("intelligence"),
+    doc.getString("path_id"),
+    doc.getBoolean("is_cloak_hood_up"),
+    doc.getInteger("max_distance"),
+    doc.getInteger("object_id")
+  )
 }
 

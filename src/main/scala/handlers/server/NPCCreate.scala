@@ -1,8 +1,8 @@
 package handlers.server
 
+import database.Mob
 import handlers.GameClient
 import handlers.packets.{PacketWriter, ServerCodes}
-import org.mongodb.scala.Document
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -10,7 +10,7 @@ import scala.concurrent.Future
 /**
   * Created by franblas on 16/04/17.
   */
-class NPCCreate(npc: Document, gameClient: GameClient) {
+class NPCCreate(npc: Mob, gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
     gameClient.player.map(_ => compute()).getOrElse(Future { Array.emptyByteArray })
   }
@@ -22,7 +22,7 @@ class NPCCreate(npc: Document, gameClient: GameClient) {
     //# pak.WriteShort((ushort)npc.ObjectID);
     //ins = write_short(npc.object_id)
     //writer.writeShort(npc.getObjectId("_id").toString.replaceAll("[^\\d]", "").substring(0,4).toShort)
-    writer.writeShort(npc.getInteger("object_id").toShort)
+    writer.writeShort(npc.objectId.toShort)
     //npc.getObjectId("_id").toHexString
 
     //# pak.WriteShort((ushort)(speed));
@@ -31,24 +31,24 @@ class NPCCreate(npc: Document, gameClient: GameClient) {
     //  ins += write_short(speed)
     //else:
     //ins += write_short(0)
-    val speed = npc.getInteger("speed").toShort
+    val speed = npc.speed.toShort
     writer.writeShort(0) //TODO
 
     //# pak.WriteShort(npc.Heading);
     //ins += write_short(npc.heading)
-    writer.writeShort(npc.getInteger("heading").toShort)
+    writer.writeShort(npc.heading.toShort)
 
     //# pak.WriteShort((ushort)npc.Z);
     //ins += write_short(npc.Z)
-    writer.writeShort(npc.getInteger("z").toShort)
+    writer.writeShort(npc.z.toShort)
 
     //# pak.WriteInt((uint)npc.X);
     //ins += write_int(npc.X)
-    writer.writeInt(npc.getInteger("x").toInt)
+    writer.writeInt(npc.x.toInt)
 
     //# pak.WriteInt((uint)npc.Y);
     //ins += write_int(npc.Y)
-    writer.writeInt(npc.getInteger("y").toInt)
+    writer.writeInt(npc.y.toInt)
 
     //# pak.WriteShort(speedZ);
     //ins += write_short(speed_z)
@@ -56,11 +56,11 @@ class NPCCreate(npc: Document, gameClient: GameClient) {
 
     //# pak.WriteShort(npc.Model);
     //ins += write_short(npc.model)
-    writer.writeShort(npc.getInteger("model").toShort)
+    writer.writeShort(npc.model.toShort)
 
     //# pak.WriteByte(npc.Size);
     //ins += write_byte(npc.size)
-    writer.writeByte(npc.getInteger("size").toByte)
+    writer.writeByte(npc.size.toByte)
 
     //# byte level = npc.GetDisplayLevel(m_gameClient.Player);
     //# level = 0x01
@@ -79,7 +79,7 @@ class NPCCreate(npc: Document, gameClient: GameClient) {
     else:
     ins += write_byte(1)
     */
-    var level = npc.getInteger("level")
+    var level = npc.level
     if (level == 0) level = 1
     writer.writeByte(level.toByte)
 
@@ -108,7 +108,7 @@ class NPCCreate(npc: Document, gameClient: GameClient) {
     else:
     ins += write_byte(0)
     */
-    val realm = npc.getInteger("realm")
+    val realm = npc.realm
     val eFlags: Map[String, Int] = Map(
       "ghost" -> 0x01,
       "stealth" -> 0x02,
@@ -210,7 +210,7 @@ class NPCCreate(npc: Document, gameClient: GameClient) {
     name = npc.name
     ins += write_pascal_string(name)
     */
-    writer.writePascalString(npc.getString("name"))
+    writer.writePascalString(npc.name)
 
     /*
     # 	if (guildName.Length > 47)
@@ -222,7 +222,7 @@ class NPCCreate(npc: Document, gameClient: GameClient) {
     if len(guild_name) > 47: guild_name = guild_name[:47]
     ins += write_pascal_string(guild_name)
     */
-    var guildName = npc.getString("guild")
+    var guildName = npc.guild
     if (guildName.length > 47) guildName = guildName.substring(0, 47)
     writer.writePascalString(guildName)
 

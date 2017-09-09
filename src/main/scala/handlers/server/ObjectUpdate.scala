@@ -1,9 +1,8 @@
 package handlers.server
 
-import database.Zone
+import database.{Mob, Zone}
 import handlers.GameClient
 import handlers.packets.{PacketWriter, ServerCodes}
-import org.mongodb.scala.Document
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -11,7 +10,7 @@ import scala.concurrent.Future
 /**
   * Created by franblas on 17/04/17.
   */
-class ObjectUpdate(obj: Document, gameClient: GameClient) {
+class ObjectUpdate(obj: Mob, gameClient: GameClient) {
   def process(): Future[Array[Byte]] = {
     gameClient.player.map(player => compute(player.currentZone)).getOrElse(Future { Array.emptyByteArray })
   }
@@ -21,11 +20,11 @@ class ObjectUpdate(obj: Document, gameClient: GameClient) {
 
     //# var xOffsetInZone = (ushort) (obj.X - z.XOffset);
     //offset_x_in_zone = (obj.X - zone['offset_x']) & 0xFFFF
-    val offsetXInZone = obj.getInteger("x") - zone.offsetX
+    val offsetXInZone = obj.x - zone.offsetX
 
     //# var yOffsetInZone = (ushort) (obj.Y - z.YOffset);
     //offset_y_in_zone = (obj.Y - zone['offset_y']) & 0xFFFF
-    val offsetYInZone = obj.getInteger("y") - zone.offsetY
+    val offsetYInZone = obj.y - zone.offsetY
 
     //# ushort xOffsetInTargetZone = 0;
     //offset_x_in_target_zone = 0
@@ -91,7 +90,7 @@ class ObjectUpdate(obj: Document, gameClient: GameClient) {
     else:
     ins += write_short(obj.heading)
     */
-    writer.writeShort((obj.getInteger("heading") & 0xFFF).toShort)
+    writer.writeShort((obj.heading & 0xFFF).toShort)
 
     //# pak.WriteShort(xOffsetInZone);
     //ins += write_short(offset_x_in_zone)
@@ -111,7 +110,7 @@ class ObjectUpdate(obj: Document, gameClient: GameClient) {
 
     //# pak.WriteShort((ushort) obj.Z);
     //ins += write_short(obj.Z)
-    writer.writeShort(obj.getInteger("z").toShort)
+    writer.writeShort(obj.z.toShort)
 
     //# pak.WriteShort(zOffsetInTargetZone);
     //ins += write_short(offset_z_in_target_zone)
@@ -119,7 +118,7 @@ class ObjectUpdate(obj: Document, gameClient: GameClient) {
 
     //# pak.WriteShort((ushort) obj.ObjectID);
     //ins += write_short(obj.object_id)
-    writer.writeShort(obj.getInteger("object_id").toShort)
+    writer.writeShort(obj.objectId.toShort)
 
     //# pak.WriteShort((ushort) targetOID);
     //ins += write_short(target_OID)

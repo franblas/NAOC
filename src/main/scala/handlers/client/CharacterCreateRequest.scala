@@ -141,7 +141,7 @@ class CharacterCreateRequest(gameClient: GameClient) extends HandlerProcessor {
     )
   }
 
-  def createCharacter(characterReader: CharacterReader): Future[Unit] = {
+  def createCharacter(characterReader: CharacterReader): Future[Any] = {
     // characterReader.customMode
     val customMode = 2 // if another number, does not work. I don't know why :s
 
@@ -154,7 +154,7 @@ class CharacterCreateRequest(gameClient: GameClient) extends HandlerProcessor {
           if (charSeq.nonEmpty) {
             Future.successful()
           } else {
-            val result: Future[Unit] = for {
+            val result: Future[Any] = for {
               chars <- characters.getCharacters(loginName, characterReader.realm)
               nextAccountSlot = chars.length
               doc = Document(
@@ -278,7 +278,8 @@ class CharacterCreateRequest(gameClient: GameClient) extends HandlerProcessor {
                 "not_displayed_in_herald" -> 0,
                 "active_saddle_bags" -> 0
               )
-            } yield characters.insertCharacter(doc)
+              res <- characters.insertCharacter(doc)
+            } yield res
             result
           }
         })

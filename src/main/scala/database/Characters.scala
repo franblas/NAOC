@@ -2,7 +2,7 @@ package database
 
 import java.util.Date
 
-import org.mongodb.scala.Document
+import org.mongodb.scala.{Completed, Document}
 import org.mongodb.scala.model.IndexOptions
 
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -141,11 +141,8 @@ class Characters extends Database {
       .onComplete(_ => println("Characters index created"))
   }
 
-  def insertCharacter(doc: Document): Unit = {
-    collection.insertOne(doc)
-      .toFuture
-      .recoverWith { case e: Throwable => Future.failed(e) }
-      .onComplete(_ => println("New character has been inserted"))
+  def insertCharacter(doc: Document): Future[Any] = {
+    collection.insertOne(doc).toFuture
   }
 
   def getCharacterByName(charName: String): Future[Seq[Character]] = {

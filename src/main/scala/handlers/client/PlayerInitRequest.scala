@@ -60,10 +60,8 @@ class PlayerInitRequest(gameClient: GameClient) extends HandlerProcessor {
       mobs.getMobsFromRegion(regionId).map(results => {
         println("FIRST LENGTH MOBS = ", results.length)
         results.foreach(mob => {
-          val mobX = mob.getInteger("x")
-          val mobY = mob.getInteger("y")
-          if (player.inZone(mobX, mobY, player.currentZone)) {
-            val mobPosition = new Point(mobX, mobY)
+          if (player.inZone(mob.x, mob.y, player.currentZone)) {
+            val mobPosition = new Point(mob.x, mob.y)
             if (mobPosition.inRadius(player.currentPosition.x, player.currentPosition.y, worldUpdate.VISIBILITY_DISTANCE)) {
               gameClient.sendPacket(new NPCCreate(mob, gameClient).process())
               //gameClient.sendPacket(new LivingEquipmentUpdate(mob, gameClient).process())
